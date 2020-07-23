@@ -1,2 +1,2 @@
 # ReXRR
-Realtime eXtended Reality Robotics Repistory for teleoperation
+Realtime eXtended Reality Robotics Repository for tele-operation
