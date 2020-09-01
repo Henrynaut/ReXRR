@@ -1091,3 +1091,12 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.01-05.27.09:661][493]LogSlate: Window 'flyingDroid' being destroyed
 [2020.09.01-05.27.09:700][493]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
 [2020.09.01-05.27.09:700][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-05.27.33:045][973]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BPs/flyingDroid.flyingDroid
+[2020.09.01-05.27.51:724][313]LogEditorTransaction: Undo Modify Component(s)
+[2020.09.01-05.28.05:590][217]LogEditorTransaction: Undo Modify Component(s)
+[2020.09.01-05.28.27:047][856]BlueprintLog: New page: Compile flyingDroid
+[2020.09.01-05.28.27:109][856]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.09.01-05.28.27:663][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/flyingDroid" FILE="../../../../../Github/ReXRR/ReXRR/Content/BPs/flyingDroid.uasset" SILENT=true
+[2020.09.01-05.28.27:689][889]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/flyingDroid80B627CD43E532FC9C43ED8F7655577B.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/BPs/flyingDroid.uasset'
+[2020.09.01-05.28.27:705][889]AssetCheck: New page: Asset Save: flyingDroid
+[2020.09.01-05.28.27:705][889]LogContentValidation: Display: Validating Blueprint /Game/BPs/flyingDroid.flyingDroid
