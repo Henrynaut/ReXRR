@@ -4229,3 +4229,1024 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.01-06.26.20:430][232]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
 [2020.09.01-06.26.20:430][232]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
 [2020.09.01-06.26.58:304][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.09.01-06.27.26:644][323]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.01-06.27.26:663][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.01-06.27.26:663][323]PIE: New page: PIE session: RobotTable (Aug 31, 2020, 8:27:26 PM)
+[2020.09.01-06.27.26:701][323]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.27.26:707][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006000s)
+[2020.09.01-06.27.26:708][323]LogAIModule: Creating AISystem for world RobotTable
+[2020.09.01-06.27.26:708][323]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001805C1E6200), frame # 328323
+[2020.09.01-06.27.26:708][323]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001811E32DBC0), frame # 328323
+[2020.09.01-06.27.26:708][323]LogPlayLevel: PIE: World Init took: (0.001200s)
+[2020.09.01-06.27.26:708][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RobotTable.RobotTable to /Game/Maps/UEDPIE_0_RobotTable.RobotTable (0.007398s)
+[2020.09.01-06.27.26:737][323]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2020.09.01-06.27.26:739][323]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.01-06.27.26:739][323]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.01-06.27.26:739][323]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.01-06.27.26:739][323]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.01-06.27.26:739][323]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.01-06.27.26:739][323]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.01-06.27.26:739][323]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.01-06.27.26:739][323]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.01-06.27.26:739][323]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.01-06.27.26:739][323]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.01-06.27.26:780][323]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.01-06.27.26:780][323]LogAudioMixer: Display: 1: FrontRight
+[2020.09.01-06.27.26:780][323]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.01-06.27.26:780][323]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.01-06.27.26:780][323]LogAudioMixer: Display: 4: BackLeft
+[2020.09.01-06.27.26:780][323]LogAudioMixer: Display: 5: BackRight
+[2020.09.01-06.27.26:780][323]LogAudioMixer: Display: 6: SideLeft
+[2020.09.01-06.27.26:780][323]LogAudioMixer: Display: 7: SideRight
+[2020.09.01-06.27.26:884][323]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.09.01-06.27.26:884][323]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.01-06.27.26:884][323]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.01-06.27.26:884][323]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.01-06.27.26:885][323]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.01-06.27.26:904][323]LogInit: FAudioDevice initialized.
+[2020.09.01-06.27.26:914][323]LogLoad: Game class is 'BP_PhotoStageGameMode_C'
+[2020.09.01-06.27.26:916][323]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RobotTable.RobotTable up for play (max tick rate 60) at 2020.09.01-01.27.26
+[2020.09.01-06.27.26:917][323]LogWorld: Bringing up level for play took: 0.001315
+[2020.09.01-06.27.26:917][323]LogOnline: OSS: Creating online subsystem instance for: :Context_52
+[2020.09.01-06.27.26:919][323]LogBlueprintUserMessages: [RobotTable_C_31] Hello
+[2020.09.01-06.27.26:920][323]LogBlueprintUserMessages: [RobotTable_C_31] Hello
+[2020.09.01-06.27.26:920][323]LogBlueprintUserMessages: [RobotTable_C_31] Hello
+[2020.09.01-06.27.26:920][323]LogBlueprintUserMessages: [RobotTable_C_31] Hello
+[2020.09.01-06.27.26:920][323]LogBlueprintUserMessages: [RobotTable_C_31] Hello
+[2020.09.01-06.27.26:921][323]LogBlueprintUserMessages: [RobotTable_C_31] Hello
+[2020.09.01-06.27.26:921][323]PIE: Server logged in
+[2020.09.01-06.27.26:922][323]PIE: Play in editor total start time 0.26 seconds.
+[2020.09.01-06.27.28:713][427]Cmd: LevelEditor.ToggleImmersive
+[2020.09.01-06.27.56:643][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.27.56:643][ 92]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.27.56:643][ 92]LogWorld: UWorld::CleanupWorld for RobotTable, bSessionEnded=true, bCleanupResources=true
+[2020.09.01-06.27.56:644][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.27.56:670][ 92]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.01-06.27.56:676][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.27.56:701][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.27.56:732][ 92]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001811E32DBC0), frame # 330092
+[2020.09.01-06.27.56:732][ 92]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001805C1E6200), frame # 330092
+[2020.09.01-06.27.56:735][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.09.01-06.27.56:858][ 93]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2020.09.01-06.28.02:244][387]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Maps/RobotTable.RobotTable:PersistentLevel.RobotTable
+[2020.09.01-06.28.42:895][731]BlueprintLog: New page: Compile RobotTable
+[2020.09.01-06.28.42:960][731]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2020.09.01-06.28.43:472][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RobotTable" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.01-06.28.43:506][757]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2020.09.01-06.28.43:544][757]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/RobotTableC0E5F4BE42289B81A0C2A48424CE7881.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap'
+[2020.09.01-06.28.43:582][757]LogFileHelpers: Saving map 'RobotTable' took 0.110
+[2020.09.01-06.28.43:601][757]AssetCheck: New page: Asset Save: RobotTable
+[2020.09.01-06.28.43:601][757]LogContentValidation: Display: Validating World /Game/Maps/RobotTable.RobotTable
+[2020.09.01-06.28.45:479][869]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.01-06.28.45:502][869]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.01-06.28.45:502][869]PIE: New page: PIE session: RobotTable (Aug 31, 2020, 8:28:45 PM)
+[2020.09.01-06.28.45:502][869]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.28.45:508][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006131s)
+[2020.09.01-06.28.45:509][869]LogAIModule: Creating AISystem for world RobotTable
+[2020.09.01-06.28.45:509][869]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000181850FDA00), frame # 332869
+[2020.09.01-06.28.45:509][869]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001814FEF2840), frame # 332869
+[2020.09.01-06.28.45:509][869]LogPlayLevel: PIE: World Init took: (0.001033s)
+[2020.09.01-06.28.45:510][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RobotTable.RobotTable to /Game/Maps/UEDPIE_0_RobotTable.RobotTable (0.007311s)
+[2020.09.01-06.28.45:539][869]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.09.01-06.28.45:541][869]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.01-06.28.45:541][869]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.01-06.28.45:541][869]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.01-06.28.45:541][869]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.01-06.28.45:541][869]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.01-06.28.45:541][869]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.01-06.28.45:541][869]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.01-06.28.45:541][869]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.01-06.28.45:542][869]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.01-06.28.45:542][869]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.01-06.28.45:583][869]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.01-06.28.45:583][869]LogAudioMixer: Display: 1: FrontRight
+[2020.09.01-06.28.45:583][869]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.01-06.28.45:583][869]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.01-06.28.45:583][869]LogAudioMixer: Display: 4: BackLeft
+[2020.09.01-06.28.45:583][869]LogAudioMixer: Display: 5: BackRight
+[2020.09.01-06.28.45:583][869]LogAudioMixer: Display: 6: SideLeft
+[2020.09.01-06.28.45:583][869]LogAudioMixer: Display: 7: SideRight
+[2020.09.01-06.28.45:699][869]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.09.01-06.28.45:699][869]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.01-06.28.45:699][869]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.01-06.28.45:699][869]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.01-06.28.45:700][869]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.01-06.28.45:719][869]LogInit: FAudioDevice initialized.
+[2020.09.01-06.28.45:728][869]LogLoad: Game class is 'BP_PhotoStageGameMode_C'
+[2020.09.01-06.28.45:730][869]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RobotTable.RobotTable up for play (max tick rate 60) at 2020.09.01-01.28.45
+[2020.09.01-06.28.45:730][869]LogWorld: Bringing up level for play took: 0.001252
+[2020.09.01-06.28.45:731][869]LogOnline: OSS: Creating online subsystem instance for: :Context_54
+[2020.09.01-06.28.45:733][869]LogBlueprintUserMessages: [RobotTable_C_0] Hello
+[2020.09.01-06.28.45:733][869]LogBlueprintUserMessages: [RobotTable_C_0] Hello
+[2020.09.01-06.28.45:734][869]LogBlueprintUserMessages: [RobotTable_C_0] Hello
+[2020.09.01-06.28.45:734][869]LogBlueprintUserMessages: [RobotTable_C_0] Hello
+[2020.09.01-06.28.45:734][869]LogBlueprintUserMessages: [RobotTable_C_0] Hello
+[2020.09.01-06.28.45:734][869]LogBlueprintUserMessages: [RobotTable_C_0] Hello
+[2020.09.01-06.28.45:735][869]PIE: Server logged in
+[2020.09.01-06.28.45:735][869]PIE: Play in editor total start time 0.239 seconds.
+[2020.09.01-06.28.48:512][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.28.48:512][ 31]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.28.48:512][ 31]LogWorld: UWorld::CleanupWorld for RobotTable, bSessionEnded=true, bCleanupResources=true
+[2020.09.01-06.28.48:513][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.28.48:523][ 31]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.01-06.28.48:528][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.28.48:556][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.28.48:585][ 31]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001814FEF2840), frame # 333031
+[2020.09.01-06.28.48:585][ 31]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000181850FDA00), frame # 333031
+[2020.09.01-06.28.48:588][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.09.01-06.28.48:623][ 32]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2020.09.01-06.28.55:446][425]BlueprintLog: New page: Compile RobotTable
+[2020.09.01-06.28.55:497][425]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.09.01-06.28.56:670][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RobotTable" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.01-06.28.56:705][490]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.09.01-06.28.56:737][490]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/RobotTableD52067994CB269EF665DD9B8230AFF67.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap'
+[2020.09.01-06.28.56:773][490]LogFileHelpers: Saving map 'RobotTable' took 0.103
+[2020.09.01-06.28.56:791][490]AssetCheck: New page: Asset Save: RobotTable
+[2020.09.01-06.28.56:791][490]LogContentValidation: Display: Validating World /Game/Maps/RobotTable.RobotTable
+[2020.09.01-06.28.58:858][614]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.01-06.28.58:880][614]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.01-06.28.58:880][614]PIE: New page: PIE session: RobotTable (Aug 31, 2020, 8:28:58 PM)
+[2020.09.01-06.28.58:880][614]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.28.58:887][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006402s)
+[2020.09.01-06.28.58:887][614]LogAIModule: Creating AISystem for world RobotTable
+[2020.09.01-06.28.58:888][614]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001817CB3B200), frame # 333614
+[2020.09.01-06.28.58:888][614]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001815D26E840), frame # 333614
+[2020.09.01-06.28.58:888][614]LogPlayLevel: PIE: World Init took: (0.001041s)
+[2020.09.01-06.28.58:888][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RobotTable.RobotTable to /Game/Maps/UEDPIE_0_RobotTable.RobotTable (0.007579s)
+[2020.09.01-06.28.58:918][614]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.09.01-06.28.58:919][614]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.01-06.28.58:920][614]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.01-06.28.58:920][614]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.01-06.28.58:920][614]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.01-06.28.58:920][614]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.01-06.28.58:920][614]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.01-06.28.58:920][614]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.01-06.28.58:920][614]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.01-06.28.58:920][614]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.01-06.28.58:920][614]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.01-06.28.58:962][614]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.01-06.28.58:962][614]LogAudioMixer: Display: 1: FrontRight
+[2020.09.01-06.28.58:962][614]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.01-06.28.58:962][614]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.01-06.28.58:962][614]LogAudioMixer: Display: 4: BackLeft
+[2020.09.01-06.28.58:962][614]LogAudioMixer: Display: 5: BackRight
+[2020.09.01-06.28.58:962][614]LogAudioMixer: Display: 6: SideLeft
+[2020.09.01-06.28.58:962][614]LogAudioMixer: Display: 7: SideRight
+[2020.09.01-06.28.59:062][614]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.09.01-06.28.59:062][614]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.01-06.28.59:062][614]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.01-06.28.59:062][614]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.01-06.28.59:063][614]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.01-06.28.59:084][614]LogInit: FAudioDevice initialized.
+[2020.09.01-06.28.59:097][614]LogLoad: Game class is 'BP_PhotoStageGameMode_C'
+[2020.09.01-06.28.59:099][614]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RobotTable.RobotTable up for play (max tick rate 60) at 2020.09.01-01.28.59
+[2020.09.01-06.28.59:099][614]LogWorld: Bringing up level for play took: 0.001296
+[2020.09.01-06.28.59:099][614]LogOnline: OSS: Creating online subsystem instance for: :Context_55
+[2020.09.01-06.28.59:102][614]LogBlueprintUserMessages: [RobotTable_C_1] Hello
+[2020.09.01-06.28.59:102][614]LogBlueprintUserMessages: [RobotTable_C_1] Hello
+[2020.09.01-06.28.59:102][614]LogBlueprintUserMessages: [RobotTable_C_1] Hello
+[2020.09.01-06.28.59:103][614]LogBlueprintUserMessages: [RobotTable_C_1] Hello
+[2020.09.01-06.28.59:103][614]LogBlueprintUserMessages: [RobotTable_C_1] Hello
+[2020.09.01-06.28.59:103][614]LogBlueprintUserMessages: [RobotTable_C_1] Hello
+[2020.09.01-06.28.59:103][614]PIE: Server logged in
+[2020.09.01-06.28.59:104][614]PIE: Play in editor total start time 0.229 seconds.
+[2020.09.01-06.29.02:222][796]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.29.02:222][796]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.29.02:222][796]LogWorld: UWorld::CleanupWorld for RobotTable, bSessionEnded=true, bCleanupResources=true
+[2020.09.01-06.29.02:223][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.29.02:233][796]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.01-06.29.02:238][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.29.02:265][796]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.29.02:294][796]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001815D26E840), frame # 333796
+[2020.09.01-06.29.02:294][796]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001817CB3B200), frame # 333796
+[2020.09.01-06.29.02:297][796]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.09.01-06.29.02:339][797]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2020.09.01-06.29.05:659][988]BlueprintLog: New page: Compile RobotTable
+[2020.09.01-06.29.05:710][988]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2020.09.01-06.29.06:299][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RobotTable" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.01-06.29.06:333][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2020.09.01-06.29.06:365][ 19]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/RobotTableBB87F50D464EA57816DD738780D2943D.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap'
+[2020.09.01-06.29.06:400][ 19]LogFileHelpers: Saving map 'RobotTable' took 0.101
+[2020.09.01-06.29.06:417][ 19]AssetCheck: New page: Asset Save: RobotTable
+[2020.09.01-06.29.06:417][ 19]LogContentValidation: Display: Validating World /Game/Maps/RobotTable.RobotTable
+[2020.09.01-06.29.19:174][777]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.01-06.29.19:196][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.01-06.29.19:196][777]PIE: New page: PIE session: RobotTable (Aug 31, 2020, 8:29:19 PM)
+[2020.09.01-06.29.19:196][777]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.29.19:203][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006337s)
+[2020.09.01-06.29.19:204][777]LogAIModule: Creating AISystem for world RobotTable
+[2020.09.01-06.29.19:204][777]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018192E8F400), frame # 334777
+[2020.09.01-06.29.19:204][777]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000180EFBD2340), frame # 334777
+[2020.09.01-06.29.19:204][777]LogPlayLevel: PIE: World Init took: (0.001067s)
+[2020.09.01-06.29.19:204][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RobotTable.RobotTable to /Game/Maps/UEDPIE_0_RobotTable.RobotTable (0.007548s)
+[2020.09.01-06.29.19:234][777]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2020.09.01-06.29.19:235][777]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.01-06.29.19:235][777]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.01-06.29.19:236][777]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.01-06.29.19:236][777]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.01-06.29.19:236][777]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.01-06.29.19:236][777]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.01-06.29.19:236][777]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.01-06.29.19:236][777]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.01-06.29.19:236][777]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.01-06.29.19:236][777]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.01-06.29.19:276][777]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.01-06.29.19:277][777]LogAudioMixer: Display: 1: FrontRight
+[2020.09.01-06.29.19:277][777]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.01-06.29.19:277][777]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.01-06.29.19:277][777]LogAudioMixer: Display: 4: BackLeft
+[2020.09.01-06.29.19:277][777]LogAudioMixer: Display: 5: BackRight
+[2020.09.01-06.29.19:277][777]LogAudioMixer: Display: 6: SideLeft
+[2020.09.01-06.29.19:277][777]LogAudioMixer: Display: 7: SideRight
+[2020.09.01-06.29.19:380][777]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.09.01-06.29.19:381][777]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.01-06.29.19:381][777]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.01-06.29.19:381][777]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.01-06.29.19:381][777]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.01-06.29.19:400][777]LogInit: FAudioDevice initialized.
+[2020.09.01-06.29.19:408][777]LogLoad: Game class is 'BP_PhotoStageGameMode_C'
+[2020.09.01-06.29.19:410][777]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RobotTable.RobotTable up for play (max tick rate 60) at 2020.09.01-01.29.19
+[2020.09.01-06.29.19:410][777]LogWorld: Bringing up level for play took: 0.001183
+[2020.09.01-06.29.19:411][777]LogOnline: OSS: Creating online subsystem instance for: :Context_56
+[2020.09.01-06.29.19:431][777]LogBlueprintUserMessages: [RobotTable_C_2] Hello
+[2020.09.01-06.29.19:432][777]LogBlueprintUserMessages: [RobotTable_C_2] Hello
+[2020.09.01-06.29.19:433][777]LogBlueprintUserMessages: [RobotTable_C_2] Hello
+[2020.09.01-06.29.19:433][777]LogBlueprintUserMessages: [RobotTable_C_2] Hello
+[2020.09.01-06.29.19:433][777]LogBlueprintUserMessages: [RobotTable_C_2] Hello
+[2020.09.01-06.29.19:433][777]LogBlueprintUserMessages: [RobotTable_C_2] Hello
+[2020.09.01-06.29.19:434][777]PIE: Server logged in
+[2020.09.01-06.29.19:434][777]PIE: Play in editor total start time 0.243 seconds.
+[2020.09.01-06.29.22:982][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.29.22:982][985]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.29.22:983][985]LogWorld: UWorld::CleanupWorld for RobotTable, bSessionEnded=true, bCleanupResources=true
+[2020.09.01-06.29.22:983][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.29.22:993][985]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.01-06.29.22:997][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.29.23:025][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.29.23:054][985]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000180EFBD2340), frame # 334985
+[2020.09.01-06.29.23:054][985]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018192E8F400), frame # 334985
+[2020.09.01-06.29.23:057][985]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.09.01-06.29.23:101][986]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2020.09.01-06.29.29:353][308]BlueprintLog: New page: Compile RobotTable
+[2020.09.01-06.29.29:408][308]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.09.01-06.29.30:095][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RobotTable" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.01-06.29.30:129][343]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2020.09.01-06.29.30:160][343]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/RobotTable90F43994491FCAD0F19C2296E4451D32.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap'
+[2020.09.01-06.29.30:196][343]LogFileHelpers: Saving map 'RobotTable' took 0.101
+[2020.09.01-06.29.30:214][343]AssetCheck: New page: Asset Save: RobotTable
+[2020.09.01-06.29.30:214][343]LogContentValidation: Display: Validating World /Game/Maps/RobotTable.RobotTable
+[2020.09.01-06.29.31:299][408]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.01-06.29.31:321][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.01-06.29.31:321][408]PIE: New page: PIE session: RobotTable (Aug 31, 2020, 8:29:31 PM)
+[2020.09.01-06.29.31:321][408]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.29.31:327][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006108s)
+[2020.09.01-06.29.31:328][408]LogAIModule: Creating AISystem for world RobotTable
+[2020.09.01-06.29.31:328][408]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001814AC8F000), frame # 335408
+[2020.09.01-06.29.31:328][408]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000181850A8CC0), frame # 335408
+[2020.09.01-06.29.31:328][408]LogPlayLevel: PIE: World Init took: (0.001214s)
+[2020.09.01-06.29.31:328][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RobotTable.RobotTable to /Game/Maps/UEDPIE_0_RobotTable.RobotTable (0.007439s)
+[2020.09.01-06.29.31:359][408]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.09.01-06.29.31:360][408]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.01-06.29.31:360][408]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.01-06.29.31:360][408]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.01-06.29.31:360][408]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.01-06.29.31:360][408]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.01-06.29.31:360][408]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.01-06.29.31:360][408]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.01-06.29.31:360][408]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.01-06.29.31:360][408]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.01-06.29.31:360][408]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.01-06.29.31:402][408]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.01-06.29.31:402][408]LogAudioMixer: Display: 1: FrontRight
+[2020.09.01-06.29.31:402][408]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.01-06.29.31:402][408]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.01-06.29.31:402][408]LogAudioMixer: Display: 4: BackLeft
+[2020.09.01-06.29.31:402][408]LogAudioMixer: Display: 5: BackRight
+[2020.09.01-06.29.31:402][408]LogAudioMixer: Display: 6: SideLeft
+[2020.09.01-06.29.31:402][408]LogAudioMixer: Display: 7: SideRight
+[2020.09.01-06.29.31:500][408]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.09.01-06.29.31:501][408]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.01-06.29.31:501][408]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.01-06.29.31:501][408]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.01-06.29.31:501][408]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.01-06.29.31:521][408]LogInit: FAudioDevice initialized.
+[2020.09.01-06.29.31:528][408]LogLoad: Game class is 'BP_PhotoStageGameMode_C'
+[2020.09.01-06.29.31:530][408]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RobotTable.RobotTable up for play (max tick rate 60) at 2020.09.01-01.29.31
+[2020.09.01-06.29.31:531][408]LogWorld: Bringing up level for play took: 0.001223
+[2020.09.01-06.29.31:531][408]LogOnline: OSS: Creating online subsystem instance for: :Context_57
+[2020.09.01-06.29.31:533][408]LogBlueprintUserMessages: [RobotTable_C_3] Hello
+[2020.09.01-06.29.31:534][408]LogBlueprintUserMessages: [RobotTable_C_3] Hello
+[2020.09.01-06.29.31:534][408]LogBlueprintUserMessages: [RobotTable_C_3] Hello
+[2020.09.01-06.29.31:534][408]LogBlueprintUserMessages: [RobotTable_C_3] Hello
+[2020.09.01-06.29.31:535][408]LogBlueprintUserMessages: [RobotTable_C_3] Hello
+[2020.09.01-06.29.31:535][408]LogBlueprintUserMessages: [RobotTable_C_3] Hello
+[2020.09.01-06.29.31:535][408]PIE: Server logged in
+[2020.09.01-06.29.31:536][408]PIE: Play in editor total start time 0.22 seconds.
+[2020.09.01-06.29.34:673][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.29.34:673][592]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.29.34:674][592]LogWorld: UWorld::CleanupWorld for RobotTable, bSessionEnded=true, bCleanupResources=true
+[2020.09.01-06.29.34:674][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.29.34:685][592]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.01-06.29.34:689][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.29.34:717][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.29.34:748][592]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000181850A8CC0), frame # 335592
+[2020.09.01-06.29.34:748][592]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001814AC8F000), frame # 335592
+[2020.09.01-06.29.34:751][592]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.09.01-06.29.34:793][593]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2020.09.01-06.30.28:374][742]LogEditorViewport: Clicking on Actor (LMB): RobotArmBP_C (RobotArmBP)
+[2020.09.01-06.31.14:312][420]BlueprintLog: New page: Compile RobotTable
+[2020.09.01-06.31.14:367][420]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.09.01-06.31.14:820][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RobotTable" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.01-06.31.14:854][443]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.09.01-06.31.14:886][443]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/RobotTable3AB5DCD7493C8B6D3973349CFB2E5D44.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap'
+[2020.09.01-06.31.14:920][443]LogFileHelpers: Saving map 'RobotTable' took 0.100
+[2020.09.01-06.31.14:939][443]AssetCheck: New page: Asset Save: RobotTable
+[2020.09.01-06.31.14:939][443]LogContentValidation: Display: Validating World /Game/Maps/RobotTable.RobotTable
+[2020.09.01-06.31.16:341][527]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.01-06.31.16:363][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.01-06.31.16:363][527]PIE: New page: PIE session: RobotTable (Aug 31, 2020, 8:31:16 PM)
+[2020.09.01-06.31.16:364][527]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.31.16:370][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006113s)
+[2020.09.01-06.31.16:370][527]LogAIModule: Creating AISystem for world RobotTable
+[2020.09.01-06.31.16:371][527]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018192CE0200), frame # 341527
+[2020.09.01-06.31.16:371][527]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000181769F6340), frame # 341527
+[2020.09.01-06.31.16:371][527]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2020.09.01-06.31.16:371][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RobotTable.RobotTable to /Game/Maps/UEDPIE_0_RobotTable.RobotTable (0.007256s)
+[2020.09.01-06.31.16:400][527]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2020.09.01-06.31.16:402][527]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.01-06.31.16:402][527]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.01-06.31.16:402][527]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.01-06.31.16:402][527]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.01-06.31.16:402][527]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.01-06.31.16:402][527]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.01-06.31.16:402][527]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.01-06.31.16:402][527]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.01-06.31.16:402][527]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.01-06.31.16:402][527]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.01-06.31.16:445][527]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.01-06.31.16:445][527]LogAudioMixer: Display: 1: FrontRight
+[2020.09.01-06.31.16:445][527]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.01-06.31.16:445][527]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.01-06.31.16:445][527]LogAudioMixer: Display: 4: BackLeft
+[2020.09.01-06.31.16:445][527]LogAudioMixer: Display: 5: BackRight
+[2020.09.01-06.31.16:445][527]LogAudioMixer: Display: 6: SideLeft
+[2020.09.01-06.31.16:445][527]LogAudioMixer: Display: 7: SideRight
+[2020.09.01-06.31.16:547][527]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.09.01-06.31.16:547][527]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.01-06.31.16:548][527]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.01-06.31.16:548][527]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.01-06.31.16:548][527]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.01-06.31.16:568][527]LogInit: FAudioDevice initialized.
+[2020.09.01-06.31.16:581][527]LogLoad: Game class is 'BP_PhotoStageGameMode_C'
+[2020.09.01-06.31.16:583][527]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RobotTable.RobotTable up for play (max tick rate 60) at 2020.09.01-01.31.16
+[2020.09.01-06.31.16:583][527]LogWorld: Bringing up level for play took: 0.001279
+[2020.09.01-06.31.16:583][527]LogOnline: OSS: Creating online subsystem instance for: :Context_58
+[2020.09.01-06.31.16:586][527]LogBlueprintUserMessages: [RobotTable_C_4] Hello
+[2020.09.01-06.31.16:586][527]LogBlueprintUserMessages: [RobotTable_C_4] Hello
+[2020.09.01-06.31.16:586][527]LogBlueprintUserMessages: [RobotTable_C_4] Hello
+[2020.09.01-06.31.16:587][527]LogBlueprintUserMessages: [RobotTable_C_4] Hello
+[2020.09.01-06.31.16:587][527]LogBlueprintUserMessages: [RobotTable_C_4] Hello
+[2020.09.01-06.31.16:587][527]LogBlueprintUserMessages: [RobotTable_C_4] Hello
+[2020.09.01-06.31.16:587][527]PIE: Server logged in
+[2020.09.01-06.31.16:588][527]PIE: Play in editor total start time 0.23 seconds.
+[2020.09.01-06.31.21:563][819]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.31.21:563][819]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.31.21:564][819]LogWorld: UWorld::CleanupWorld for RobotTable, bSessionEnded=true, bCleanupResources=true
+[2020.09.01-06.31.21:564][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.31.21:574][819]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.01-06.31.21:578][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.31.21:606][819]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.31.21:636][819]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000181769F6340), frame # 341819
+[2020.09.01-06.31.21:636][819]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018192CE0200), frame # 341819
+[2020.09.01-06.31.21:639][819]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2020.09.01-06.31.21:678][820]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2020.09.01-06.31.24:224][970]LogEditorViewport: Clicking on Actor (LMB): BP_TurnTableSet_C (BP_TurnTableSet)
+[2020.09.01-06.31.24:938][ 11]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.01-06.31.24:957][ 11]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.01-06.31.24:957][ 11]PIE: New page: PIE session: RobotTable (Aug 31, 2020, 8:31:24 PM)
+[2020.09.01-06.31.24:991][ 11]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.31.24:997][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005868s)
+[2020.09.01-06.31.24:998][ 11]LogAIModule: Creating AISystem for world RobotTable
+[2020.09.01-06.31.24:998][ 11]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001805C66BA00), frame # 342011
+[2020.09.01-06.31.24:998][ 11]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000181769F4900), frame # 342011
+[2020.09.01-06.31.24:998][ 11]LogPlayLevel: PIE: World Init took: (0.001062s)
+[2020.09.01-06.31.24:998][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RobotTable.RobotTable to /Game/Maps/UEDPIE_0_RobotTable.RobotTable (0.007089s)
+[2020.09.01-06.31.25:028][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.09.01-06.31.25:029][ 11]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.01-06.31.25:029][ 11]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.01-06.31.25:029][ 11]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.01-06.31.25:029][ 11]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.01-06.31.25:029][ 11]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.01-06.31.25:029][ 11]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.01-06.31.25:029][ 11]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.01-06.31.25:029][ 11]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.01-06.31.25:030][ 11]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.01-06.31.25:030][ 11]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.01-06.31.25:071][ 11]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.01-06.31.25:071][ 11]LogAudioMixer: Display: 1: FrontRight
+[2020.09.01-06.31.25:071][ 11]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.01-06.31.25:071][ 11]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.01-06.31.25:071][ 11]LogAudioMixer: Display: 4: BackLeft
+[2020.09.01-06.31.25:071][ 11]LogAudioMixer: Display: 5: BackRight
+[2020.09.01-06.31.25:071][ 11]LogAudioMixer: Display: 6: SideLeft
+[2020.09.01-06.31.25:071][ 11]LogAudioMixer: Display: 7: SideRight
+[2020.09.01-06.31.25:170][ 11]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.09.01-06.31.25:170][ 11]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.01-06.31.25:170][ 11]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.01-06.31.25:170][ 11]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.01-06.31.25:170][ 11]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.01-06.31.25:191][ 11]LogInit: FAudioDevice initialized.
+[2020.09.01-06.31.25:199][ 11]LogLoad: Game class is 'BP_PhotoStageGameMode_C'
+[2020.09.01-06.31.25:202][ 11]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RobotTable.RobotTable up for play (max tick rate 60) at 2020.09.01-01.31.25
+[2020.09.01-06.31.25:202][ 11]LogWorld: Bringing up level for play took: 0.001552
+[2020.09.01-06.31.25:202][ 11]LogOnline: OSS: Creating online subsystem instance for: :Context_59
+[2020.09.01-06.31.25:204][ 11]LogBlueprintUserMessages: [RobotTable_C_4] Hello
+[2020.09.01-06.31.25:205][ 11]LogBlueprintUserMessages: [RobotTable_C_4] Hello
+[2020.09.01-06.31.25:205][ 11]LogBlueprintUserMessages: [RobotTable_C_4] Hello
+[2020.09.01-06.31.25:205][ 11]LogBlueprintUserMessages: [RobotTable_C_4] Hello
+[2020.09.01-06.31.25:206][ 11]LogBlueprintUserMessages: [RobotTable_C_4] Hello
+[2020.09.01-06.31.25:206][ 11]LogBlueprintUserMessages: [RobotTable_C_4] Hello
+[2020.09.01-06.31.25:206][ 11]PIE: Server logged in
+[2020.09.01-06.31.25:207][ 11]PIE: Play in editor total start time 0.251 seconds.
+[2020.09.01-06.31.32:493][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.31.32:493][442]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.31.32:493][442]LogWorld: UWorld::CleanupWorld for RobotTable, bSessionEnded=true, bCleanupResources=true
+[2020.09.01-06.31.32:493][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.31.32:503][442]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.01-06.31.32:508][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.31.32:536][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.31.32:566][442]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000181769F4900), frame # 342442
+[2020.09.01-06.31.32:566][442]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001805C66BA00), frame # 342442
+[2020.09.01-06.31.32:569][442]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2020.09.01-06.31.32:604][443]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2020.09.01-06.31.41:573][967]BlueprintLog: New page: Compile RobotTable
+[2020.09.01-06.31.41:625][967]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2020.09.01-06.31.42:064][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RobotTable" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.01-06.31.42:102][989]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2020.09.01-06.31.42:140][989]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/RobotTable39D2A26D484CE956EEE3B09D404378A1.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap'
+[2020.09.01-06.31.42:184][989]LogFileHelpers: Saving map 'RobotTable' took 0.121
+[2020.09.01-06.31.42:201][989]AssetCheck: New page: Asset Save: RobotTable
+[2020.09.01-06.31.42:201][989]LogContentValidation: Display: Validating World /Game/Maps/RobotTable.RobotTable
+[2020.09.01-06.31.44:369][106]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.01-06.31.44:389][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.01-06.31.44:390][106]PIE: New page: PIE session: RobotTable (Aug 31, 2020, 8:31:44 PM)
+[2020.09.01-06.31.44:390][106]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.31.44:396][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006265s)
+[2020.09.01-06.31.44:397][106]LogAIModule: Creating AISystem for world RobotTable
+[2020.09.01-06.31.44:397][106]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001819C0ABE00), frame # 343106
+[2020.09.01-06.31.44:397][106]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000180CD4D5BC0), frame # 343106
+[2020.09.01-06.31.44:397][106]LogPlayLevel: PIE: World Init took: (0.001070s)
+[2020.09.01-06.31.44:397][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RobotTable.RobotTable to /Game/Maps/UEDPIE_0_RobotTable.RobotTable (0.007449s)
+[2020.09.01-06.31.44:429][106]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2020.09.01-06.31.44:430][106]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.01-06.31.44:430][106]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.01-06.31.44:430][106]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.01-06.31.44:430][106]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.01-06.31.44:430][106]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.01-06.31.44:430][106]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.01-06.31.44:430][106]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.01-06.31.44:430][106]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.01-06.31.44:431][106]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.01-06.31.44:431][106]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.01-06.31.44:472][106]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.01-06.31.44:472][106]LogAudioMixer: Display: 1: FrontRight
+[2020.09.01-06.31.44:472][106]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.01-06.31.44:472][106]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.01-06.31.44:472][106]LogAudioMixer: Display: 4: BackLeft
+[2020.09.01-06.31.44:472][106]LogAudioMixer: Display: 5: BackRight
+[2020.09.01-06.31.44:472][106]LogAudioMixer: Display: 6: SideLeft
+[2020.09.01-06.31.44:472][106]LogAudioMixer: Display: 7: SideRight
+[2020.09.01-06.31.44:573][106]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.09.01-06.31.44:573][106]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.01-06.31.44:573][106]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.01-06.31.44:573][106]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.01-06.31.44:574][106]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.01-06.31.44:601][106]LogInit: FAudioDevice initialized.
+[2020.09.01-06.31.44:611][106]LogLoad: Game class is 'BP_PhotoStageGameMode_C'
+[2020.09.01-06.31.44:613][106]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RobotTable.RobotTable up for play (max tick rate 60) at 2020.09.01-01.31.44
+[2020.09.01-06.31.44:614][106]LogWorld: Bringing up level for play took: 0.001793
+[2020.09.01-06.31.44:614][106]LogOnline: OSS: Creating online subsystem instance for: :Context_60
+[2020.09.01-06.31.44:616][106]LogBlueprintUserMessages: [RobotTable_C_5] Hello
+[2020.09.01-06.31.44:617][106]LogBlueprintUserMessages: [RobotTable_C_5] Hello
+[2020.09.01-06.31.44:617][106]LogBlueprintUserMessages: [RobotTable_C_5] Hello
+[2020.09.01-06.31.44:618][106]LogBlueprintUserMessages: [RobotTable_C_5] Hello
+[2020.09.01-06.31.44:618][106]LogBlueprintUserMessages: [RobotTable_C_5] Hello
+[2020.09.01-06.31.44:618][106]LogBlueprintUserMessages: [RobotTable_C_5] Hello
+[2020.09.01-06.31.44:618][106]PIE: Server logged in
+[2020.09.01-06.31.44:619][106]PIE: Play in editor total start time 0.234 seconds.
+[2020.09.01-06.31.47:674][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.31.47:674][284]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.31.47:674][284]LogWorld: UWorld::CleanupWorld for RobotTable, bSessionEnded=true, bCleanupResources=true
+[2020.09.01-06.31.47:675][284]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.31.47:687][284]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.01-06.31.47:693][284]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.31.47:750][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.31.47:752][284]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000180CD4D5BC0), frame # 343284
+[2020.09.01-06.31.47:752][284]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001819C0ABE00), frame # 343284
+[2020.09.01-06.31.47:754][284]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.09.01-06.31.47:781][285]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2020.09.01-06.31.50:012][418]LogEditorViewport: Clicking on Actor (LMB): flyingDroid_C (flyingDroid)
+[2020.09.01-06.32.00:024][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RobotTable" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.01-06.32.00:060][  1]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2020.09.01-06.32.00:096][  1]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/RobotTable054DF37945A27300F54D2FB1EF402420.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap'
+[2020.09.01-06.32.00:146][  1]AssetCheck: New page: Asset Save: RobotTable
+[2020.09.01-06.32.00:146][  1]LogContentValidation: Display: Validating World /Game/Maps/RobotTable.RobotTable
+[2020.09.01-06.32.01:215][ 61]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.01-06.32.01:238][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.01-06.32.01:238][ 61]PIE: New page: PIE session: RobotTable (Aug 31, 2020, 8:32:01 PM)
+[2020.09.01-06.32.01:238][ 61]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.32.01:244][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006244s)
+[2020.09.01-06.32.01:245][ 61]LogAIModule: Creating AISystem for world RobotTable
+[2020.09.01-06.32.01:245][ 61]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018171421800), frame # 344061
+[2020.09.01-06.32.01:245][ 61]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018176B0C180), frame # 344061
+[2020.09.01-06.32.01:245][ 61]LogPlayLevel: PIE: World Init took: (0.001092s)
+[2020.09.01-06.32.01:245][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RobotTable.RobotTable to /Game/Maps/UEDPIE_0_RobotTable.RobotTable (0.007452s)
+[2020.09.01-06.32.01:276][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.09.01-06.32.01:278][ 61]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.01-06.32.01:278][ 61]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.01-06.32.01:278][ 61]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.01-06.32.01:278][ 61]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.01-06.32.01:278][ 61]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.01-06.32.01:278][ 61]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.01-06.32.01:278][ 61]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.01-06.32.01:278][ 61]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.01-06.32.01:279][ 61]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.01-06.32.01:279][ 61]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.01-06.32.01:319][ 61]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.01-06.32.01:319][ 61]LogAudioMixer: Display: 1: FrontRight
+[2020.09.01-06.32.01:319][ 61]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.01-06.32.01:319][ 61]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.01-06.32.01:319][ 61]LogAudioMixer: Display: 4: BackLeft
+[2020.09.01-06.32.01:320][ 61]LogAudioMixer: Display: 5: BackRight
+[2020.09.01-06.32.01:320][ 61]LogAudioMixer: Display: 6: SideLeft
+[2020.09.01-06.32.01:320][ 61]LogAudioMixer: Display: 7: SideRight
+[2020.09.01-06.32.01:417][ 61]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.09.01-06.32.01:418][ 61]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.01-06.32.01:418][ 61]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.01-06.32.01:418][ 61]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.01-06.32.01:418][ 61]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.01-06.32.01:439][ 61]LogInit: FAudioDevice initialized.
+[2020.09.01-06.32.01:449][ 61]LogLoad: Game class is 'BP_PhotoStageGameMode_C'
+[2020.09.01-06.32.01:452][ 61]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RobotTable.RobotTable up for play (max tick rate 60) at 2020.09.01-01.32.01
+[2020.09.01-06.32.01:452][ 61]LogWorld: Bringing up level for play took: 0.001759
+[2020.09.01-06.32.01:452][ 61]LogOnline: OSS: Creating online subsystem instance for: :Context_61
+[2020.09.01-06.32.01:454][ 61]LogBlueprintUserMessages: [RobotTable_C_5] Hello
+[2020.09.01-06.32.01:455][ 61]LogBlueprintUserMessages: [RobotTable_C_5] Hello
+[2020.09.01-06.32.01:455][ 61]LogBlueprintUserMessages: [RobotTable_C_5] Hello
+[2020.09.01-06.32.01:455][ 61]LogBlueprintUserMessages: [RobotTable_C_5] Hello
+[2020.09.01-06.32.01:456][ 61]LogBlueprintUserMessages: [RobotTable_C_5] Hello
+[2020.09.01-06.32.01:456][ 61]LogBlueprintUserMessages: [RobotTable_C_5] Hello
+[2020.09.01-06.32.01:456][ 61]PIE: Server logged in
+[2020.09.01-06.32.01:457][ 61]PIE: Play in editor total start time 0.224 seconds.
+[2020.09.01-06.32.03:143][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.32.03:143][157]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.32.03:143][157]LogWorld: UWorld::CleanupWorld for RobotTable, bSessionEnded=true, bCleanupResources=true
+[2020.09.01-06.32.03:143][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.32.03:154][157]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.01-06.32.03:158][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.32.03:187][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.32.03:217][157]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018176B0C180), frame # 344157
+[2020.09.01-06.32.03:217][157]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018171421800), frame # 344157
+[2020.09.01-06.32.03:221][157]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2020.09.01-06.32.03:259][158]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2020.09.01-06.32.37:138][175]LogEditorViewport: Clicking on Actor (LMB): RobotArmBP_C (RobotArmBP)
+[2020.09.01-06.32.38:562][256]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Models/DIY_Robot_Arm/RobotArmBP.RobotArmBP
+[2020.09.01-06.33.21:115][733]BlueprintLog: New page: Compile RobotTable
+[2020.09.01-06.33.21:177][733]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2020.09.01-06.33.21:604][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RobotTable" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.01-06.33.21:643][753]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2020.09.01-06.33.21:680][753]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/RobotTableBE06433A4FB026AB56CDD69F0A82F57A.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap'
+[2020.09.01-06.33.21:722][753]LogFileHelpers: Saving map 'RobotTable' took 0.118
+[2020.09.01-06.33.21:737][753]AssetCheck: New page: Asset Save: RobotTable
+[2020.09.01-06.33.21:737][753]LogContentValidation: Display: Validating World /Game/Maps/RobotTable.RobotTable
+[2020.09.01-06.33.32:010][359]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.09.01-06.33.52:769][583]BlueprintLog: New page: Compile RobotArmBP
+[2020.09.01-06.33.52:781][583]LogBlueprint: Error: [Compiler RobotArmBP] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Begin Deferred Actor Spawn from Class' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2020.09.01-06.33.52:781][583]LogBlueprint: Error: [Compiler RobotArmBP] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Finish Spawning Actor' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2020.09.01-06.33.52:990][583]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2020.09.01-06.34.42:080][494]BlueprintLog: New page: Compile RobotArmBP
+[2020.09.01-06.34.42:145][494]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2020.09.01-06.34.42:587][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/DIY_Robot_Arm/RobotArmBP" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/DIY_Robot_Arm/RobotArmBP.uasset" SILENT=true
+[2020.09.01-06.34.42:660][495]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/RobotArmBP666A46B244231F037DC62AA43450F8D0.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/DIY_Robot_Arm/RobotArmBP.uasset'
+[2020.09.01-06.34.42:679][495]AssetCheck: New page: Asset Save: RobotArmBP
+[2020.09.01-06.34.42:679][495]LogContentValidation: Display: Validating Blueprint /Game/Models/DIY_Robot_Arm/RobotArmBP.RobotArmBP
+[2020.09.01-06.34.59:674][500]BlueprintLog: New page: Compile RobotArmBP
+[2020.09.01-06.34.59:742][500]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2020.09.01-06.35.00:501][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/DIY_Robot_Arm/RobotArmBP" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/DIY_Robot_Arm/RobotArmBP.uasset" SILENT=true
+[2020.09.01-06.35.00:527][540]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/RobotArmBPF6C74D2143C9FE18F6BA6DA55C6229CB.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/DIY_Robot_Arm/RobotArmBP.uasset'
+[2020.09.01-06.35.00:547][540]AssetCheck: New page: Asset Save: RobotArmBP
+[2020.09.01-06.35.00:547][540]LogContentValidation: Display: Validating Blueprint /Game/Models/DIY_Robot_Arm/RobotArmBP.RobotArmBP
+[2020.09.01-06.35.03:079][691]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.01-06.35.03:102][691]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.01-06.35.03:102][691]PIE: New page: PIE session: RobotTable (Aug 31, 2020, 8:35:03 PM)
+[2020.09.01-06.35.03:102][691]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.35.03:108][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005848s)
+[2020.09.01-06.35.03:109][691]LogAIModule: Creating AISystem for world RobotTable
+[2020.09.01-06.35.03:109][691]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018192CE3E00), frame # 354691
+[2020.09.01-06.35.03:109][691]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001819F7E74C0), frame # 354691
+[2020.09.01-06.35.03:109][691]LogPlayLevel: PIE: World Init took: (0.001087s)
+[2020.09.01-06.35.03:109][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RobotTable.RobotTable to /Game/Maps/UEDPIE_0_RobotTable.RobotTable (0.007069s)
+[2020.09.01-06.35.03:142][691]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2020.09.01-06.35.03:144][691]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.01-06.35.03:144][691]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.01-06.35.03:144][691]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.01-06.35.03:144][691]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.01-06.35.03:144][691]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.01-06.35.03:144][691]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.01-06.35.03:144][691]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.01-06.35.03:144][691]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.01-06.35.03:145][691]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.01-06.35.03:145][691]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.01-06.35.03:188][691]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.01-06.35.03:188][691]LogAudioMixer: Display: 1: FrontRight
+[2020.09.01-06.35.03:188][691]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.01-06.35.03:188][691]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.01-06.35.03:188][691]LogAudioMixer: Display: 4: BackLeft
+[2020.09.01-06.35.03:188][691]LogAudioMixer: Display: 5: BackRight
+[2020.09.01-06.35.03:188][691]LogAudioMixer: Display: 6: SideLeft
+[2020.09.01-06.35.03:188][691]LogAudioMixer: Display: 7: SideRight
+[2020.09.01-06.35.03:292][691]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.09.01-06.35.03:292][691]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.01-06.35.03:292][691]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.01-06.35.03:292][691]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.01-06.35.03:293][691]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.01-06.35.03:313][691]LogInit: FAudioDevice initialized.
+[2020.09.01-06.35.03:324][691]LogLoad: Game class is 'BP_PhotoStageGameMode_C'
+[2020.09.01-06.35.03:326][691]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RobotTable.RobotTable up for play (max tick rate 60) at 2020.09.01-01.35.03
+[2020.09.01-06.35.03:327][691]LogWorld: Bringing up level for play took: 0.001324
+[2020.09.01-06.35.03:327][691]LogOnline: OSS: Creating online subsystem instance for: :Context_63
+[2020.09.01-06.35.03:330][691]PIE: Server logged in
+[2020.09.01-06.35.03:330][691]PIE: Play in editor total start time 0.233 seconds.
+[2020.09.01-06.35.05:964][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.35.05:964][844]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.35.05:964][844]LogWorld: UWorld::CleanupWorld for RobotTable, bSessionEnded=true, bCleanupResources=true
+[2020.09.01-06.35.05:964][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.35.05:981][844]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.01-06.35.05:986][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.35.06:045][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.35.06:046][844]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001819F7E74C0), frame # 354844
+[2020.09.01-06.35.06:046][844]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018192CE3E00), frame # 354844
+[2020.09.01-06.35.06:049][844]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2020.09.01-06.35.06:078][845]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2020.09.01-06.35.17:826][531]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BPs/grabSphere.grabSphere
+[2020.09.01-06.35.28:546][130]BlueprintLog: New page: Compile grabSphere
+[2020.09.01-06.35.28:612][130]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2020.09.01-06.35.29:201][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/grabSphere" FILE="../../../../../Github/ReXRR/ReXRR/Content/BPs/grabSphere.uasset" SILENT=true
+[2020.09.01-06.35.29:225][153]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/grabSphere7B3BA0E4419477749A619AB084E6FEC4.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/BPs/grabSphere.uasset'
+[2020.09.01-06.35.29:244][153]AssetCheck: New page: Asset Save: grabSphere
+[2020.09.01-06.35.29:244][153]LogContentValidation: Display: Validating Blueprint /Game/BPs/grabSphere.grabSphere
+[2020.09.01-06.35.32:578][349]BlueprintLog: New page: Compile grabSphere
+[2020.09.01-06.35.32:638][349]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2020.09.01-06.35.33:018][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/grabSphere" FILE="../../../../../Github/ReXRR/ReXRR/Content/BPs/grabSphere.uasset" SILENT=true
+[2020.09.01-06.35.33:035][366]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/grabSphereE61761474BED5E293F2091838C59C9D6.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/BPs/grabSphere.uasset'
+[2020.09.01-06.35.33:054][366]AssetCheck: New page: Asset Save: grabSphere
+[2020.09.01-06.35.33:054][366]LogContentValidation: Display: Validating Blueprint /Game/BPs/grabSphere.grabSphere
+[2020.09.01-06.35.34:398][447]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.01-06.35.34:419][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.01-06.35.34:419][447]PIE: New page: PIE session: RobotTable (Aug 31, 2020, 8:35:34 PM)
+[2020.09.01-06.35.34:442][447]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.35.34:448][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005739s)
+[2020.09.01-06.35.34:449][447]LogAIModule: Creating AISystem for world RobotTable
+[2020.09.01-06.35.34:449][447]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000181A1D25800), frame # 356447
+[2020.09.01-06.35.34:449][447]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000181B1CBD1C0), frame # 356447
+[2020.09.01-06.35.34:449][447]LogPlayLevel: PIE: World Init took: (0.001073s)
+[2020.09.01-06.35.34:449][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RobotTable.RobotTable to /Game/Maps/UEDPIE_0_RobotTable.RobotTable (0.006956s)
+[2020.09.01-06.35.34:485][447]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2020.09.01-06.35.34:487][447]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.01-06.35.34:487][447]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.01-06.35.34:487][447]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.01-06.35.34:487][447]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.01-06.35.34:487][447]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.01-06.35.34:488][447]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.01-06.35.34:488][447]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.01-06.35.34:488][447]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.01-06.35.34:488][447]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.01-06.35.34:488][447]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.01-06.35.34:529][447]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.01-06.35.34:529][447]LogAudioMixer: Display: 1: FrontRight
+[2020.09.01-06.35.34:529][447]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.01-06.35.34:529][447]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.01-06.35.34:529][447]LogAudioMixer: Display: 4: BackLeft
+[2020.09.01-06.35.34:529][447]LogAudioMixer: Display: 5: BackRight
+[2020.09.01-06.35.34:529][447]LogAudioMixer: Display: 6: SideLeft
+[2020.09.01-06.35.34:529][447]LogAudioMixer: Display: 7: SideRight
+[2020.09.01-06.35.34:629][447]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.09.01-06.35.34:630][447]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.01-06.35.34:630][447]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.01-06.35.34:630][447]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.01-06.35.34:630][447]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.01-06.35.34:650][447]LogInit: FAudioDevice initialized.
+[2020.09.01-06.35.34:660][447]LogLoad: Game class is 'BP_PhotoStageGameMode_C'
+[2020.09.01-06.35.34:663][447]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RobotTable.RobotTable up for play (max tick rate 60) at 2020.09.01-01.35.34
+[2020.09.01-06.35.34:663][447]LogWorld: Bringing up level for play took: 0.001552
+[2020.09.01-06.35.34:663][447]LogOnline: OSS: Creating online subsystem instance for: :Context_65
+[2020.09.01-06.35.34:666][447]PIE: Server logged in
+[2020.09.01-06.35.34:667][447]PIE: Play in editor total start time 0.252 seconds.
+[2020.09.01-06.35.36:424][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.35.36:424][547]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.35.36:424][547]LogWorld: UWorld::CleanupWorld for RobotTable, bSessionEnded=true, bCleanupResources=true
+[2020.09.01-06.35.36:424][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.35.36:435][547]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.01-06.35.36:440][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.35.36:501][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.35.36:502][547]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000181B1CBD1C0), frame # 356547
+[2020.09.01-06.35.36:502][547]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000181A1D25800), frame # 356547
+[2020.09.01-06.35.36:506][547]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2020.09.01-06.35.36:533][548]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2020.09.01-06.35.43:694][974]BlueprintLog: New page: Compile grabSphere
+[2020.09.01-06.35.43:751][974]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2020.09.01-06.35.44:398][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/grabSphere" FILE="../../../../../Github/ReXRR/ReXRR/Content/BPs/grabSphere.uasset" SILENT=true
+[2020.09.01-06.35.44:416][  7]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/grabSphereB17670A749BB5072F6230E985B198643.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/BPs/grabSphere.uasset'
+[2020.09.01-06.35.44:434][  7]AssetCheck: New page: Asset Save: grabSphere
+[2020.09.01-06.35.44:434][  7]LogContentValidation: Display: Validating Blueprint /Game/BPs/grabSphere.grabSphere
+[2020.09.01-06.35.46:944][158]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.01-06.35.46:965][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.01-06.35.46:965][158]PIE: New page: PIE session: RobotTable (Aug 31, 2020, 8:35:46 PM)
+[2020.09.01-06.35.46:965][158]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.35.46:971][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006297s)
+[2020.09.01-06.35.46:973][158]LogAIModule: Creating AISystem for world RobotTable
+[2020.09.01-06.35.46:973][158]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000181AC345000), frame # 357158
+[2020.09.01-06.35.46:973][158]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001819FBD7240), frame # 357158
+[2020.09.01-06.35.46:973][158]LogPlayLevel: PIE: World Init took: (0.001554s)
+[2020.09.01-06.35.46:973][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RobotTable.RobotTable to /Game/Maps/UEDPIE_0_RobotTable.RobotTable (0.008017s)
+[2020.09.01-06.35.47:007][158]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.09.01-06.35.47:009][158]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.01-06.35.47:009][158]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.01-06.35.47:009][158]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.01-06.35.47:009][158]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.01-06.35.47:009][158]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.01-06.35.47:009][158]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.01-06.35.47:009][158]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.01-06.35.47:009][158]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.01-06.35.47:009][158]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.01-06.35.47:009][158]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.01-06.35.47:050][158]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.01-06.35.47:050][158]LogAudioMixer: Display: 1: FrontRight
+[2020.09.01-06.35.47:050][158]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.01-06.35.47:050][158]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.01-06.35.47:050][158]LogAudioMixer: Display: 4: BackLeft
+[2020.09.01-06.35.47:050][158]LogAudioMixer: Display: 5: BackRight
+[2020.09.01-06.35.47:050][158]LogAudioMixer: Display: 6: SideLeft
+[2020.09.01-06.35.47:050][158]LogAudioMixer: Display: 7: SideRight
+[2020.09.01-06.35.47:149][158]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.09.01-06.35.47:149][158]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.01-06.35.47:150][158]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.01-06.35.47:150][158]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.01-06.35.47:150][158]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.01-06.35.47:170][158]LogInit: FAudioDevice initialized.
+[2020.09.01-06.35.47:179][158]LogLoad: Game class is 'BP_PhotoStageGameMode_C'
+[2020.09.01-06.35.47:181][158]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RobotTable.RobotTable up for play (max tick rate 60) at 2020.09.01-01.35.47
+[2020.09.01-06.35.47:181][158]LogWorld: Bringing up level for play took: 0.001244
+[2020.09.01-06.35.47:181][158]LogOnline: OSS: Creating online subsystem instance for: :Context_66
+[2020.09.01-06.35.47:184][158]PIE: Server logged in
+[2020.09.01-06.35.47:185][158]PIE: Play in editor total start time 0.225 seconds.
+[2020.09.01-06.35.48:913][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.35.48:913][257]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.35.48:913][257]LogWorld: UWorld::CleanupWorld for RobotTable, bSessionEnded=true, bCleanupResources=true
+[2020.09.01-06.35.48:914][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.35.48:930][257]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.01-06.35.48:934][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.35.48:994][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.35.48:995][257]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000181AC345000), frame # 357257
+[2020.09.01-06.35.48:995][257]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001819FBD7240), frame # 357257
+[2020.09.01-06.35.48:998][257]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.09.01-06.35.49:026][258]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2020.09.01-06.35.58:741][833]BlueprintLog: New page: Compile RobotTable
+[2020.09.01-06.35.58:802][833]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2020.09.01-06.35.59:201][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RobotTable" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.01-06.35.59:238][853]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.09.01-06.35.59:275][853]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/RobotTable2674DA774ABC859DF613F2A20AF0AC62.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap'
+[2020.09.01-06.35.59:310][853]LogFileHelpers: Saving map 'RobotTable' took 0.110
+[2020.09.01-06.35.59:327][853]AssetCheck: New page: Asset Save: RobotTable
+[2020.09.01-06.35.59:327][853]LogContentValidation: Display: Validating World /Game/Maps/RobotTable.RobotTable
+[2020.09.01-06.36.00:472][922]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.01-06.36.00:497][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.01-06.36.00:497][922]PIE: New page: PIE session: RobotTable (Aug 31, 2020, 8:36:00 PM)
+[2020.09.01-06.36.00:497][922]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.36.00:506][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009197s)
+[2020.09.01-06.36.00:507][922]LogAIModule: Creating AISystem for world RobotTable
+[2020.09.01-06.36.00:507][922]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018176D27E00), frame # 357922
+[2020.09.01-06.36.00:508][922]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001819B512980), frame # 357922
+[2020.09.01-06.36.00:508][922]LogPlayLevel: PIE: World Init took: (0.001531s)
+[2020.09.01-06.36.00:508][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RobotTable.RobotTable to /Game/Maps/UEDPIE_0_RobotTable.RobotTable (0.010905s)
+[2020.09.01-06.36.00:552][922]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2020.09.01-06.36.00:553][922]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.01-06.36.00:553][922]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.01-06.36.00:553][922]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.01-06.36.00:553][922]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.01-06.36.00:553][922]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.01-06.36.00:553][922]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.01-06.36.00:553][922]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.01-06.36.00:553][922]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.01-06.36.00:554][922]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.01-06.36.00:554][922]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.01-06.36.00:606][922]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.01-06.36.00:606][922]LogAudioMixer: Display: 1: FrontRight
+[2020.09.01-06.36.00:606][922]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.01-06.36.00:606][922]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.01-06.36.00:606][922]LogAudioMixer: Display: 4: BackLeft
+[2020.09.01-06.36.00:606][922]LogAudioMixer: Display: 5: BackRight
+[2020.09.01-06.36.00:606][922]LogAudioMixer: Display: 6: SideLeft
+[2020.09.01-06.36.00:606][922]LogAudioMixer: Display: 7: SideRight
+[2020.09.01-06.36.00:712][922]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.09.01-06.36.00:713][922]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.01-06.36.00:713][922]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.01-06.36.00:713][922]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.01-06.36.00:713][922]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.01-06.36.00:733][922]LogInit: FAudioDevice initialized.
+[2020.09.01-06.36.00:747][922]LogLoad: Game class is 'BP_PhotoStageGameMode_C'
+[2020.09.01-06.36.00:749][922]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RobotTable.RobotTable up for play (max tick rate 60) at 2020.09.01-01.36.00
+[2020.09.01-06.36.00:749][922]LogWorld: Bringing up level for play took: 0.001317
+[2020.09.01-06.36.00:749][922]LogOnline: OSS: Creating online subsystem instance for: :Context_67
+[2020.09.01-06.36.00:752][922]LogBlueprintUserMessages: [RobotTable_C_7] Hello
+[2020.09.01-06.36.00:753][922]LogBlueprintUserMessages: [RobotTable_C_7] Hello
+[2020.09.01-06.36.00:753][922]LogBlueprintUserMessages: [RobotTable_C_7] Hello
+[2020.09.01-06.36.00:753][922]LogBlueprintUserMessages: [RobotTable_C_7] Hello
+[2020.09.01-06.36.00:753][922]LogBlueprintUserMessages: [RobotTable_C_7] Hello
+[2020.09.01-06.36.00:754][922]LogBlueprintUserMessages: [RobotTable_C_7] Hello
+[2020.09.01-06.36.00:754][922]PIE: Server logged in
+[2020.09.01-06.36.00:755][922]PIE: Play in editor total start time 0.264 seconds.
+[2020.09.01-06.36.02:423][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.36.02:423][ 17]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RobotTable
+[2020.09.01-06.36.02:423][ 17]LogWorld: UWorld::CleanupWorld for RobotTable, bSessionEnded=true, bCleanupResources=true
+[2020.09.01-06.36.02:424][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.36.02:440][ 17]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.01-06.36.02:444][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-06.36.02:476][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.01-06.36.02:506][ 17]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001819B512980), frame # 358017
+[2020.09.01-06.36.02:506][ 17]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018176D27E00), frame # 358017
+[2020.09.01-06.36.02:509][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2020.09.01-06.36.02:538][ 18]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2020.09.01-06.36.13:435][665]BlueprintLog: New page: Compile RobotTable
+[2020.09.01-06.36.13:492][665]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2020.09.01-06.36.14:005][680]LogD3D11RHI: Error: SwapChain->ResizeBuffers(0, SizeX, SizeY, RenderTargetFormat, D3D11GetSwapChainFlags()) failed 
+ at D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Viewport.cpp:273 
+ with error E_OUTOFMEMORY, 
+ Size=810x122 Format=DXGI_FORMAT_R10G10B10A2_UNORM(0x00000018)
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    134 = 10107 KB (2D 1540x840 PF_FloatRGBA RT UAV VRam) SceneColor unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     83 = 10107 KB (2D 1540x840 PF_FloatRGBA RT UAV) LightAccumulation
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    123 = 10107 KB (2D 1540x840 PF_FloatRGBA RT UAV) ScreenSpaceReflections unused(599)
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    109 = 10107 KB (2D 1540x840 PF_FloatRGBA RT VRam) PostProcessMaterial unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    108 = 10107 KB (2D 1540x840 PF_FloatRGBA RT VRam) SceneColor unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    118 = 10107 KB (2D 1540x840 PF_FloatRGBA RT) SeparateTranslucency unused(599)
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    121 = 10107 KB (2D 1540x840 PF_FloatRGBA UAV) TemporalAA
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    148 = 10107 KB (2D 1540x840 PF_FloatRGBA UAV) TemporalAA
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    145 = 10107 KB (2D 1540x840 PF_FloatRGBA UAV) TemporalAA unused(599)
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     27 = 6317 KB (2D 1540x840 PF_DepthStencil 4xMSAA) EditorPrimitivesDepth unused(599)
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    113 = 6317 KB (2D 1540x840 PF_DepthStencil 4xMSAA) SelectionOutline unused(599)
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     60 = 6317 KB (2D 1540x840 PF_DepthStencil VRam) SceneDepthZ VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    140 = 5054 KB (2D 1540x840 PF_A2B10G10R10 RT) GBufferA unused(599)
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    117 = 5054 KB (2D 1540x840 PF_B8G8R8A8 RT 4xMSAA) EditorPrimitivesColor unused(599)
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    138 = 5054 KB (2D 1540x840 PF_B8G8R8A8 RT sRGB) GBufferC unused(599)
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     25 = 5054 KB (2D 1540x840 PF_B8G8R8A8 RT VRam) GBufferB unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     28 = 5054 KB (2D 1540x840 PF_B8G8R8A8 RT VRam) GBufferD unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    127 = 5054 KB (2D 1540x840 PF_B8G8R8A8 RT VRam) ScreenShadowMaskTexture unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    139 = 5054 KB (2D 1540x840 PF_B8G8R8A8 RT VRam) SelectionOutlineColor unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    137 = 5054 KB (2D 1540x840 PF_B8G8R8A8 RT) EditorPrimitives unused(599)
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    136 = 5054 KB (2D 1540x840 PF_B8G8R8A8 RT) GBufferE unused(599)
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    111 = 5054 KB (2D 1540x840 PF_B8G8R8A8 RT) HitProxy unused(661)
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    120 = 5054 KB (2D 1540x840 PF_B8G8R8A8 RT) LightAttenuation unused(599)
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    131 = 5054 KB (2D 1540x840 PF_G16R16 RT UAV) Velocity unused(599)
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     57 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField0
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     65 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField0
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     76 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField0
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     41 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField0
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     32 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField0
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     67 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField1
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    100 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField1
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     39 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField1
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     64 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField1
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     74 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField1
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    146 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField1 unused(662)
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     37 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField2
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     80 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField2
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    119 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField2
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     94 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField2
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     72 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField2
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    143 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField2 unused(662)
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     70 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField3
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    114 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField3
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     35 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField3
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     92 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField3
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     47 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField3
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    141 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField3 unused(662)
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     43 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField0
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     66 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField0
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     77 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField0
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     99 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField0
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     56 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField0
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     40 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField1
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     26 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField1
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     75 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField1
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     62 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField1
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     69 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField1
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     38 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField2
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     79 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField2
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     73 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField2
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     95 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField2
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    104 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField2
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:    144 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField2 unused(662)
+[2020.09.01-06.36.16:138][680]LogConsoleResponse:     36 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField3
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     71 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField3
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     93 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField3
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:    116 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField3
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     81 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField3
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:    142 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField3 unused(662)
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:    133 = 4096 KB (Cube 256 PF_FloatRGBA RT) ReflectionColorScratchCubemap0
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:    132 = 4096 KB (Cube 256 PF_FloatRGBA RT) ReflectionColorScratchCubemap1
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     91 = 3159 KB (2D 770x420 PF_DepthStencil) SmallDepthZ
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     82 = 2527 KB (2D 1540x420 PF_R32_UINT RT UAV) QuadOverdrawBuffer
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:    112 = 2527 KB (2D 770x420 PF_FloatRGBA RT UAV VRam) DistanceFieldAOHistory unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     44 = 2527 KB (2D 770x420 PF_FloatRGBA RT UAV VRam) DistanceFieldBentNormalAO VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:    107 = 2527 KB (2D 770x420 PF_FloatRGBA RT UAV VRam) DistanceFieldBentNormalAO VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:    125 = 2527 KB (2D 770x420 PF_FloatRGBA RT UAV VRam) DistanceFieldNormal unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:    129 = 2527 KB (2D 770x420 PF_FloatRGBA RT VRam) AmbientOcclusionSetup unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     89 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume0
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     87 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume1
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     85 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume2
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     88 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir0
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     86 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir1
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     84 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir2
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     90 = 1264 KB (2D 1540x840 PF_G8 RT UAV) ScreenSpaceAO
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:    128 = 1264 KB (2D 770x420 PF_B8G8R8A8 RT VRam) AmbientOcclusion unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:    106 = 1264 KB (2D 770x420 PF_FloatRGB RT VRam) BloomX unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     45 = 1264 KB (2D 770x420 PF_FloatRGB RT VRam) BloomY unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     30 = 1264 KB (2D 770x420 PF_FloatRGB RT VRam) LensFlareTexture unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:    126 = 1264 KB (2D 770x420 PF_G16R16F RT UAV VRam) RayTracedShadows unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     31 = 632 KB (2D 385x210 PF_FloatRGBA RT VRam) LensFlareBlur unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:    135 = 342 KB (2D 512x256 PF_R16F UAV VRam) HZBFurthest unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     58 = 316 KB (2D 385x210 PF_FloatRGB RT VRam) BloomX unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:    105 = 316 KB (2D 385x210 PF_FloatRGB RT VRam) BloomY unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     52 = 316 KB (2D 385x210 PF_FloatRGB RT VRam) Scene(1/4) unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:    102 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     46 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:      2 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:      1 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     29 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:      4 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:    115 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:      3 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:    147 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU unused(662)
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:    124 = 158 KB (2D 192x105 PF_FloatRGBA RT UAV VRam) DownsampledBentNormal unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     51 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT VRam) CombineLUTs VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     48 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT VRam) CombineLUTs VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:    110 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT VRam) CombineLUTs VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     34 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT VRam) CombineLUTs VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:    103 = 80 KB (2D 193x105 PF_FloatRGB RT VRam) BloomX unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     61 = 80 KB (2D 193x105 PF_FloatRGB RT VRam) BloomY unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     11 = 64 KB (2D 128x128 PF_B8G8R8A8) PerlinNoiseGradient
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     55 = 64 KB (Cube 32 PF_FloatRGBA RT) DiffuseIrradianceScratchCubemap0
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     54 = 64 KB (Cube 32 PF_FloatRGBA RT) DiffuseIrradianceScratchCubemap1
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     42 = 49 KB (2D 98x64 PF_A16B16G16R16) SSProfiles
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     22 = 32 KB (2D 64x64 PF_FloatRGBA VRam) LTCMat VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:    101 = 21 KB (2D 97x53 PF_FloatRGB RT VRam) BloomX unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     63 = 21 KB (2D 97x53 PF_FloatRGB RT VRam) BloomY unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     18 = 16 KB (2D 128x32 PF_G16R16) PreintegratedGF
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     23 = 16 KB (2D 64x64 PF_G16R16F VRam) LTCAmp VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     19 = 16 KB (3D 16x16x16 PF_B8G8R8A8) PerlinNoise3D
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     20 = 8 KB (2D 64x64 PF_R8G8) SSAORandomization
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     98 = 6 KB (2D 49x27 PF_FloatRGB RT VRam) BloomX unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     68 = 6 KB (2D 49x27 PF_FloatRGB RT VRam) BloomY unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     97 = 2 KB (2D 25x14 PF_FloatRGB RT VRam) BloomX unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     96 = 2 KB (2D 25x14 PF_FloatRGB RT VRam) BloomY unused(599) VRamInKB(Start/Size):<NONE>
+[2020.09.01-06.36.16:139][680]LogConsoleResponse:     33 = 1 KB (2D 1x1 PF_A32B32G32R32F RT UAV) EyeAdaptation
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:     78 = 1 KB (2D 1x1 PF_A32B32G32R32F RT UAV) EyeAdaptation
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:    122 = 1 KB (2D 1x1 PF_A32B32G32R32F RT UAV) EyeAdaptation
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:     24 = 1 KB (2D 1x1 PF_A32B32G32R32F RT UAV) EyeAdaptation
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:    130 = 1 KB (2D 1x1 PF_A32B32G32R32F RT UAV) EyeAdaptation
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:     49 = 1 KB (2D 1x1 PF_A32B32G32R32F RT UAV) EyeAdaptation
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:     59 = 1 KB (2D 1x1 PF_A32B32G32R32F RT UAV) EyeAdaptation
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:     50 = 1 KB (2D 1x1 PF_A32B32G32R32F RT UAV) EyeAdaptation
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:    149 = 1 KB (2D 1x1 PF_A32B32G32R32F RT UAV) EyeAdaptation unused(662)
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:      8 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) BlackAlphaOneDummy
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:      6 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) BlackDummy
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:     10 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) DefaultNormal8Bit
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:      9 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) GreenDummy
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:      5 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) WhiteDummy
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:     13 = 1 KB (2D 1x1 PF_DepthStencil) DepthDummy
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:     12 = 1 KB (2D 1x1 PF_FloatRGBA RT) MaxFP16Depth
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:     15 = 1 KB (2D 1x1 PF_FloatRGBA RT) MidGreyDummy
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:      7 = 1 KB (2D 1x1 PF_R32_UINT RT) ZeroUIntDummy
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:     14 = 1 KB (2D 1x1 PF_R8G8B8A8_UINT RT) StencilDummy
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:     16 = 1 KB (2D 32x16 PF_R16_UINT) SobolSampling
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:     21 = 1 KB (2D 4x4 PF_R8G8B8A8) GTAORandomization
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:     53 = 1 KB (2D 9x1 PF_FloatRGBA RT) SkySHIrradianceMap
+[2020.09.01-06.36.16:140][680]LogConsoleResponse:     17 = 1 KB (3D 1x1x1 PF_B8G8R8A8 RT) VolumetricBlackDummy
+[2020.09.01-06.36.16:140][680]LogConsoleResponse: 
+[2020.09.01-06.36.16:140][680]LogConsoleResponse: Pool: 231/398 MB (referenced/allocated)
+[2020.09.01-06.36.16:140][680]Cmd: rhi.DumpMemory
+[2020.09.01-06.36.16:145][680]RHI resource memory (not tracked by our allocator)
+[2020.09.01-06.36.16:145][680]         8519616  -  Render target memory Cube - STAT_RenderTargetMemoryCube - STATGROUP_RHI - STATCAT_Advanced
+[2020.09.01-06.36.16:145][680]       211812356  -  Render target memory 3D - STAT_RenderTargetMemory3D - STATGROUP_RHI - STATCAT_Advanced
+[2020.09.01-06.36.16:145][680]         2784320  -  Structured buffer memory - STAT_StructuredBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+[2020.09.01-06.36.16:145][680]         1846336  -  Uniform buffer memory - STAT_UniformBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+[2020.09.01-06.36.16:145][680]       255922164  -  Texture memory Cube - STAT_TextureMemoryCube - STATGROUP_RHI - STATCAT_Advanced
+[2020.09.01-06.36.16:145][680]           24652  -  Texture memory 3D - STAT_TextureMemory3D - STATGROUP_RHI - STATCAT_Advanced
+[2020.09.01-06.36.16:145][680]      1268516341  -  Render target memory 2D - STAT_RenderTargetMemory2D - STATGROUP_RHI - STATCAT_Advanced
+[2020.09.01-06.36.16:145][680]       115428868  -  Texture memory 2D - STAT_TextureMemory2D - STATGROUP_RHI - STATCAT_Advanced
+[2020.09.01-06.36.16:145][680]        33872986  -  Index buffer memory - STAT_IndexBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+[2020.09.01-06.36.16:145][680]        21929850  -  Vertex buffer memory - STAT_VertexBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+[2020.09.01-06.36.16:145][680]1831.682MB total
+[2020.09.01-06.36.16:145][680]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.09.01-06.36.16:145][680]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.09.01-06.36.16:199][680]Log file closed, 09/01/20 01:36:16
