@@ -883,3 +883,129 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.01-05.17.21:345][713]Cmd: TRANSACTION UNDO
 [2020.09.01-05.17.21:345][713]LogEditorTransaction: Undo Delete Actors
 [2020.09.01-05.17.25:095][991]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.09.01-05.18.53:761][616]AssetReimport: New page: Outstanding source content changes 7:18:53 PM
+[2020.09.01-05.18.54:150][617]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Github/ReXRR/ReXRR/Content/Models/flyingDroid/flyingDroidFBX.fbx)
+[2020.09.01-05.18.54:385][617]LogFbx: Loading FBX Scene from D:/Github/ReXRR/ReXRR/Content/Models/flyingDroid/flyingDroidFBX.fbx
+[2020.09.01-05.18.54:477][617]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.01-05.19.21:710][617]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.09.01-05.19.26:787][617]LogSkeletalMesh: Section 0: 2196 vertices, 9 active bones
+[2020.09.01-05.19.26:796][617]LogSkeletalMesh: Section 0: Material=0, 2316 triangles
+[2020.09.01-05.19.26:838][617]LogSkeletalMesh: Building Skeletal Mesh flyingDroidFBX...
+[2020.09.01-05.19.26:885][617]LogSkeletalMesh: Section 0: 2196 vertices, 9 active bones
+[2020.09.01-05.19.26:886][617]LogSkeletalMesh: Section 0: Material=0, 2316 triangles
+[2020.09.01-05.19.27:014][617]LogSkeletalMesh: Built Skeletal Mesh [0.16s] /Game/Models/flyingDroid/flyingDroidFBX.flyingDroidFBX
+[2020.09.01-05.19.27:091][617]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_7:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2020.09.01-05.19.27:091][617]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.09.01-05.19.27:091][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-05.19.27:457][617]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.09.01-05.19.27:457][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-05.19.27:672][618]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Github/ReXRR/ReXRR/Content/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_albedo.jpeg)
+[2020.09.01-05.19.37:148][618]LogSlate: Window 'Message' being destroyed
+[2020.09.01-05.19.38:985][619]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Github/ReXRR/ReXRR/Content/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_AO.jpeg)
+[2020.09.01-05.19.39:476][620]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Github/ReXRR/ReXRR/Content/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_emissive.jpeg)
+[2020.09.01-05.19.39:676][621]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Github/ReXRR/ReXRR/Content/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_metallic.jpeg)
+[2020.09.01-05.19.39:831][622]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Github/ReXRR/ReXRR/Content/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_normal.png)
+[2020.09.01-05.19.40:297][623]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Github/ReXRR/ReXRR/Content/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_roughness.jpeg)
+[2020.09.01-05.19.40:764][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/flyingDroid/flyingDroidFBX" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/flyingDroid/flyingDroidFBX.uasset" SILENT=true
+[2020.09.01-05.19.40:824][624]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/flyingDroidFBX51F796E44D4ECA56B760849F11A0CE69.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/flyingDroid/flyingDroidFBX.uasset'
+[2020.09.01-05.19.41:026][624]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/FlyR_LP_2_initialShadingGroup_alB969114642D8D1BA28FAA3A7B1418D03.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_albedo.uasset'
+[2020.09.01-05.19.41:172][624]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/FlyR_LP_2_initialShadingGroup_AOD37A27AA448FB63827C1959ED7EDB57B.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_AO.uasset'
+[2020.09.01-05.19.41:253][624]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/FlyR_LP_2_initialShadingGroup_emECD22611461B74987372FEA421209586.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_emissive.uasset'
+[2020.09.01-05.19.41:328][624]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/FlyR_LP_2_initialShadingGroup_me4354238746A9B741141324B7C85DAA21.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_metallic.uasset'
+[2020.09.01-05.19.41:495][624]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/FlyR_LP_2_initialShadingGroup_noDF45E151426916A9153D58B793A1227A.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_normal.uasset'
+[2020.09.01-05.19.41:595][624]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/FlyR_LP_2_initialShadingGroup_ro6E786DFF45D3B1BE0F613EA0BD39A661.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_roughness.uasset'
+[2020.09.01-05.19.41:699][625]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.01-05.19.41:699][625]LogContentValidation: Display: Validating SkeletalMesh /Game/Models/flyingDroid/flyingDroidFBX.flyingDroidFBX
+[2020.09.01-05.19.41:699][625]LogContentValidation: Display: Validating Texture2D /Game/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_albedo.FlyR_LP_2_initialShadingGroup_albedo
+[2020.09.01-05.19.41:699][625]LogContentValidation: Display: Validating Texture2D /Game/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_AO.FlyR_LP_2_initialShadingGroup_AO
+[2020.09.01-05.19.41:699][625]LogContentValidation: Display: Validating Texture2D /Game/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_emissive.FlyR_LP_2_initialShadingGroup_emissive
+[2020.09.01-05.19.41:699][625]LogContentValidation: Display: Validating Texture2D /Game/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_metallic.FlyR_LP_2_initialShadingGroup_metallic
+[2020.09.01-05.19.41:699][625]LogContentValidation: Display: Validating Texture2D /Game/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_normal.FlyR_LP_2_initialShadingGroup_normal
+[2020.09.01-05.19.41:699][625]LogContentValidation: Display: Validating Texture2D /Game/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_roughness.FlyR_LP_2_initialShadingGroup_roughness
+[2020.09.01-05.19.43:666][814]LogSlate: Window 'Message Log' being destroyed
+[2020.09.01-05.19.43:682][814]LogSlate: Window 'Message Log' being destroyed
+[2020.09.01-05.19.44:621][916]AssetReimport: Importing new asset /Game/Models/flyingDroid/flyingDroidFBX.
+[2020.09.01-05.19.44:621][916]AssetReimport: Importing new asset /Game/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_albedo.
+[2020.09.01-05.19.44:621][916]AssetReimport: Importing new asset /Game/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_AO.
+[2020.09.01-05.19.44:621][916]AssetReimport: Importing new asset /Game/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_emissive.
+[2020.09.01-05.19.44:621][916]AssetReimport: Importing new asset /Game/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_metallic.
+[2020.09.01-05.19.44:621][916]AssetReimport: Importing new asset /Game/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_normal.
+[2020.09.01-05.19.44:621][916]AssetReimport: Importing new asset /Game/Models/flyingDroid/FlyR_LP_2_initialShadingGroup_roughness.
+[2020.09.01-05.20.04:860][833]LogRenderer: Reallocating scene render targets to support 1064x532 Format 10 NumSamples 1 (Frame:9299).
+[2020.09.01-05.20.04:927][834]LogRenderer: Reallocating scene render targets to support 1540x840 Format 10 NumSamples 1 (Frame:9301).
+[2020.09.01-05.20.56:440][723]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_BGEnvSphere)
+[2020.09.01-05.21.07:119][520]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/PhotoStudio/Shared/Materials/Background/MI_BGHorizon_Dark.MI_BGHorizon_Dark
+[2020.09.01-05.21.08:731][520]LogStaticMesh: Allocated 304x128x128 distance field atlas = 9.5Mb, with 39 objects containing 8.4Mb backing data
+[2020.09.01-05.21.21:051][591]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.09.01-05.21.21:202][591]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.09.01-05.21.21:677][591]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.09.01-05.21.21:677][591]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.09.01-05.21.21:682][591]TextureStreamingBuild: Display: Compiling optional shaders took 0.620 seconds.
+[2020.09.01-05.21.21:718][591]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.09.01-05.21.21:738][591]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/MI_BGHorizon_DarkD91E9FD54D25A74B022C7B98ADA29F80.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/PhotoStudio/Shared/Materials/Background/MI_BGHorizon_Dark.uasset'
+[2020.09.01-05.21.21:786][591]AssetCheck: New page: Asset Save: MI_BGHorizon_Dark
+[2020.09.01-05.21.21:786][591]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/PhotoStudio/Shared/Materials/Background/MI_BGHorizon_Dark.MI_BGHorizon_Dark
+[2020.09.01-05.21.22:714][666]LogSlate: Window 'MI_BGHorizon_Dark' being destroyed
+[2020.09.01-05.21.22:772][666]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.09.01-05.21.22:772][666]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-05.21.33:416][774]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/PhotoStudio/Shared/Materials/Background/MI_BGHorizon_Dark.MI_BGHorizon_Dark
+[2020.09.01-05.21.53:295][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.09.01-05.21.53:301][470]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.09.01-05.21.53:318][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.09.01-05.21.53:329][470]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/MI_BGHorizon_Dark48497BAD45211A9606D899925ECBD916.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/PhotoStudio/Shared/Materials/Background/MI_BGHorizon_Dark.uasset'
+[2020.09.01-05.21.53:344][470]AssetCheck: New page: Asset Save: MI_BGHorizon_Dark
+[2020.09.01-05.21.53:344][470]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/PhotoStudio/Shared/Materials/Background/MI_BGHorizon_Dark.MI_BGHorizon_Dark
+[2020.09.01-05.21.53:971][528]LogSlate: Window 'MI_BGHorizon_Dark' being destroyed
+[2020.09.01-05.21.54:017][528]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.09.01-05.21.54:017][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-05.21.58:041][959]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/PhotoStudio/Shared/Materials/Background/MI_BGHorizon_Dark.MI_BGHorizon_Dark
+[2020.09.01-05.22.06:999][684]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.09.01-05.22.07:003][684]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.09.01-05.22.07:387][684]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.09.01-05.22.07:387][684]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.09.01-05.22.07:388][684]TextureStreamingBuild: Display: Compiling optional shaders took 0.386 seconds.
+[2020.09.01-05.22.07:409][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.09.01-05.22.07:420][684]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/MI_BGHorizon_DarkB33B9CC240B2B4E34453DDA5D89B3DA9.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/PhotoStudio/Shared/Materials/Background/MI_BGHorizon_Dark.uasset'
+[2020.09.01-05.22.07:436][684]AssetCheck: New page: Asset Save: MI_BGHorizon_Dark
+[2020.09.01-05.22.07:436][684]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/PhotoStudio/Shared/Materials/Background/MI_BGHorizon_Dark.MI_BGHorizon_Dark
+[2020.09.01-05.22.08:141][741]LogSlate: Window 'MI_BGHorizon_Dark' being destroyed
+[2020.09.01-05.22.08:190][741]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.09.01-05.22.08:190][741]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-05.22.23:252][346]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/PhotoStudio/Shared/Materials/Background/MI_BGHorizon_Dark.MI_BGHorizon_Dark
+[2020.09.01-05.22.52:127][897]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.09.01-05.22.52:134][897]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.09.01-05.22.52:509][897]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.09.01-05.22.52:509][897]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.09.01-05.22.52:510][897]TextureStreamingBuild: Display: Compiling optional shaders took 0.377 seconds.
+[2020.09.01-05.22.52:529][897]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.09.01-05.22.52:539][897]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/MI_BGHorizon_Dark29F5EE1A4828BAFB22D1F0BFCF51B9E9.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/PhotoStudio/Shared/Materials/Background/MI_BGHorizon_Dark.uasset'
+[2020.09.01-05.22.52:554][897]AssetCheck: New page: Asset Save: MI_BGHorizon_Dark
+[2020.09.01-05.22.52:554][897]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/PhotoStudio/Shared/Materials/Background/MI_BGHorizon_Dark.MI_BGHorizon_Dark
+[2020.09.01-05.22.52:960][930]LogSlate: Window 'MI_BGHorizon_Dark' being destroyed
+[2020.09.01-05.22.53:008][930]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.09.01-05.22.53:008][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.01-05.23.07:346][554]LogEditorViewport: Clicking on Actor (LMB): BP_TurnTableSet_C (BP_TurnTableSet)
+[2020.09.01-05.23.29:922][ 22]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2020.09.01-05.24.58:311][129]LogEditorViewport: Clicking on Actor (LMB): BP_TurnTableSet_C (BP_TurnTableSet)
+[2020.09.01-05.25.01:317][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RobotTable" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.01-05.25.01:342][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.09.01-05.25.01:385][473]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/RobotTableCBF6C83E4744A3DA0CB5059371A3FF11.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap'
+[2020.09.01-05.25.01:442][473]AssetCheck: New page: Asset Save: RobotTable
+[2020.09.01-05.25.01:442][473]LogContentValidation: Display: Validating World /Game/Maps/RobotTable.RobotTable
+[2020.09.01-05.25.05:498][925]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (flyingDroidFBX)
+[2020.09.01-05.25.23:893][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.09.01-05.25.23:929][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RobotTable" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.01-05.25.23:950][957]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2020.09.01-05.25.23:981][957]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/RobotTable4079753048CEDFE1081EC287C16E2D10.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTable.umap'
+[2020.09.01-05.25.24:015][957]LogFileHelpers: Saving map 'RobotTable' took 0.086
+[2020.09.01-05.25.24:033][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/flyingDroid/FlyR_LP_2_initialShadingGroup" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/flyingDroid/FlyR_LP_2_initialShadingGroup.uasset" SILENT=true
+[2020.09.01-05.25.24:047][957]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/FlyR_LP_2_initialShadingGroup807EB98D4EA5338EBE1006A0BA84DD83.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/flyingDroid/FlyR_LP_2_initialShadingGroup.uasset'
+[2020.09.01-05.25.24:049][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/flyingDroid/flyingDroidFBX_Skeleton" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/flyingDroid/flyingDroidFBX_Skeleton.uasset" SILENT=true
+[2020.09.01-05.25.24:056][957]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/flyingDroidFBX_Skeleton3B9FC91142FB0CB25C0DD599C690D2AA.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/flyingDroid/flyingDroidFBX_Skeleton.uasset'
+[2020.09.01-05.25.24:076][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/flyingDroid/flyingDroidFBX_PhysicsAsset" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/flyingDroid/flyingDroidFBX_PhysicsAsset.uasset" SILENT=true
+[2020.09.01-05.25.24:089][957]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/flyingDroidFBX_PhysicsAssetC1BB48CF4973762FC388F09C6FE4FDCB.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/flyingDroid/flyingDroidFBX_PhysicsAsset.uasset'
+[2020.09.01-05.25.24:123][957]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.01-05.25.24:123][957]LogContentValidation: Display: Validating World /Game/Maps/RobotTable.RobotTable
+[2020.09.01-05.25.24:123][957]LogContentValidation: Display: Validating Material /Game/Models/flyingDroid/FlyR_LP_2_initialShadingGroup.FlyR_LP_2_initialShadingGroup
+[2020.09.01-05.25.24:123][957]LogContentValidation: Display: Validating Skeleton /Game/Models/flyingDroid/flyingDroidFBX_Skeleton.flyingDroidFBX_Skeleton
+[2020.09.01-05.25.24:123][957]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/flyingDroid/flyingDroidFBX_PhysicsAsset.flyingDroidFBX_PhysicsAsset
