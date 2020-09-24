@@ -814,3 +814,94 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.24-22.25.40:928][470]LogContentValidation: Display: Validating Material /Game/Models/multiuserRover/Yellow.Yellow
 [2020.09.24-22.25.40:928][470]LogContentValidation: Display: Validating Skeleton /Game/Models/multiuserRover/MultiuserRover_Skeleton.MultiuserRover_Skeleton
 [2020.09.24-22.25.40:928][470]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/multiuserRover/MultiuserRover_PhysicsAsset.MultiuserRover_PhysicsAsset
+[2020.09.24-22.26.52:880][842]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/Models/multiuserRover/MultiuserRover_PhysicsAsset.MultiuserRover_PhysicsAsset
+[2020.09.24-22.26.53:931][842]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0005 seconds. Added 8 classes and 3 folders.
+[2020.09.24-22.26.54:004][842]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2020.09.24-22.26.54:971][842]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2020.09.24-22.26.55:036][842]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0019 seconds. Added 1 classes and 0 folders.
+[2020.09.24-22.26.56:346][842]LogSlate: Took 0.033676 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.09.24-22.26.56:481][842]LogRenderer: Reallocating scene render targets to support 1156x680 Format 10 NumSamples 1 (Frame:1).
+[2020.09.24-22.26.56:481][842]LogStaticMesh: Allocated 427x64x64 distance field atlas = 3.3Mb, with 31 objects containing 2.4Mb backing data
+[2020.09.24-22.27.14:753][474]LogSlate: Window 'MultiuserRover_PhysicsAsset' being destroyed
+[2020.09.24-22.27.14:775][474]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.09.24-22.27.14:775][474]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.24-22.30.40:679][986]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Models/multiuserRover/MultiuserRover_Skeleton.MultiuserRover_Skeleton
+[2020.09.24-22.30.40:691][986]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.09.24-22.30.41:172][986]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.09.24-22.30.53:487][469]Cmd: TRANSACTION UNDO
+[2020.09.24-22.30.53:487][469]LogEditorTransaction: Undo Rotate Bone
+[2020.09.24-22.30.54:272][469]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.09.24-22.30.59:466][668]LogSlate: Window 'MultiuserRover_Skeleton' being destroyed
+[2020.09.24-22.30.59:481][668]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.09.24-22.30.59:481][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.24-22.31.11:666][396]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.09.24-22.31.11:670][396]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.09.24-22.32.45:116][484]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.09.24-22.32.59:556][118]Running D:/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/Github/ReXRR/ReXRR/ReXRR.uproject" -game -rocket -progress
+[2020.09.24-22.33.01:270][118]Discovering modules, targets and source code for project...
+[2020.09.24-22.33.04:291][118]WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+[2020.09.24-22.33.09:121][118]Binding IntelliSense data...
+[2020.09.24-22.33.30:181][118]Binding IntelliSense data... 50%
+[2020.09.24-22.33.30:182][118]Binding IntelliSense data... 100%
+[2020.09.24-22.33.30:182][118]Writing project files...
+[2020.09.24-22.34.04:010][118]Writing project files... 67%
+[2020.09.24-22.34.04:010][118]Writing project files... 100%
+[2020.09.24-22.34.04:130][118]LogHotReload: Recompiling module ReXRR...
+[2020.09.24-22.34.04:153][118]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.09.24-22.34.04:369][118]Candidate modules for hot reload:
+[2020.09.24-22.34.04:369][118]  ReXRR
+[2020.09.24-22.34.04:369][118]Launching UnrealBuildTool... [D:/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ReXRR,4194 ReXRREditor Win64 Development -Project="D:/Github/ReXRR/ReXRR/ReXRR.uproject" "D:/Github/ReXRR/ReXRR/ReXRR.uproject"  -IgnoreJunk]
+[2020.09.24-22.37.08:001][118]Using 'git status' to determine working set for adaptive non-unity build (D:\Github\ReXRR).
+Creating makefile for ReXRREditor (no existing makefile)
+WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+Parsing headers for ReXRREditor
+  Running UnrealHeaderTool "D:\Github\ReXRR\ReXRR\ReXRR.uproject" "D:\Github\ReXRR\ReXRR\Intermediate\Build\Win64\ReXRREditor\Development\ReXRREditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\neil\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+Reflection code generated for ReXRREditor in 16.4495164 seconds
+Building ReXRREditor...
+Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 9 actions with 8 processes...
+  [1/9] Default.rc2
+  [2/9] SharedPCH.Engine.ShadowErrors.cpp
+  [3/9] ReXRR.init.gen.cpp
+  [4/9] roverPawn.cpp
+  [5/9] roverPawn.gen.cpp
+  [6/9] ReXRR.cpp
+  [7/9] UE4Editor-ReXRR-4194.lib
+     Creating library D:\Github\ReXRR\ReXRR\Intermediate\Build\Win64\UE4Editor\Development\ReXRR\UE4Editor-ReXRR-4194.lib and object D:\Github\ReXRR\ReXRR\Intermediate\Build\Win64\UE4Editor\Development\ReXRR\UE4Editor-ReXRR-4194.exp
+  [8/9] UE4Editor-ReXRR-4194.dll
+     Creating library D:\Github\ReXRR\ReXRR\Intermediate\Build\Win64\UE4Editor\Development\ReXRR\UE4Editor-ReXRR-4194.suppressed.lib and object D:\Github\ReXRR\ReXRR\Intermediate\Build\Win64\UE4Editor\Development\ReXRR\UE4Editor-ReXRR-4194.suppressed.exp
+  [9/9] ReXRREditor.target
+Total time in Parallel executor: 97.88 seconds
+Total execution time: 183.44 seconds
+
+[2020.09.24-22.37.08:056][118]CompilerResultsLog: New page: Compilation - Sep 24, 2020, 12:37:08 PM
+[2020.09.24-22.37.08:079][118]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Github\ReXRR).
+[2020.09.24-22.37.08:079][118]CompilerResultsLog: Creating makefile for ReXRREditor (no existing makefile)
+[2020.09.24-22.37.08:079][118]CompilerResultsLog: WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+[2020.09.24-22.37.08:079][118]CompilerResultsLog: Parsing headers for ReXRREditor
+[2020.09.24-22.37.08:079][118]CompilerResultsLog:   Running UnrealHeaderTool "D:\Github\ReXRR\ReXRR\ReXRR.uproject" "D:\Github\ReXRR\ReXRR\Intermediate\Build\Win64\ReXRREditor\Development\ReXRREditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\neil\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.09.24-22.37.08:079][118]CompilerResultsLog: Reflection code generated for ReXRREditor in 16.4495164 seconds
+[2020.09.24-22.37.08:079][118]CompilerResultsLog: Building ReXRREditor...
+[2020.09.24-22.37.08:079][118]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.24-22.37.08:079][118]CompilerResultsLog: Building 9 actions with 8 processes...
+[2020.09.24-22.37.08:079][118]CompilerResultsLog:   [1/9] Default.rc2
+[2020.09.24-22.37.08:079][118]CompilerResultsLog:   [2/9] SharedPCH.Engine.ShadowErrors.cpp
+[2020.09.24-22.37.08:079][118]CompilerResultsLog:   [3/9] ReXRR.init.gen.cpp
+[2020.09.24-22.37.08:079][118]CompilerResultsLog:   [4/9] roverPawn.cpp
+[2020.09.24-22.37.08:079][118]CompilerResultsLog:   [5/9] roverPawn.gen.cpp
+[2020.09.24-22.37.08:079][118]CompilerResultsLog:   [6/9] ReXRR.cpp
+[2020.09.24-22.37.08:079][118]CompilerResultsLog:   [7/9] UE4Editor-ReXRR-4194.lib
+[2020.09.24-22.37.08:080][118]CompilerResultsLog:      Creating library D:\Github\ReXRR\ReXRR\Intermediate\Build\Win64\UE4Editor\Development\ReXRR\UE4Editor-ReXRR-4194.lib and object D:\Github\ReXRR\ReXRR\Intermediate\Build\Win64\UE4Editor\Development\ReXRR\UE4Editor-ReXRR-4194.exp
+[2020.09.24-22.37.08:080][118]CompilerResultsLog:   [8/9] UE4Editor-ReXRR-4194.dll
+[2020.09.24-22.37.08:080][118]CompilerResultsLog:      Creating library D:\Github\ReXRR\ReXRR\Intermediate\Build\Win64\UE4Editor\Development\ReXRR\UE4Editor-ReXRR-4194.suppressed.lib and object D:\Github\ReXRR\ReXRR\Intermediate\Build\Win64\UE4Editor\Development\ReXRR\UE4Editor-ReXRR-4194.suppressed.exp
+[2020.09.24-22.37.08:080][118]CompilerResultsLog:   [9/9] ReXRREditor.target
+[2020.09.24-22.37.08:080][118]CompilerResultsLog: Total time in Parallel executor: 97.88 seconds
+[2020.09.24-22.37.08:080][118]CompilerResultsLog: Total execution time: 183.44 seconds
+[2020.09.24-22.37.08:080][118]LogMainFrame: MainFrame: Module compiling took 183.909 seconds
+[2020.09.24-22.37.08:268][118]Reloading module ReXRR after successful compile.
+[2020.09.24-22.37.08:478][118]LogClass: Could not find existing package /Script/ReXRR for HotReload of class roverPawn, assuming a new package.
+[2020.09.24-22.37.08:480][118]LogContentBrowser: Native class hierarchy updated for 'ReXRR' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2020.09.24-22.37.09:015][118]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2020.09.24-22.37.09:041][118]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 3816 classes and 918 folders.
+[2020.09.24-22.37.10:115][118]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.09.24-22.37.12:547][122]LogAudioMixer: Display: Audio Buffer Underrun detected.

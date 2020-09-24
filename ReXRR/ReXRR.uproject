@@ -4,6 +4,16 @@
 	"Category": "",
 	"Description": "",
 	"Enterprise": true,
+	"Modules": [
+		{
+			"Name": "ReXRR",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"PhysXVehicles"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "SunPosition",
