@@ -905,3 +905,14 @@ Total execution time: 183.44 seconds
 [2020.09.24-22.37.09:041][118]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 3816 classes and 918 folders.
 [2020.09.24-22.37.10:115][118]LogSlate: Window 'Add C++ Class' being destroyed
 [2020.09.24-22.37.12:547][122]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.09.24-22.42.49:370][592]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.09.24-22.42.50:825][592]LogSlate: Window 'ReXRR - Unreal Editor' being destroyed
+[2020.09.24-22.42.50:841][592]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.09.24-22.42.52:266][593]Cmd: QUIT_EDITOR
+[2020.09.24-22.42.52:266][593]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.09.24-22.42.52:479][593]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.09.24-22.42.55:658][593]LogExit: Preparing to exit.
+[2020.09.24-22.42.56:512][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.09.24-22.43.02:433][593]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.09.24-22.43.02:434][593]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.09.24-22.43.02:434][593]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
