@@ -2758,3 +2758,6 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.24-22.47.23:610][553]Writing project files... 100%
 [2020.09.24-22.52.23:818][980]LogSlate: Window 'Project Settings' being destroyed
 [2020.09.24-22.54.21:381][432]LogSlate: Window 'Project Settings' being destroyed
+[2020.09.24-23.32.47:864][  9]LogSlate: Window 'Project Settings' being destroyed
+[2020.09.24-23.32.47:867][  9]LogSlate: Window 'Project Settings' being destroyed
+[2020.09.24-23.32.52:933][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms

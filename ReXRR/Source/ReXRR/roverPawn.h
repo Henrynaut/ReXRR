@@ -20,7 +20,7 @@ public:
 
 	virtual void Tick(float DeltaTime) override;
 
-	virual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
+	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
 
 	//Throttle and Steering
 	void ApplyThrottle(float Val);
@@ -36,5 +36,14 @@ public:
 
 	//Update in air and upsidedown physics
 	void UpdateInAirControl(float DeltaTime);
-	
+
+protected:
+
+	//Spring arm that will offset the camera
+	UPROPERTY(Category = Camera, EditDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+		class USpringArmComponent* SpringArm;
+
+	//Camera Componenet that will be our viewpoint
+	UPROPERTY(Category = Camera, EditDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+		class UCameraComponent* Camera;
 };
