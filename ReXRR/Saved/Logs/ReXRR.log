@@ -1,8 +1,8 @@
-﻿Log file open, 09/24/20 17:20:42
+﻿Log file open, 09/30/20 20:08:33
 LogInit: Display: Running engine for game: ReXRR
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 1.008786
+LogStats: Stats thread started at 5.308882
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -131,6 +131,7 @@ LogPluginManager: Mounting plugin Synthesis
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
 LogPluginManager: Mounting plugin ScreenshotTools
+Launching UnrealBuildTool... [D:/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe -Mode=QueryTargets -Project="D:/Github/ReXRR/ReXRR/ReXRR.uproject" -Output="D:/Github/ReXRR/ReXRR/Intermediate/TargetInfo.json"]
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.1.1
@@ -211,708 +212,989 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.09.24-22.20.48:035][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.09.24-22.20.48:035][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Engine.ini]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[r.Tonemapper.Sharpen:2]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:1]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:2048]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[r.HighResScreenshotDelay:8]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:1]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:1]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:1]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:1]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Engine.ini]
-[2020.09.24-22.20.48:036][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Engine.ini]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Engine.ini]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.09.24-22.20.48:036][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Engine.ini]
-[2020.09.24-22.20.48:036][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Engine.ini]
-[2020.09.24-22.20.48:135][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
-[2020.09.24-22.20.48:135][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.09.24-22.20.48:136][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.09.24-22.20.48:137][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.09.24-22.20.48:155][  0]LogInit: Selected Device Profile: [Windows]
-[2020.09.24-22.20.48:161][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.09.24-22.20.48:174][  0]LogHAL: Display: Platform has ~ 16 GB [17061810176 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.09.24-22.20.48:174][  0]LogInit: Going up to parent DeviceProfile []
-[2020.09.24-22.20.48:175][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
-[2020.09.24-22.20.48:175][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.09.24-22.20.48:175][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.09.24-22.20.48:175][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
-[2020.09.24-22.20.48:175][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.09.24-22.20.48:175][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
-[2020.09.24-22.20.48:175][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.09.24-22.20.48:175][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.09.24-22.20.48:176][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.09.24-22.20.48:177][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.09.24-22.20.48:223][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.09.24-22.20.48:223][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.09.24-22.20.48:223][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.09.24-22.20.48:223][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Engine.ini]
-[2020.09.24-22.20.48:313][  0]LogInit: Computer: CDA-NEIL
-[2020.09.24-22.20.48:313][  0]LogInit: User: neil
-[2020.09.24-22.20.48:314][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.09.24-22.20.48:314][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.09.24-22.20.48:314][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.09.24-22.20.48:324][  0]LogMemory: Platform Memory Stats for Windows
-[2020.09.24-22.20.48:324][  0]LogMemory: Process Physical Memory: 116.98 MB used, 116.99 MB peak
-[2020.09.24-22.20.48:324][  0]LogMemory: Process Virtual Memory: 105.28 MB used, 105.28 MB peak
-[2020.09.24-22.20.48:324][  0]LogMemory: Physical Memory: 11314.53 MB used,  4956.88 MB free, 16271.41 MB total
-[2020.09.24-22.20.48:324][  0]LogMemory: Virtual Memory: 5158.52 MB used,  134212568.00 MB free, 134217728.00 MB total
-[2020.09.24-22.20.48:878][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.09.24-22.20.49:986][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.09.24-22.20.50:019][  0]LogInit: Using OS detected language (en-US).
-[2020.09.24-22.20.50:019][  0]LogInit: Using OS detected locale (en-US).
-[2020.09.24-22.20.50:274][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.09.24-22.20.51:034][  0]LogInit: Setting process to per monitor DPI aware
-[2020.09.24-22.20.51:733][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.09.24-22.20.51:733][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.09.24-22.20.59:026][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2020.09.24-22.20.59:026][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.09.24-22.20.59:026][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.09.24-22.20.59:026][  0]LogD3D11RHI: D3D11 adapters:
-[2020.09.24-22.20.59:186][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
-[2020.09.24-22.20.59:186][  0]LogD3D11RHI:       6052/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.09.24-22.20.59:254][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2020.09.24-22.20.59:254][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.09.24-22.20.59:257][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.09.24-22.20.59:257][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.09.24-22.20.59:278][  0]LogD3D11RHI:    3. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2020.09.24-22.20.59:278][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.09.24-22.20.59:278][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.09.24-22.20.59:474][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.09.24-22.20.59:474][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
-[2020.09.24-22.20.59:474][  0]LogWindows: EnumDisplayDevices:
-[2020.09.24-22.20.59:474][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2020.09.24-22.20.59:474][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:1)
-[2020.09.24-22.20.59:475][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2020.09.24-22.20.59:475][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2020.09.24-22.20.59:475][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2020.09.24-22.20.59:476][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2020.09.24-22.20.59:476][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2020.09.24-22.20.59:476][  0]LogWindows:    7. 'LuminonCore IDDCX Adapter' (P:0 D:0)
-[2020.09.24-22.20.59:476][  0]LogWindows:    8. 'LuminonCore IDDCX Adapter' (P:0 D:0)
-[2020.09.24-22.20.59:477][  0]LogWindows:    9. 'LuminonCore IDDCX Adapter' (P:0 D:0)
-[2020.09.24-22.20.59:477][  0]LogWindows:    10. 'LuminonCore IDDCX Adapter' (P:0 D:0)
-[2020.09.24-22.20.59:477][  0]LogWindows:    11. 'LuminonCore IDDCX Adapter' (P:0 D:0)
-[2020.09.24-22.20.59:477][  0]LogWindows:    12. 'LuminonCore IDDCX Adapter' (P:0 D:0)
-[2020.09.24-22.20.59:477][  0]LogWindows:    13. 'LuminonCore IDDCX Adapter' (P:0 D:0)
-[2020.09.24-22.20.59:478][  0]LogWindows:    14. 'LuminonCore IDDCX Adapter' (P:0 D:0)
-[2020.09.24-22.20.59:478][  0]LogWindows:    15. 'LuminonCore IDDCX Adapter' (P:0 D:0)
-[2020.09.24-22.20.59:478][  0]LogWindows:    16. 'LuminonCore IDDCX Adapter' (P:0 D:0)
-[2020.09.24-22.20.59:478][  0]LogWindows:    17. 'LuminonCore IDDCX Adapter' (P:0 D:0)
-[2020.09.24-22.20.59:479][  0]LogWindows:    18. 'LuminonCore IDDCX Adapter' (P:0 D:0)
-[2020.09.24-22.20.59:479][  0]LogWindows:    19. 'LuminonCore IDDCX Adapter' (P:0 D:0)
-[2020.09.24-22.20.59:479][  0]LogWindows:    20. 'LuminonCore IDDCX Adapter' (P:0 D:0)
-[2020.09.24-22.20.59:479][  0]LogWindows:    21. 'LuminonCore IDDCX Adapter' (P:0 D:0)
-[2020.09.24-22.20.59:480][  0]LogWindows:    22. 'LuminonCore IDDCX Adapter' (P:0 D:0)
-[2020.09.24-22.20.59:480][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2020.09.24-22.20.59:480][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
-[2020.09.24-22.20.59:480][  0]LogD3D11RHI:   Driver Version: 452.06 (internal:27.21.14.5206, unified:452.06)
-[2020.09.24-22.20.59:480][  0]LogD3D11RHI:      Driver Date: 8-12-2020
-[2020.09.24-22.20.59:480][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2020.09.24-22.20.59:573][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.09.24-22.20.59:579][  0]LogD3D11RHI: [Aftermath] Enabled and primed
-[2020.09.24-22.20.59:580][  0]LogD3D11RHI: Async texture creation enabled
-[2020.09.24-22.20.59:580][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.09.24-22.21.00:254][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.09.24-22.21.02:753][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.09.24-22.21.02:891][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.09.24-22.21.02:891][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.09.24-22.21.02:891][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.09.24-22.21.02:891][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.09.24-22.21.02:891][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.09.24-22.21.02:891][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.09.24-22.21.02:891][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.09.24-22.21.02:891][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.09.24-22.21.02:891][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.09.24-22.21.02:891][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.09.24-22.21.03:117][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.09.24-22.21.03:117][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.09.24-22.21.03:256][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.09.24-22.21.03:307][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.09.24-22.21.03:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.09.24-22.21.03:399][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.09.24-22.21.03:445][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.09.24-22.21.03:502][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.09.24-22.21.03:548][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.09.24-22.21.03:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.09.24-22.21.03:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.09.24-22.21.03:672][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.09.24-22.21.03:672][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.09.24-22.21.03:773][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.09.24-22.21.03:822][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.09.24-22.21.03:875][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.09.24-22.21.03:918][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.09.24-22.21.03:919][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.09.24-22.21.04:264][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.09.24-22.21.05:451][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../../Github/ReXRR/ReXRR/Intermediate/Shaders/WorkingDirectory/3032/).
-[2020.09.24-22.21.05:451][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/neil/AppData/Local/Temp/UnrealShaderWorkingDir/C953F8FF44FB8D2815D23FB127D6B8CA/'.
-[2020.09.24-22.21.05:474][  0]LogXGEController: Cleaning working directory: C:/Users/neil/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.09.24-22.21.05:474][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.09.24-22.21.05:474][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.09.24-22.21.05:474][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.09.24-22.21.14:636][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.09.24-22.21.15:057][  0]LogDerivedDataCache: Loaded boot cache 0.42s 82MB C:/Users/neil/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.09.24-22.21.15:057][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/neil/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.09.24-22.21.15:057][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Github/ReXRR/ReXRR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.09.24-22.21.15:057][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.09.24-22.21.15:057][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Github/ReXRR/ReXRR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.09.24-22.21.15:057][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.09.24-22.21.16:485][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.09.24-22.21.16:485][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.09.24-22.21.16:485][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.09.24-22.21.16:487][  0]LogDerivedDataCache: Using Local data cache path C:/Users/neil/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.09.24-22.21.16:487][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.09.24-22.21.16:487][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.09.24-22.21.16:747][  0]LogSlate: Using FreeType 2.10.0
-[2020.09.24-22.21.16:885][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.09.24-22.21.17:972][  0]LogAssetRegistry: FAssetRegistry took 0.0315 seconds to start up
-[2020.09.24-22.21.24:794][  0]LogInit: Selected Device Profile: [Windows]
-[2020.09.24-22.21.28:668][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.09.24-22.21.28:668][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.09.24-22.21.28:668][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.09.24-22.21.28:668][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.09.24-22.21.28:669][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.09.24-22.21.29:944][  0]LogNetVersion: ReXRR 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 914199292)
-[2020.09.24-22.21.55:697][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000221B616E780), frame # 0
-[2020.09.24-22.21.55:697][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000221B6026AC0), frame # 0
-[2020.09.24-22.21.55:721][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000221B6075C00), frame # 0
-[2020.09.24-22.21.56:316][  0]LogPackageLocalizationCache: Processed 29 localized package path(s) for 1 prioritized culture(s) in 0.173977 seconds
-[2020.09.24-22.21.56:343][  0]LogUObjectArray: 15911 objects as part of root set at end of initial load.
-[2020.09.24-22.21.56:343][  0]LogUObjectAllocator: 3963456 out of 0 bytes used by permanent object pool.
-[2020.09.24-22.21.56:343][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.09.24-22.22.01:868][  0]LogPython: Using Python 2.7.14
-[2020.09.24-22.22.06:241][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.09.24-22.22.06:324][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.09.24-22.22.07:610][  0]SourceControl: Source control is disabled
-[2020.09.24-22.22.07:610][  0]SourceControl: Source control is disabled
-[2020.09.24-22.22.07:780][  0]SourceControl: Source control is disabled
-[2020.09.24-22.22.07:865][  0]SourceControl: Source control is disabled
-[2020.09.24-22.22.07:963][  0]SourceControl: Source control is disabled
-[2020.09.24-22.22.10:592][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
-[2020.09.24-22.22.10:592][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
-[2020.09.24-22.22.16:980][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
-[2020.09.24-22.22.16:980][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
-[2020.09.24-22.22.21:117][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.09.24-22.22.21:746][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.09.24-22.22.21:746][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.09.24-22.22.22:274][  0]LogOcInput: OculusInput pre-init called
-[2020.09.24-22.22.22:359][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.09.24-22.22.22:359][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.09.24-22.22.23:990][  0]LogEngine: Initializing Engine...
-[2020.09.24-22.22.24:094][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2020.09.24-22.22.24:094][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.09.24-22.22.24:161][  0]LogStylusInput: Initializing StylusInput subsystem.
-[2020.09.24-22.22.24:198][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
-[2020.09.24-22.22.25:194][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.09.24-22.22.25:801][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.09.24-22.22.25:801][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000221C9B4A600), frame # 0
-[2020.09.24-22.22.25:802][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000221C9B8A480), frame # 0
-[2020.09.24-22.22.26:051][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.24-22.22.26:051][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.24-22.22.26:051][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.24-22.22.26:051][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.24-22.22.26:051][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.24-22.22.26:051][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.24-22.22.26:051][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.24-22.22.26:052][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.24-22.22.26:089][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.24-22.22.26:089][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.24-22.22.26:375][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.24-22.22.26:375][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.09.24-22.22.26:375][  0]LogAudioMixer: Display: 2: FrontCenter
-[2020.09.24-22.22.26:376][  0]LogAudioMixer: Display: 3: LowFrequency
-[2020.09.24-22.22.26:376][  0]LogAudioMixer: Display: 4: BackLeft
-[2020.09.24-22.22.26:376][  0]LogAudioMixer: Display: 5: BackRight
-[2020.09.24-22.22.26:376][  0]LogAudioMixer: Display: 6: SideLeft
-[2020.09.24-22.22.26:376][  0]LogAudioMixer: Display: 7: SideRight
-[2020.09.24-22.22.26:689][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.09.24-22.22.27:275][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.09.24-22.22.27:346][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.09.24-22.22.27:346][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.09.24-22.22.27:363][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.09.24-22.22.27:366][  0]LogInit: FAudioDevice initialized.
-[2020.09.24-22.22.27:372][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.09.24-22.22.27:597][  0]LogDerivedDataCache: Saved boot cache 0.22s 82MB C:/Users/neil/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.09.24-22.22.27:605][  0]LogInit: Texture streaming: Enabled
-[2020.09.24-22.22.27:860][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.09.24-22.22.27:860][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.09.24-22.22.27:951][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.09.24-22.22.28:272][  0]LogInit: Transaction tracking system initialized
-[2020.09.24-22.22.28:702][  0]BlueprintLog: New page: Editor Load
-[2020.09.24-22.22.30:232][  0]LocalizationService: Localization service is disabled
-[2020.09.24-22.22.35:381][  0]LogFileCache: Scanning file cache for directory 'D:/Github/ReXRR/ReXRR/Content/' took 0.17s
-[2020.09.24-22.22.35:381][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.09.24-22.22.35:381][  0]LogCook: Display: Mobile HDR setting 1
-[2020.09.24-22.22.46:889][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
-[2020.09.24-22.22.46:889][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
-[2020.09.24-22.22.47:925][  0]SourceControl: Source control is disabled
-[2020.09.24-22.22.47:934][  0]LogUnrealEdMisc: Loading editor; pre map load, took 158.247
-[2020.09.24-22.22.47:946][  0]Cmd: MAP LOAD FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTableInfinite.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.09.24-22.22.48:040][  0]LightingResults: New page: Lighting Build
-[2020.09.24-22.22.48:197][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.09.24-22.22.48:222][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.24-22.22.48:257][  0]MapCheck: New page: Map Check
-[2020.09.24-22.22.48:257][  0]LightingResults: New page: Lighting Build
-[2020.09.24-22.22.48:734][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000221C9B4A600), frame # 0
-[2020.09.24-22.22.48:735][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000221C9B8A480), frame # 0
-[2020.09.24-22.22.48:737][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
-[2020.09.24-22.22.52:563][  0]LogAIModule: Creating AISystem for world RobotTableInfinite
-[2020.09.24-22.22.52:563][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000221ACA6BE00), frame # 0
-[2020.09.24-22.22.52:563][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000221AA45E200), frame # 0
-[2020.09.24-22.22.53:148][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.09.24-22.22.53:251][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
-[2020.09.24-22.22.53:252][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.09.24-22.22.53:272][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.555ms to complete.
-[2020.09.24-22.22.53:272][  0]LogFileHelpers: Loading map 'RobotTableInfinite' took 5.328
-[2020.09.24-22.22.54:415][  0]LogUnrealEdMisc: Total Editor Startup Time, took 164.728
-[2020.09.24-22.22.55:114][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.24-22.22.55:124][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.24-22.22.55:134][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.24-22.22.55:145][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.24-22.22.55:285][  0]LogCollectionManager: Loaded 0 collections in 0.000998 seconds
-[2020.09.24-22.22.55:494][  0]LogFileCache: Scanning file cache for directory 'D:/Github/ReXRR/ReXRR/Saved/Collections/' took 0.00s
-[2020.09.24-22.22.55:494][  0]LogFileCache: Scanning file cache for directory 'D:/Github/ReXRR/ReXRR/Content/Developers/neil/Collections/' took 0.00s
-[2020.09.24-22.22.55:494][  0]LogFileCache: Scanning file cache for directory 'D:/Github/ReXRR/ReXRR/Content/Collections/' took 0.00s
-[2020.09.24-22.22.55:494][  0]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 3806 classes and 911 folders.
-[2020.09.24-22.22.55:610][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2020.09.24-22.22.58:399][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.09.24-22.22.58:493][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 2 classes and 0 folders.
-[2020.09.24-22.22.59:644][  0]LogSlate: Took 0.021498 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.09.24-22.22.59:683][  0]LogSlate: Took 0.019856 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.09.24-22.22.59:753][  0]LogSlate: Took 0.053369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.09.24-22.23.00:313][  0]LogRenderer: Reallocating scene render targets to support 888x392 Format 10 NumSamples 1 (Frame:1).
-[2020.09.24-22.23.01:002][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2020.09.24-22.23.01:002][  0]LogLoad: (Engine Initialization) Total time: 171.32 seconds
-[2020.09.24-22.23.01:002][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.09.24-22.23.01:305][  0]LogAssetRegistry: Asset discovery search completed in 103.3369 seconds
-[2020.09.24-22.23.01:317][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000011 seconds (updated 0 objects)
-[2020.09.24-22.23.01:738][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.09.24-22.23.02:006][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Github/ReXRR/ReXRR/Content/' took 0.77s
-[2020.09.24-22.23.02:036][  2]LogRenderer: Reallocating scene render targets to support 888x512 Format 10 NumSamples 1 (Frame:1).
-[2020.09.24-22.23.02:354][  3]LogStaticMesh: Allocated 398x64x64 distance field atlas = 3.1Mb, with 29 objects containing 2.1Mb backing data
-[2020.09.24-22.23.04:432][  8]LogSlate: Took 0.049468 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.09.24-22.23.33:277][271]AssetReimport: New page: Outstanding source content changes 12:23:32 PM
-[2020.09.24-22.23.34:175][272]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Github/ReXRR/ReXRR/Content/Models/multiuserRover/MultiuserRover.fbx)
-[2020.09.24-22.23.34:414][272]LogFbx: Loading FBX Scene from D:/Github/ReXRR/ReXRR/Content/Models/multiuserRover/MultiuserRover.fbx
-[2020.09.24-22.23.34:605][272]LogFbx: FBX Scene Loaded Succesfully
-[2020.09.24-22.23.51:413][272]LogSlate: Window 'FBX Import Options' being destroyed
-[2020.09.24-22.23.52:135][272]LogFbx: Triangulating skeletal mesh Plane.003
-[2020.09.24-22.23.52:137][272]LogFbx: Triangulating skeletal mesh Plane
-[2020.09.24-22.23.56:303][272]LogFbx: Triangulating skeletal mesh Body
-[2020.09.24-22.24.02:230][272]LogFbx: Triangulating skeletal mesh Plane.001
-[2020.09.24-22.24.02:230][272]LogFbx: Triangulating skeletal mesh Plane.002
-[2020.09.24-22.24.02:233][272]LogFbx: Triangulating skeletal mesh Bogey_Mesh_L_Front
-[2020.09.24-22.24.02:328][272]LogFbx: Triangulating skeletal mesh wheel03
-[2020.09.24-22.24.02:433][272]LogFbx: Triangulating skeletal mesh Bogey_Mesh_L_Front.001
-[2020.09.24-22.24.02:539][272]LogFbx: Triangulating skeletal mesh wheel01
-[2020.09.24-22.24.02:649][272]LogFbx: Triangulating skeletal mesh Bogey_Mesh_R_Rear
-[2020.09.24-22.24.02:745][272]LogFbx: Triangulating skeletal mesh wheel04
-[2020.09.24-22.24.02:846][272]LogFbx: Triangulating skeletal mesh Bogey_Mesh_R_Front
-[2020.09.24-22.24.02:957][272]LogFbx: Triangulating skeletal mesh wheel02
-[2020.09.24-22.24.13:860][272]LogSkeletalMesh: Section 0: 24191 vertices, 13 active bones
-[2020.09.24-22.24.13:863][272]LogSkeletalMesh: Section 1: 13094 vertices, 5 active bones
-[2020.09.24-22.24.13:863][272]LogSkeletalMesh: Section 2: 500 vertices, 1 active bones
-[2020.09.24-22.24.13:863][272]LogSkeletalMesh: Section 3: 66 vertices, 1 active bones
-[2020.09.24-22.24.13:914][272]LogSkeletalMesh: Section 4: 77959 vertices, 1 active bones
-[2020.09.24-22.24.13:915][272]LogSkeletalMesh: Section 5: 1260 vertices, 1 active bones
-[2020.09.24-22.24.13:961][272]LogSkeletalMesh: Section 0: Material=0, 29854 triangles
-[2020.09.24-22.24.13:961][272]LogSkeletalMesh: Section 1: Material=1, 13360 triangles
-[2020.09.24-22.24.13:961][272]LogSkeletalMesh: Section 2: Material=2, 327 triangles
-[2020.09.24-22.24.13:961][272]LogSkeletalMesh: Section 3: Material=3, 44 triangles
-[2020.09.24-22.24.13:962][272]LogSkeletalMesh: Section 4: Material=4, 125672 triangles
-[2020.09.24-22.24.13:962][272]LogSkeletalMesh: Section 5: Material=5, 1248 triangles
-[2020.09.24-22.24.14:163][272]LogSkeletalMesh: Building Skeletal Mesh MultiuserRover...
-[2020.09.24-22.24.22:986][272]LogSkeletalMesh: Section 0: 24191 vertices, 13 active bones
-[2020.09.24-22.24.22:990][272]LogSkeletalMesh: Section 1: 13094 vertices, 5 active bones
-[2020.09.24-22.24.22:991][272]LogSkeletalMesh: Section 2: 500 vertices, 1 active bones
-[2020.09.24-22.24.22:991][272]LogSkeletalMesh: Section 3: 66 vertices, 1 active bones
-[2020.09.24-22.24.23:026][272]LogSkeletalMesh: Section 4: 77959 vertices, 1 active bones
-[2020.09.24-22.24.23:026][272]LogSkeletalMesh: Section 5: 1260 vertices, 1 active bones
-[2020.09.24-22.24.23:061][272]LogSkeletalMesh: Section 0: Material=0, 29854 triangles
-[2020.09.24-22.24.23:061][272]LogSkeletalMesh: Section 1: Material=1, 13360 triangles
-[2020.09.24-22.24.23:061][272]LogSkeletalMesh: Section 2: Material=2, 327 triangles
-[2020.09.24-22.24.23:061][272]LogSkeletalMesh: Section 3: Material=3, 44 triangles
-[2020.09.24-22.24.23:062][272]LogSkeletalMesh: Section 4: Material=4, 125672 triangles
-[2020.09.24-22.24.23:062][272]LogSkeletalMesh: Section 5: Material=5, 1248 triangles
-[2020.09.24-22.24.24:790][272]LogSkeletalMesh: Built Skeletal Mesh [10.63s] /Game/Models/multiuserRover/MultiuserRover.MultiuserRover
-[2020.09.24-22.24.26:493][272]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
-[2020.09.24-22.24.26:494][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.24-22.24.27:496][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/multiuserRover/MultiuserRover" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/multiuserRover/MultiuserRover.uasset" SILENT=true
-[2020.09.24-22.24.27:973][273]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 54
-[2020.09.24-22.24.28:971][273]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 44
-[2020.09.24-22.24.29:009][273]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/MultiuserRoverB3ECF9BC490F89925A04419C60EE957B.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/multiuserRover/MultiuserRover.uasset'
-[2020.09.24-22.24.30:009][274]AssetCheck: New page: Asset Save: MultiuserRover
-[2020.09.24-22.24.30:009][274]LogContentValidation: Display: Validating SkeletalMesh /Game/Models/multiuserRover/MultiuserRover.MultiuserRover
-[2020.09.24-22.24.32:292][407]AssetReimport: Importing new asset /Game/Models/multiuserRover/MultiuserRover.
-[2020.09.24-22.24.33:054][447]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 34
-[2020.09.24-22.24.34:399][476]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 25
-[2020.09.24-22.24.34:399][476]LogSlate: Took 0.000319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.09.24-22.24.40:157][749]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 18
-[2020.09.24-22.24.40:157][749]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 13
-[2020.09.24-22.24.41:739][814]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
-[2020.09.24-22.24.43:381][913]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
-[2020.09.24-22.24.45:645][ 23]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
-[2020.09.24-22.24.46:509][ 69]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
-[2020.09.24-22.24.46:662][ 76]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
-[2020.09.24-22.25.39:562][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
-[2020.09.24-22.25.39:601][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RobotTableInfinite" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTableInfinite.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.09.24-22.25.40:341][470]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
-[2020.09.24-22.25.40:513][470]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/RobotTableInfinite6DC3B90D4A466D32A3DB38BE8D165569.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTableInfinite.umap'
-[2020.09.24-22.25.40:574][470]LogFileHelpers: Saving map 'RobotTableInfinite' took 0.973
-[2020.09.24-22.25.40:586][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/multiuserRover/Wheels" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/multiuserRover/Wheels.uasset" SILENT=true
-[2020.09.24-22.25.40:608][470]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/WheelsC6B3A2334A1D654E4340199FA3D33609.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/multiuserRover/Wheels.uasset'
-[2020.09.24-22.25.40:622][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/multiuserRover/Suspension" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/multiuserRover/Suspension.uasset" SILENT=true
-[2020.09.24-22.25.40:638][470]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/SuspensionCCF920E048C93A960C6C4B8737854E61.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/multiuserRover/Suspension.uasset'
-[2020.09.24-22.25.40:652][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/multiuserRover/Mast_Cam_Body" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/multiuserRover/Mast_Cam_Body.uasset" SILENT=true
-[2020.09.24-22.25.40:673][470]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/Mast_Cam_BodyE820104143D0210AE5EB1F9533239EE4.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/multiuserRover/Mast_Cam_Body.uasset'
-[2020.09.24-22.25.40:688][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/multiuserRover/Body_Accents" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/multiuserRover/Body_Accents.uasset" SILENT=true
-[2020.09.24-22.25.40:731][470]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/Body_Accents8DF293DD40EA6EA4A1BBBA9749EE034F.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/multiuserRover/Body_Accents.uasset'
-[2020.09.24-22.25.40:748][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/multiuserRover/Torso" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/multiuserRover/Torso.uasset" SILENT=true
-[2020.09.24-22.25.40:774][470]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/TorsoC4D8D77C4279E4D94329EA96313EF534.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/multiuserRover/Torso.uasset'
-[2020.09.24-22.25.40:790][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/multiuserRover/Yellow" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/multiuserRover/Yellow.uasset" SILENT=true
-[2020.09.24-22.25.40:825][470]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/Yellow0F678882445A6C1A50FE1CA3AAC11B8B.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/multiuserRover/Yellow.uasset'
-[2020.09.24-22.25.40:828][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/multiuserRover/MultiuserRover_Skeleton" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/multiuserRover/MultiuserRover_Skeleton.uasset" SILENT=true
-[2020.09.24-22.25.40:839][470]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/MultiuserRover_SkeletonF694E02448B19CC83268DE88D5C6E525.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/multiuserRover/MultiuserRover_Skeleton.uasset'
-[2020.09.24-22.25.40:853][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/multiuserRover/MultiuserRover_PhysicsAsset" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/multiuserRover/MultiuserRover_PhysicsAsset.uasset" SILENT=true
-[2020.09.24-22.25.40:872][470]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/MultiuserRover_PhysicsAsset656EF6B04A789189D0286EBA957FA59A.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/multiuserRover/MultiuserRover_PhysicsAsset.uasset'
-[2020.09.24-22.25.40:928][470]AssetCheck: New page: Asset Save: multiple assets
-[2020.09.24-22.25.40:928][470]LogContentValidation: Display: Validating World /Game/Maps/RobotTableInfinite.RobotTableInfinite
-[2020.09.24-22.25.40:928][470]LogContentValidation: Display: Validating Material /Game/Models/multiuserRover/Wheels.Wheels
-[2020.09.24-22.25.40:928][470]LogContentValidation: Display: Validating Material /Game/Models/multiuserRover/Suspension.Suspension
-[2020.09.24-22.25.40:928][470]LogContentValidation: Display: Validating Material /Game/Models/multiuserRover/Mast_Cam_Body.Mast_Cam_Body
-[2020.09.24-22.25.40:928][470]LogContentValidation: Display: Validating Material /Game/Models/multiuserRover/Body_Accents.Body_Accents
-[2020.09.24-22.25.40:928][470]LogContentValidation: Display: Validating Material /Game/Models/multiuserRover/Torso.Torso
-[2020.09.24-22.25.40:928][470]LogContentValidation: Display: Validating Material /Game/Models/multiuserRover/Yellow.Yellow
-[2020.09.24-22.25.40:928][470]LogContentValidation: Display: Validating Skeleton /Game/Models/multiuserRover/MultiuserRover_Skeleton.MultiuserRover_Skeleton
-[2020.09.24-22.25.40:928][470]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/multiuserRover/MultiuserRover_PhysicsAsset.MultiuserRover_PhysicsAsset
-[2020.09.24-22.26.52:880][842]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/Models/multiuserRover/MultiuserRover_PhysicsAsset.MultiuserRover_PhysicsAsset
-[2020.09.24-22.26.53:931][842]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0005 seconds. Added 8 classes and 3 folders.
-[2020.09.24-22.26.54:004][842]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2020.09.24-22.26.54:971][842]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
-[2020.09.24-22.26.55:036][842]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0019 seconds. Added 1 classes and 0 folders.
-[2020.09.24-22.26.56:346][842]LogSlate: Took 0.033676 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.09.24-22.26.56:481][842]LogRenderer: Reallocating scene render targets to support 1156x680 Format 10 NumSamples 1 (Frame:1).
-[2020.09.24-22.26.56:481][842]LogStaticMesh: Allocated 427x64x64 distance field atlas = 3.3Mb, with 31 objects containing 2.4Mb backing data
-[2020.09.24-22.27.14:753][474]LogSlate: Window 'MultiuserRover_PhysicsAsset' being destroyed
-[2020.09.24-22.27.14:775][474]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2020.09.24-22.27.14:775][474]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.24-22.30.40:679][986]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Models/multiuserRover/MultiuserRover_Skeleton.MultiuserRover_Skeleton
-[2020.09.24-22.30.40:691][986]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2020.09.24-22.30.41:172][986]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2020.09.24-22.30.53:487][469]Cmd: TRANSACTION UNDO
-[2020.09.24-22.30.53:487][469]LogEditorTransaction: Undo Rotate Bone
-[2020.09.24-22.30.54:272][469]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2020.09.24-22.30.59:466][668]LogSlate: Window 'MultiuserRover_Skeleton' being destroyed
-[2020.09.24-22.30.59:481][668]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
-[2020.09.24-22.30.59:481][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.24-22.31.11:666][396]LogSlate: WidgetSwitcher ('None') active index changed to -1
-[2020.09.24-22.31.11:670][396]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.09.24-22.32.45:116][484]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.09.24-22.32.59:556][118]Running D:/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/Github/ReXRR/ReXRR/ReXRR.uproject" -game -rocket -progress
-[2020.09.24-22.33.01:270][118]Discovering modules, targets and source code for project...
-[2020.09.24-22.33.04:291][118]WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
-[2020.09.24-22.33.09:121][118]Binding IntelliSense data...
-[2020.09.24-22.33.30:181][118]Binding IntelliSense data... 50%
-[2020.09.24-22.33.30:182][118]Binding IntelliSense data... 100%
-[2020.09.24-22.33.30:182][118]Writing project files...
-[2020.09.24-22.34.04:010][118]Writing project files... 67%
-[2020.09.24-22.34.04:010][118]Writing project files... 100%
-[2020.09.24-22.34.04:130][118]LogHotReload: Recompiling module ReXRR...
-[2020.09.24-22.34.04:153][118]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2020.09.24-22.34.04:369][118]Candidate modules for hot reload:
-[2020.09.24-22.34.04:369][118]  ReXRR
-[2020.09.24-22.34.04:369][118]Launching UnrealBuildTool... [D:/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ReXRR,4194 ReXRREditor Win64 Development -Project="D:/Github/ReXRR/ReXRR/ReXRR.uproject" "D:/Github/ReXRR/ReXRR/ReXRR.uproject"  -IgnoreJunk]
-[2020.09.24-22.37.08:001][118]Using 'git status' to determine working set for adaptive non-unity build (D:\Github\ReXRR).
-Creating makefile for ReXRREditor (no existing makefile)
-WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
-Parsing headers for ReXRREditor
-  Running UnrealHeaderTool "D:\Github\ReXRR\ReXRR\ReXRR.uproject" "D:\Github\ReXRR\ReXRR\Intermediate\Build\Win64\ReXRREditor\Development\ReXRREditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\neil\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-Reflection code generated for ReXRREditor in 16.4495164 seconds
-Building ReXRREditor...
-Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-Building 9 actions with 8 processes...
-  [1/9] Default.rc2
-  [2/9] SharedPCH.Engine.ShadowErrors.cpp
-  [3/9] ReXRR.init.gen.cpp
-  [4/9] roverPawn.cpp
-  [5/9] roverPawn.gen.cpp
-  [6/9] ReXRR.cpp
-  [7/9] UE4Editor-ReXRR-4194.lib
-     Creating library D:\Github\ReXRR\ReXRR\Intermediate\Build\Win64\UE4Editor\Development\ReXRR\UE4Editor-ReXRR-4194.lib and object D:\Github\ReXRR\ReXRR\Intermediate\Build\Win64\UE4Editor\Development\ReXRR\UE4Editor-ReXRR-4194.exp
-  [8/9] UE4Editor-ReXRR-4194.dll
-     Creating library D:\Github\ReXRR\ReXRR\Intermediate\Build\Win64\UE4Editor\Development\ReXRR\UE4Editor-ReXRR-4194.suppressed.lib and object D:\Github\ReXRR\ReXRR\Intermediate\Build\Win64\UE4Editor\Development\ReXRR\UE4Editor-ReXRR-4194.suppressed.exp
-  [9/9] ReXRREditor.target
-Total time in Parallel executor: 97.88 seconds
-Total execution time: 183.44 seconds
-
-[2020.09.24-22.37.08:056][118]CompilerResultsLog: New page: Compilation - Sep 24, 2020, 12:37:08 PM
-[2020.09.24-22.37.08:079][118]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Github\ReXRR).
-[2020.09.24-22.37.08:079][118]CompilerResultsLog: Creating makefile for ReXRREditor (no existing makefile)
-[2020.09.24-22.37.08:079][118]CompilerResultsLog: WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
-[2020.09.24-22.37.08:079][118]CompilerResultsLog: Parsing headers for ReXRREditor
-[2020.09.24-22.37.08:079][118]CompilerResultsLog:   Running UnrealHeaderTool "D:\Github\ReXRR\ReXRR\ReXRR.uproject" "D:\Github\ReXRR\ReXRR\Intermediate\Build\Win64\ReXRREditor\Development\ReXRREditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\neil\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-[2020.09.24-22.37.08:079][118]CompilerResultsLog: Reflection code generated for ReXRREditor in 16.4495164 seconds
-[2020.09.24-22.37.08:079][118]CompilerResultsLog: Building ReXRREditor...
-[2020.09.24-22.37.08:079][118]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.09.24-22.37.08:079][118]CompilerResultsLog: Building 9 actions with 8 processes...
-[2020.09.24-22.37.08:079][118]CompilerResultsLog:   [1/9] Default.rc2
-[2020.09.24-22.37.08:079][118]CompilerResultsLog:   [2/9] SharedPCH.Engine.ShadowErrors.cpp
-[2020.09.24-22.37.08:079][118]CompilerResultsLog:   [3/9] ReXRR.init.gen.cpp
-[2020.09.24-22.37.08:079][118]CompilerResultsLog:   [4/9] roverPawn.cpp
-[2020.09.24-22.37.08:079][118]CompilerResultsLog:   [5/9] roverPawn.gen.cpp
-[2020.09.24-22.37.08:079][118]CompilerResultsLog:   [6/9] ReXRR.cpp
-[2020.09.24-22.37.08:079][118]CompilerResultsLog:   [7/9] UE4Editor-ReXRR-4194.lib
-[2020.09.24-22.37.08:080][118]CompilerResultsLog:      Creating library D:\Github\ReXRR\ReXRR\Intermediate\Build\Win64\UE4Editor\Development\ReXRR\UE4Editor-ReXRR-4194.lib and object D:\Github\ReXRR\ReXRR\Intermediate\Build\Win64\UE4Editor\Development\ReXRR\UE4Editor-ReXRR-4194.exp
-[2020.09.24-22.37.08:080][118]CompilerResultsLog:   [8/9] UE4Editor-ReXRR-4194.dll
-[2020.09.24-22.37.08:080][118]CompilerResultsLog:      Creating library D:\Github\ReXRR\ReXRR\Intermediate\Build\Win64\UE4Editor\Development\ReXRR\UE4Editor-ReXRR-4194.suppressed.lib and object D:\Github\ReXRR\ReXRR\Intermediate\Build\Win64\UE4Editor\Development\ReXRR\UE4Editor-ReXRR-4194.suppressed.exp
-[2020.09.24-22.37.08:080][118]CompilerResultsLog:   [9/9] ReXRREditor.target
-[2020.09.24-22.37.08:080][118]CompilerResultsLog: Total time in Parallel executor: 97.88 seconds
-[2020.09.24-22.37.08:080][118]CompilerResultsLog: Total execution time: 183.44 seconds
-[2020.09.24-22.37.08:080][118]LogMainFrame: MainFrame: Module compiling took 183.909 seconds
-[2020.09.24-22.37.08:268][118]Reloading module ReXRR after successful compile.
-[2020.09.24-22.37.08:478][118]LogClass: Could not find existing package /Script/ReXRR for HotReload of class roverPawn, assuming a new package.
-[2020.09.24-22.37.08:480][118]LogContentBrowser: Native class hierarchy updated for 'ReXRR' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2020.09.24-22.37.09:015][118]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
-[2020.09.24-22.37.09:041][118]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 3816 classes and 918 folders.
-[2020.09.24-22.37.10:115][118]LogSlate: Window 'Add C++ Class' being destroyed
-[2020.09.24-22.37.12:547][122]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2020.09.24-22.42.49:370][592]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
-[2020.09.24-22.42.50:825][592]LogSlate: Window 'ReXRR - Unreal Editor' being destroyed
-[2020.09.24-22.42.50:841][592]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.09.24-22.42.52:266][593]Cmd: QUIT_EDITOR
-[2020.09.24-22.42.52:266][593]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
-[2020.09.24-22.42.52:479][593]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
-[2020.09.24-22.42.55:658][593]LogExit: Preparing to exit.
-[2020.09.24-22.42.56:512][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
-[2020.09.24-22.43.02:433][593]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2020.09.24-22.43.02:434][593]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
-[2020.09.24-22.43.02:434][593]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-01.08.45:521][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.01-01.08.45:521][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Engine.ini]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[r.Tonemapper.Sharpen:2]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:1]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:2048]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[r.HighResScreenshotDelay:8]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:1]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:1]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:1]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:1]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Engine.ini]
+[2020.10.01-01.08.45:522][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Engine.ini]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.01-01.08.45:522][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.01-01.08.45:523][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.01-01.08.45:523][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.01-01.08.45:523][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.01-01.08.45:523][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Engine.ini]
+[2020.10.01-01.08.45:523][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.01-01.08.45:523][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.01-01.08.45:523][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.01-01.08.45:523][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.01-01.08.45:523][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.01-01.08.45:523][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.01-01.08.45:523][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.01-01.08.45:523][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.01-01.08.45:523][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.01-01.08.45:523][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.01-01.08.45:523][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.01-01.08.45:523][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.01-01.08.45:523][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.01-01.08.45:523][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Engine.ini]
+[2020.10.01-01.08.45:523][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Engine.ini]
+[2020.10.01-01.08.45:627][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.01-01.08.45:627][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.01-01.08.45:628][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.01-01.08.45:635][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.01-01.08.45:635][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.01-01.08.45:655][  0]LogHAL: Display: Platform has ~ 16 GB [17061810176 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.01-01.08.45:656][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.01-01.08.45:659][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
+[2020.10.01-01.08.45:659][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.01-01.08.45:659][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.01-01.08.45:659][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
+[2020.10.01-01.08.45:659][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.01-01.08.45:659][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
+[2020.10.01-01.08.45:659][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.01-01.08.45:659][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.01-01.08.45:659][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.01-01.08.45:659][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.01-01.08.45:659][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.01-01.08.45:659][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.01-01.08.45:659][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.01-01.08.45:659][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.01-01.08.45:660][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.01-01.08.45:661][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.01-01.08.45:661][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.01-01.08.45:661][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.01-01.08.45:661][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.01-01.08.45:661][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.01-01.08.45:661][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.01-01.08.45:661][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
+[2020.10.01-01.08.45:661][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.01-01.08.45:661][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.01-01.08.45:661][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Scalability.ini]
+[2020.10.01-01.08.45:661][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.01-01.08.45:661][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.01-01.08.45:661][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.01-01.08.45:661][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.01-01.08.45:661][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.01-01.08.45:661][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.01-01.08.45:661][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.01-01.08.45:661][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.01-01.08.45:683][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.01-01.08.45:683][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.01-01.08.45:683][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.01-01.08.45:683][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Github/ReXRR/ReXRR/Saved/Config/Windows/Engine.ini]
+[2020.10.01-01.08.45:697][  0]LogInit: Computer: CDA-NEIL
+[2020.10.01-01.08.45:697][  0]LogInit: User: neil
+[2020.10.01-01.08.45:697][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.10.01-01.08.45:697][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.01-01.08.45:697][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.10.01-01.08.45:697][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.01-01.08.45:697][  0]LogMemory: Process Physical Memory: 119.70 MB used, 121.10 MB peak
+[2020.10.01-01.08.45:697][  0]LogMemory: Process Virtual Memory: 111.08 MB used, 111.08 MB peak
+[2020.10.01-01.08.45:697][  0]LogMemory: Physical Memory: 9132.96 MB used,  7138.45 MB free, 16271.41 MB total
+[2020.10.01-01.08.45:697][  0]LogMemory: Virtual Memory: 5164.48 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2020.10.01-01.08.46:134][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.01-01.08.48:833][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.01-01.08.48:860][  0]LogInit: Using OS detected language (en-US).
+[2020.10.01-01.08.48:860][  0]LogInit: Using OS detected locale (en-US).
+[2020.10.01-01.08.49:130][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.10.01-01.08.49:834][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.01-01.08.50:410][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.01-01.08.50:410][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.01-01.08.57:251][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.10.01-01.08.57:251][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.01-01.08.57:251][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.01-01.08.57:251][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.01-01.08.57:349][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2020.10.01-01.08.57:350][  0]LogD3D11RHI:       6052/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.10.01-01.08.57:374][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.10.01-01.08.57:374][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.10.01-01.08.57:376][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.01-01.08.57:376][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.01-01.08.57:397][  0]LogD3D11RHI:    3. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.10.01-01.08.57:397][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.10.01-01.08.57:397][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.01-01.08.57:449][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.01-01.08.57:449][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.01-01.08.57:449][  0]LogWindows: EnumDisplayDevices:
+[2020.10.01-01.08.57:449][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2020.10.01-01.08.57:449][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2020.10.01-01.08.57:450][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.10.01-01.08.57:450][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.10.01-01.08.57:450][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.10.01-01.08.57:450][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.10.01-01.08.57:451][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.10.01-01.08.57:451][  0]LogWindows:    7. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.01-01.08.57:451][  0]LogWindows:    8. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.01-01.08.57:451][  0]LogWindows:    9. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.01-01.08.57:451][  0]LogWindows:    10. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.01-01.08.57:452][  0]LogWindows:    11. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.01-01.08.57:452][  0]LogWindows:    12. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.01-01.08.57:452][  0]LogWindows:    13. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.01-01.08.57:452][  0]LogWindows:    14. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.01-01.08.57:452][  0]LogWindows:    15. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.01-01.08.57:453][  0]LogWindows:    16. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.01-01.08.57:453][  0]LogWindows:    17. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.01-01.08.57:453][  0]LogWindows:    18. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.01-01.08.57:453][  0]LogWindows:    19. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.01-01.08.57:454][  0]LogWindows:    20. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.01-01.08.57:454][  0]LogWindows:    21. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.01-01.08.57:454][  0]LogWindows:    22. 'LuminonCore IDDCX Adapter' (P:0 D:0)
+[2020.10.01-01.08.57:455][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.10.01-01.08.57:455][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2020.10.01-01.08.57:455][  0]LogD3D11RHI:   Driver Version: 452.06 (internal:27.21.14.5206, unified:452.06)
+[2020.10.01-01.08.57:455][  0]LogD3D11RHI:      Driver Date: 8-12-2020
+[2020.10.01-01.08.57:455][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.10.01-01.08.57:557][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.10.01-01.08.57:564][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.10.01-01.08.57:564][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.01-01.08.57:564][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.10.01-01.08.57:950][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.10.01-01.08.58:787][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.01-01.08.59:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.01-01.08.59:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.01-01.08.59:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.01-01.08.59:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.01-01.08.59:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.01-01.08.59:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.01-01.08.59:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.01-01.08.59:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.01-01.08.59:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.01-01.08.59:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.01-01.09.00:035][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.01-01.09.00:035][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.01-01.09.00:108][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.10.01-01.09.00:156][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.01-01.09.00:211][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.01-01.09.00:243][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.01-01.09.00:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.01-01.09.00:366][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.01-01.09.00:409][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.01-01.09.00:486][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.01-01.09.00:486][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.01-01.09.00:554][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.01-01.09.00:554][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.01-01.09.00:618][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.01-01.09.00:679][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.01-01.09.00:725][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.01-01.09.00:790][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.01-01.09.00:791][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.01-01.09.01:041][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.01-01.09.02:114][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../../Github/ReXRR/ReXRR/Intermediate/Shaders/WorkingDirectory/5424/).
+[2020.10.01-01.09.02:114][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/neil/AppData/Local/Temp/UnrealShaderWorkingDir/1FAEA56448B86E01153C07B9ACA0F2EF/'.
+[2020.10.01-01.09.02:123][  0]LogXGEController: Cleaning working directory: C:/Users/neil/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.10.01-01.09.02:124][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.01-01.09.02:124][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.01-01.09.02:124][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.01-01.09.08:886][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.01-01.09.09:296][  0]LogDerivedDataCache: Loaded boot cache 0.41s 82MB C:/Users/neil/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.01-01.09.09:296][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/neil/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.01-01.09.09:296][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Github/ReXRR/ReXRR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.01-01.09.09:296][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.01-01.09.09:297][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Github/ReXRR/ReXRR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.01-01.09.09:297][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.01-01.09.09:390][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.01-01.09.09:390][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.01-01.09.09:391][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.01-01.09.09:393][  0]LogDerivedDataCache: Using Local data cache path C:/Users/neil/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.01-01.09.09:393][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.01-01.09.09:393][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.01-01.09.09:683][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.01-01.09.09:794][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.01-01.09.10:834][  0]LogAssetRegistry: FAssetRegistry took 0.0069 seconds to start up
+[2020.10.01-01.09.22:331][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.01-01.09.25:531][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.01-01.09.25:531][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.01-01.09.25:531][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.01-01.09.25:531][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.01-01.09.25:532][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.01-01.09.26:960][  0]LogNetVersion: ReXRR 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 914199292)
+[2020.10.01-01.09.54:061][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001A35F51D980), frame # 0
+[2020.10.01-01.09.54:061][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A35F396AC0), frame # 0
+[2020.10.01-01.09.54:084][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A35F3EDC00), frame # 0
+[2020.10.01-01.09.55:415][  0]LogPackageLocalizationCache: Processed 29 localized package path(s) for 1 prioritized culture(s) in 0.286205 seconds
+[2020.10.01-01.09.55:527][  0]LogUObjectArray: 15911 objects as part of root set at end of initial load.
+[2020.10.01-01.09.55:537][  0]LogUObjectAllocator: 3963456 out of 0 bytes used by permanent object pool.
+[2020.10.01-01.09.55:537][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.01-01.10.03:319][  0]LogPython: Using Python 2.7.14
+[2020.10.01-01.10.09:408][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.01-01.10.09:553][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.01-01.10.11:519][  0]SourceControl: Source control is disabled
+[2020.10.01-01.10.11:521][  0]SourceControl: Source control is disabled
+[2020.10.01-01.10.11:758][  0]SourceControl: Source control is disabled
+[2020.10.01-01.10.11:807][  0]SourceControl: Source control is disabled
+[2020.10.01-01.10.11:953][  0]SourceControl: Source control is disabled
+[2020.10.01-01.10.14:997][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2020.10.01-01.10.14:997][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2020.10.01-01.10.20:643][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2020.10.01-01.10.20:643][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2020.10.01-01.10.29:167][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.01-01.10.29:645][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.01-01.10.29:645][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.01-01.10.30:506][  0]LogOcInput: OculusInput pre-init called
+[2020.10.01-01.10.30:651][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.01-01.10.30:651][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.01-01.10.34:871][  0]LogAutomationTest: Warning: Smoke tests took > 2s to run: 2.96s
+[2020.10.01-01.10.35:114][  0]LogEngine: Initializing Engine...
+[2020.10.01-01.10.35:352][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.10.01-01.10.35:388][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.01-01.10.35:553][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2020.10.01-01.10.35:639][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.043 s
+[2020.10.01-01.10.36:517][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.01-01.10.38:161][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.01-01.10.38:161][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A372289200), frame # 0
+[2020.10.01-01.10.38:162][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A372233600), frame # 0
+[2020.10.01-01.10.38:589][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-01.10.38:589][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-01.10.38:589][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-01.10.38:589][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-01.10.38:589][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-01.10.38:589][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-01.10.38:589][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-01.10.38:589][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-01.10.38:608][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-01.10.38:608][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-01.10.38:934][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-01.10.38:934][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-01.10.38:934][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.10.01-01.10.38:934][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.10.01-01.10.38:934][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.10.01-01.10.38:934][  0]LogAudioMixer: Display: 5: BackRight
+[2020.10.01-01.10.38:934][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.10.01-01.10.38:934][  0]LogAudioMixer: Display: 7: SideRight
+[2020.10.01-01.10.40:002][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.01-01.10.40:070][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-01.10.40:072][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-01.10.40:073][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-01.10.40:104][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-01.10.40:133][  0]LogInit: FAudioDevice initialized.
+[2020.10.01-01.10.40:275][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.01-01.10.40:514][  0]LogDerivedDataCache: Saved boot cache 0.21s 82MB C:/Users/neil/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.01-01.10.40:521][  0]LogInit: Texture streaming: Enabled
+[2020.10.01-01.10.41:047][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.01-01.10.41:047][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.01-01.10.41:244][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.01-01.10.41:993][  0]LogInit: Transaction tracking system initialized
+[2020.10.01-01.10.42:436][  0]BlueprintLog: New page: Editor Load
+[2020.10.01-01.10.44:106][  0]LocalizationService: Localization service is disabled
+[2020.10.01-01.10.48:125][  0]LogFileCache: Scanning file cache for directory 'D:/Github/ReXRR/ReXRR/Content/' took 0.05s
+[2020.10.01-01.10.48:125][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.01-01.10.48:126][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.01-01.10.58:398][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2020.10.01-01.10.58:440][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2020.10.01-01.10.59:131][  0]SourceControl: Source control is disabled
+[2020.10.01-01.10.59:138][  0]LogUnrealEdMisc: Loading editor; pre map load, took 189.709
+[2020.10.01-01.10.59:210][  0]Cmd: MAP LOAD FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTableInfinite.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.01-01.10.59:222][  0]LightingResults: New page: Lighting Build
+[2020.10.01-01.10.59:534][  0]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.01-01.10.59:534][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-01.10.59:572][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-01.10.59:681][  0]MapCheck: New page: Map Check
+[2020.10.01-01.10.59:681][  0]LightingResults: New page: Lighting Build
+[2020.10.01-01.11.01:038][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001A372289200), frame # 0
+[2020.10.01-01.11.01:043][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001A372233600), frame # 0
+[2020.10.01-01.11.01:136][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2020.10.01-01.11.03:700][  0]LogMaterial: Display: Missing cached shader map for material M_CarPaint, compiling. 
+[2020.10.01-01.11.04:085][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 48
+[2020.10.01-01.11.04:085][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 38
+[2020.10.01-01.11.04:085][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 28
+[2020.10.01-01.11.04:085][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 18
+[2020.10.01-01.11.04:085][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 8
+[2020.10.01-01.11.04:085][  0]LogMaterial: Display: Missing cached shader map for material M_IH_Floor, compiling. 
+[2020.10.01-01.11.04:560][  0]LogMaterial: Display: Missing cached shader map for material M_Stage, compiling. 
+[2020.10.01-01.11.05:926][  0]LogAIModule: Creating AISystem for world RobotTableInfinite
+[2020.10.01-01.11.05:926][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A318FAFE00), frame # 0
+[2020.10.01-01.11.05:926][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A300455440), frame # 0
+[2020.10.01-01.11.07:642][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.01-01.11.07:906][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.10.01-01.11.07:938][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.01-01.11.07:948][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.363ms to complete.
+[2020.10.01-01.11.07:949][  0]LogFileHelpers: Loading map 'RobotTableInfinite' took 8.800
+[2020.10.01-01.11.10:534][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 87
+[2020.10.01-01.11.10:535][  0]LogUnrealEdMisc: Total Editor Startup Time, took 201.105
+[2020.10.01-01.11.12:022][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 77
+[2020.10.01-01.11.12:023][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-01.11.12:064][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-01.11.12:079][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-01.11.12:096][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-01.11.12:273][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 67
+[2020.10.01-01.11.12:273][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 57
+[2020.10.01-01.11.12:273][  0]LogCollectionManager: Loaded 0 collections in 0.001867 seconds
+[2020.10.01-01.11.12:579][  0]LogFileCache: Scanning file cache for directory 'D:/Github/ReXRR/ReXRR/Saved/Collections/' took 0.00s
+[2020.10.01-01.11.12:579][  0]LogFileCache: Scanning file cache for directory 'D:/Github/ReXRR/ReXRR/Content/Developers/neil/Collections/' took 0.00s
+[2020.10.01-01.11.12:579][  0]LogFileCache: Scanning file cache for directory 'D:/Github/ReXRR/ReXRR/Content/Collections/' took 0.00s
+[2020.10.01-01.11.12:579][  0]LogContentBrowser: Native class hierarchy populated in 0.0656 seconds. Added 3807 classes and 913 folders.
+[2020.10.01-01.11.12:824][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.10.01-01.11.15:486][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 47
+[2020.10.01-01.11.15:486][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.10.01-01.11.15:625][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 37
+[2020.10.01-01.11.15:625][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 2 classes and 0 folders.
+[2020.10.01-01.11.18:494][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 29
+[2020.10.01-01.11.18:494][  0]LogSlate: Took 0.021862 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.01-01.11.18:574][  0]LogSlate: Took 0.020758 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.01-01.11.18:759][  0]LogSlate: Took 0.023565 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.01-01.11.19:614][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
+[2020.10.01-01.11.19:614][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 18
+[2020.10.01-01.11.19:614][  0]LogRenderer: Reallocating scene render targets to support 888x392 Format 10 NumSamples 1 (Frame:1).
+[2020.10.01-01.11.20:527][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2020.10.01-01.11.20:527][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.10.01-01.11.20:527][  0]LogLoad: (Engine Initialization) Total time: 211.10 seconds
+[2020.10.01-01.11.20:527][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.01-01.11.21:289][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.01-01.11.21:792][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.01-01.11.21:792][  0]LogSlate: Took 0.031503 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.01-01.11.22:332][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Github/ReXRR/ReXRR/Content/' took 1.42s
+[2020.10.01-01.11.22:701][  2]LogAssetRegistry: Asset discovery search completed in 131.8700 seconds
+[2020.10.01-01.11.22:827][  2]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2020.10.01-01.11.22:828][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.010759 seconds (updated 0 objects)
+[2020.10.01-01.11.22:900][  2]LogSlate: Took 0.000350 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.01-01.11.23:110][  3]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.10.01-01.11.23:242][  9]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.10.01-01.11.24:304][ 56]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2020.10.01-01.11.24:454][ 65]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.10.01-01.11.25:311][ 74]LogRenderer: Reallocating scene render targets to support 888x512 Format 10 NumSamples 1 (Frame:55).
+[2020.10.01-01.11.25:661][ 76]LogStaticMesh: Allocated 398x64x64 distance field atlas = 3.1Mb, with 29 objects containing 2.1Mb backing data
+[2020.10.01-01.11.30:733][176]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_IH_Floor)
+[2020.10.01-01.11.32:338][177]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_IH_Floor)
+[2020.10.01-01.12.33:937][968]AssetReimport: New page: Outstanding source content changes 3:12:33 PM
+[2020.10.01-01.12.34:088][969]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/TrappistRover_3_9.fbx)
+[2020.10.01-01.12.34:313][969]LogFbx: Loading FBX Scene from D:/Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/TrappistRover_3_9.fbx
+[2020.10.01-01.12.34:490][969]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.01-01.12.39:798][969]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.10.01-01.12.40:205][969]LogFbx: Triangulating skeletal mesh Plane.003
+[2020.10.01-01.12.40:232][969]LogFbx: Triangulating skeletal mesh Plane
+[2020.10.01-01.12.40:998][969]LogFbx: Triangulating skeletal mesh Body
+[2020.10.01-01.12.46:976][969]LogFbx: Triangulating skeletal mesh Plane.001
+[2020.10.01-01.12.46:977][969]LogFbx: Triangulating skeletal mesh Plane.002
+[2020.10.01-01.12.46:977][969]LogFbx: Triangulating skeletal mesh roverNeck
+[2020.10.01-01.12.46:978][969]LogFbx: Triangulating skeletal mesh roverHead
+[2020.10.01-01.12.46:979][969]LogFbx: Triangulating skeletal mesh Bogey_Mesh_L_Front
+[2020.10.01-01.12.47:064][969]LogFbx: Triangulating skeletal mesh wheel03
+[2020.10.01-01.12.47:164][969]LogFbx: Triangulating skeletal mesh Bogey_Mesh_L_Front.001
+[2020.10.01-01.12.47:249][969]LogFbx: Triangulating skeletal mesh wheel01
+[2020.10.01-01.12.47:347][969]LogFbx: Triangulating skeletal mesh Bogey_Mesh_R_Rear
+[2020.10.01-01.12.47:435][969]LogFbx: Triangulating skeletal mesh wheel04
+[2020.10.01-01.12.47:530][969]LogFbx: Triangulating skeletal mesh Bogey_Mesh_R_Front
+[2020.10.01-01.12.47:622][969]LogFbx: Triangulating skeletal mesh wheel02
+[2020.10.01-01.12.57:915][969]LogSkeletalMesh: Section 0: 24187 vertices, 15 active bones
+[2020.10.01-01.12.57:919][969]LogSkeletalMesh: Section 1: 13074 vertices, 5 active bones
+[2020.10.01-01.12.57:919][969]LogSkeletalMesh: Section 2: 475 vertices, 1 active bones
+[2020.10.01-01.12.57:919][969]LogSkeletalMesh: Section 3: 62 vertices, 1 active bones
+[2020.10.01-01.12.57:953][969]LogSkeletalMesh: Section 4: 77959 vertices, 1 active bones
+[2020.10.01-01.12.57:953][969]LogSkeletalMesh: Section 5: 1260 vertices, 1 active bones
+[2020.10.01-01.12.57:987][969]LogSkeletalMesh: Section 0: Material=0, 29878 triangles
+[2020.10.01-01.12.57:987][969]LogSkeletalMesh: Section 1: Material=1, 13360 triangles
+[2020.10.01-01.12.57:987][969]LogSkeletalMesh: Section 2: Material=2, 345 triangles
+[2020.10.01-01.12.57:987][969]LogSkeletalMesh: Section 3: Material=3, 42 triangles
+[2020.10.01-01.12.57:987][969]LogSkeletalMesh: Section 4: Material=4, 125678 triangles
+[2020.10.01-01.12.57:987][969]LogSkeletalMesh: Section 5: Material=5, 1248 triangles
+[2020.10.01-01.12.58:262][969]LogSkeletalMesh: Building Skeletal Mesh TrappistRover_3_9...
+[2020.10.01-01.13.06:390][969]LogSkeletalMesh: Section 0: 24187 vertices, 15 active bones
+[2020.10.01-01.13.06:392][969]LogSkeletalMesh: Section 1: 13074 vertices, 5 active bones
+[2020.10.01-01.13.06:393][969]LogSkeletalMesh: Section 2: 475 vertices, 1 active bones
+[2020.10.01-01.13.06:393][969]LogSkeletalMesh: Section 3: 62 vertices, 1 active bones
+[2020.10.01-01.13.06:418][969]LogSkeletalMesh: Section 4: 77959 vertices, 1 active bones
+[2020.10.01-01.13.06:419][969]LogSkeletalMesh: Section 5: 1260 vertices, 1 active bones
+[2020.10.01-01.13.06:452][969]LogSkeletalMesh: Section 0: Material=0, 29878 triangles
+[2020.10.01-01.13.06:452][969]LogSkeletalMesh: Section 1: Material=1, 13360 triangles
+[2020.10.01-01.13.06:452][969]LogSkeletalMesh: Section 2: Material=2, 345 triangles
+[2020.10.01-01.13.06:452][969]LogSkeletalMesh: Section 3: Material=3, 42 triangles
+[2020.10.01-01.13.06:452][969]LogSkeletalMesh: Section 4: Material=4, 125678 triangles
+[2020.10.01-01.13.06:452][969]LogSkeletalMesh: Section 5: Material=5, 1248 triangles
+[2020.10.01-01.13.07:589][969]LogSkeletalMesh: Built Skeletal Mesh [9.16s] /Game/Models/mutliuserRover39/TrappistRover_3_9.TrappistRover_3_9
+[2020.10.01-01.13.07:928][969]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-01.13.07:942][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-01.13.08:982][969]LogSlate: Took 0.028513 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.10.01-01.13.09:246][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/mutliuserRover39/TrappistRover_3_9" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/TrappistRover_3_9.uasset" SILENT=true
+[2020.10.01-01.13.09:342][970]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 34
+[2020.10.01-01.13.09:946][970]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 25
+[2020.10.01-01.13.11:013][970]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/TrappistRover_3_985703ABF4BCFDF3FFE1A1CAFD8C02A4D.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/TrappistRover_3_9.uasset'
+[2020.10.01-01.13.11:246][971]AssetCheck: New page: Asset Save: TrappistRover_3_9
+[2020.10.01-01.13.11:247][971]LogContentValidation: Display: Validating SkeletalMesh /Game/Models/mutliuserRover39/TrappistRover_3_9.TrappistRover_3_9
+[2020.10.01-01.13.12:042][989]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 18
+[2020.10.01-01.13.13:576][ 33]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2020.10.01-01.13.14:092][ 41]LogSlate: Window 'Message Log' being destroyed
+[2020.10.01-01.13.14:100][ 41]LogSlate: Window 'Message Log' being destroyed
+[2020.10.01-01.13.14:129][ 41]AssetReimport: Importing new asset /Game/Models/mutliuserRover39/TrappistRover_3_9.
+[2020.10.01-01.13.15:231][101]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.01-01.13.16:125][145]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.10.01-01.13.16:733][177]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2020.10.01-01.13.17:973][249]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.10.01-01.13.18:876][299]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.10.01-01.13.45:083][600]Cmd: TRANSACTION UNDO
+[2020.10.01-01.13.45:083][600]LogEditorTransaction: Undo Create Actors
+[2020.10.01-01.13.55:189][166]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (TrappistRover_3_9)
+[2020.10.01-01.13.56:191][225]Cmd: DELETE
+[2020.10.01-01.13.56:191][225]Cmd: ACTOR DELETE
+[2020.10.01-01.13.56:961][225]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2020.10.01-01.13.57:007][225]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2020.10.01-01.13.57:009][225]LogEditorActor: Deleted 1 Actors (0.106 secs)
+[2020.10.01-01.14.06:245][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.10.01-01.14.07:951][743]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.01-01.14.10:788][743]LogUObjectGlobals: Force Deleting 9 Package(s):
+	Asset Name: /Game/Models/mutliuserRover39/Yellow.Yellow
+	Asset Name: /Game/Models/mutliuserRover39/Body_Accents.Body_Accents
+	Asset Name: /Game/Models/mutliuserRover39/Mast_Cam_Body.Mast_Cam_Body
+	Asset Name: /Game/Models/mutliuserRover39/Suspension.Suspension
+	Asset Name: /Game/Models/mutliuserRover39/Torso.Torso
+	Asset Name: /Game/Models/mutliuserRover39/TrappistRover_3_9.TrappistRover_3_9
+	Asset Name: /Game/Models/mutliuserRover39/TrappistRover_3_9_PhysicsAsset.TrappistRover_3_9_PhysicsAsset
+	Asset Name: /Game/Models/mutliuserRover39/TrappistRover_3_9_Skeleton.TrappistRover_3_9_Skeleton
+	Asset Name: /Game/Models/mutliuserRover39/Wheels.Wheels
+[2020.10.01-01.14.17:961][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.10.01-01.14.17:978][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.10.01-01.14.17:989][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2020.10.01-01.18.38:362][522]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/TrappistRover_3_9.fbx)
+[2020.10.01-01.18.38:388][522]LogFbx: Loading FBX Scene from ../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/TrappistRover_3_9.fbx
+[2020.10.01-01.18.38:485][522]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.01-01.18.44:173][522]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.10.01-01.18.44:251][522]LogMaterial: Display: Material /Game/Models/mutliuserRover39/Plane.Plane needed to have new flag set bUsedWithSkeletalMesh !
+[2020.10.01-01.18.44:254][522]LogMaterial: Display: Missing cached shader map for material Plane, compiling. 
+[2020.10.01-01.18.44:282][522]LogMaterial: Display: Missing cached shader map for material Plane, compiling. 
+[2020.10.01-01.18.44:307][522]LogFbx: Triangulating skeletal mesh Plane.003
+[2020.10.01-01.18.44:307][522]LogFbx: Triangulating skeletal mesh Plane
+[2020.10.01-01.18.44:319][522]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 39
+[2020.10.01-01.18.44:319][522]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 29
+[2020.10.01-01.18.44:319][522]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.10.01-01.18.44:319][522]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.01-01.18.44:319][522]LogMaterial: Display: Material /Game/Models/mutliuserRover39/Wheels.Wheels needed to have new flag set bUsedWithSkeletalMesh !
+[2020.10.01-01.18.44:321][522]LogMaterial: Display: Missing cached shader map for material Wheels, compiling. 
+[2020.10.01-01.18.44:352][522]LogMaterial: Display: Missing cached shader map for material Wheels, compiling. 
+[2020.10.01-01.18.44:388][522]LogMaterial: Display: Material /Game/Models/mutliuserRover39/Suspension.Suspension needed to have new flag set bUsedWithSkeletalMesh !
+[2020.10.01-01.18.44:390][522]LogMaterial: Display: Missing cached shader map for material Suspension, compiling. 
+[2020.10.01-01.18.44:428][522]LogMaterial: Display: Missing cached shader map for material Suspension, compiling. 
+[2020.10.01-01.18.44:459][522]LogMaterial: Display: Material /Game/Models/mutliuserRover39/Mast_Cam_Body.Mast_Cam_Body needed to have new flag set bUsedWithSkeletalMesh !
+[2020.10.01-01.18.44:461][522]LogMaterial: Display: Missing cached shader map for material Mast_Cam_Body, compiling. 
+[2020.10.01-01.18.44:497][522]LogMaterial: Display: Missing cached shader map for material Mast_Cam_Body, compiling. 
+[2020.10.01-01.18.44:534][522]LogMaterial: Display: Material /Game/Models/mutliuserRover39/Body_Accents.Body_Accents needed to have new flag set bUsedWithSkeletalMesh !
+[2020.10.01-01.18.44:537][522]LogMaterial: Display: Missing cached shader map for material Body_Accents, compiling. 
+[2020.10.01-01.18.44:572][522]LogMaterial: Display: Missing cached shader map for material Body_Accents, compiling. 
+[2020.10.01-01.18.44:604][522]LogMaterial: Display: Material /Game/Models/mutliuserRover39/Torso.Torso needed to have new flag set bUsedWithSkeletalMesh !
+[2020.10.01-01.18.44:606][522]LogMaterial: Display: Missing cached shader map for material Torso, compiling. 
+[2020.10.01-01.18.44:640][522]LogMaterial: Display: Missing cached shader map for material Torso, compiling. 
+[2020.10.01-01.18.44:674][522]LogMaterial: Display: Material /Game/Models/mutliuserRover39/Yellow.Yellow needed to have new flag set bUsedWithSkeletalMesh !
+[2020.10.01-01.18.44:676][522]LogMaterial: Display: Missing cached shader map for material Yellow, compiling. 
+[2020.10.01-01.18.44:712][522]LogMaterial: Display: Missing cached shader map for material Yellow, compiling. 
+[2020.10.01-01.18.44:747][522]LogFbx: Triangulating skeletal mesh Body
+[2020.10.01-01.18.50:051][522]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 234
+[2020.10.01-01.18.50:051][522]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 224
+[2020.10.01-01.18.50:051][522]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 214
+[2020.10.01-01.18.50:051][522]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 204
+[2020.10.01-01.18.50:051][522]LogFbx: Triangulating skeletal mesh Plane.001
+[2020.10.01-01.18.50:052][522]LogFbx: Triangulating skeletal mesh Plane.002
+[2020.10.01-01.18.50:052][522]LogFbx: Triangulating skeletal mesh roverNeck
+[2020.10.01-01.18.50:053][522]LogFbx: Triangulating skeletal mesh roverHead
+[2020.10.01-01.18.50:057][522]LogMaterial: Display: Material /Game/Models/mutliuserRover39/Camera_Lens.Camera_Lens needed to have new flag set bUsedWithSkeletalMesh !
+[2020.10.01-01.18.50:059][522]LogMaterial: Display: Missing cached shader map for material Camera_Lens, compiling. 
+[2020.10.01-01.18.50:094][522]LogMaterial: Display: Missing cached shader map for material Camera_Lens, compiling. 
+[2020.10.01-01.18.50:130][522]LogFbx: Triangulating skeletal mesh roverLensA
+[2020.10.01-01.18.50:160][522]LogFbx: Triangulating skeletal mesh roverLensB
+[2020.10.01-01.18.50:188][522]LogFbx: Triangulating skeletal mesh Bogey_Mesh_L_Front
+[2020.10.01-01.18.50:265][522]LogFbx: Triangulating skeletal mesh wheel03
+[2020.10.01-01.18.50:352][522]LogFbx: Triangulating skeletal mesh Bogey_Mesh_L_Front.001
+[2020.10.01-01.18.50:427][522]LogFbx: Triangulating skeletal mesh wheel01
+[2020.10.01-01.18.50:511][522]LogFbx: Triangulating skeletal mesh Bogey_Mesh_R_Rear
+[2020.10.01-01.18.50:587][522]LogFbx: Triangulating skeletal mesh wheel04
+[2020.10.01-01.18.50:674][522]LogFbx: Triangulating skeletal mesh Bogey_Mesh_R_Front
+[2020.10.01-01.18.50:759][522]LogFbx: Triangulating skeletal mesh wheel02
+[2020.10.01-01.18.51:115][522]LogFbx: Warning: Bones digested - 34  Depth of hierarchy - 5
+[2020.10.01-01.18.57:507][522]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 233
+[2020.10.01-01.18.57:507][522]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 223
+[2020.10.01-01.18.57:507][522]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 213
+[2020.10.01-01.18.57:507][522]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 203
+[2020.10.01-01.18.59:333][522]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 193
+[2020.10.01-01.18.59:333][522]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 183
+[2020.10.01-01.18.59:980][522]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 173
+[2020.10.01-01.18.59:981][522]LogSkeletalMesh: Section 0: 16 vertices, 4 active bones
+[2020.10.01-01.18.59:988][522]LogSkeletalMesh: Section 1: 24143 vertices, 9 active bones
+[2020.10.01-01.18.59:992][522]LogSkeletalMesh: Section 2: 13074 vertices, 5 active bones
+[2020.10.01-01.18.59:992][522]LogSkeletalMesh: Section 3: 503 vertices, 3 active bones
+[2020.10.01-01.18.59:992][522]LogSkeletalMesh: Section 4: 1118 vertices, 2 active bones
+[2020.10.01-01.18.59:992][522]LogSkeletalMesh: Section 5: 62 vertices, 1 active bones
+[2020.10.01-01.19.00:022][522]LogSkeletalMesh: Section 6: 77959 vertices, 1 active bones
+[2020.10.01-01.19.00:022][522]LogSkeletalMesh: Section 7: 1260 vertices, 1 active bones
+[2020.10.01-01.19.00:060][522]LogSkeletalMesh: Section 0: Material=0, 8 triangles
+[2020.10.01-01.19.00:060][522]LogSkeletalMesh: Section 1: Material=1, 29846 triangles
+[2020.10.01-01.19.00:060][522]LogSkeletalMesh: Section 2: Material=2, 13360 triangles
+[2020.10.01-01.19.00:060][522]LogSkeletalMesh: Section 3: Material=3, 369 triangles
+[2020.10.01-01.19.00:060][522]LogSkeletalMesh: Section 4: Material=4, 1920 triangles
+[2020.10.01-01.19.00:060][522]LogSkeletalMesh: Section 5: Material=5, 42 triangles
+[2020.10.01-01.19.00:060][522]LogSkeletalMesh: Section 6: Material=6, 125678 triangles
+[2020.10.01-01.19.00:060][522]LogSkeletalMesh: Section 7: Material=7, 1248 triangles
+[2020.10.01-01.19.00:083][522]LogSkeletalMesh: Building Skeletal Mesh TrappistRover_3_9...
+[2020.10.01-01.19.00:447][522]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 163
+[2020.10.01-01.19.05:845][522]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 153
+[2020.10.01-01.19.05:845][522]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 143
+[2020.10.01-01.19.05:845][522]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 133
+[2020.10.01-01.19.05:845][522]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 123
+[2020.10.01-01.19.07:804][522]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 113
+[2020.10.01-01.19.08:248][522]LogSkeletalMesh: Section 0: 16 vertices, 4 active bones
+[2020.10.01-01.19.08:255][522]LogSkeletalMesh: Section 1: 24143 vertices, 9 active bones
+[2020.10.01-01.19.08:261][522]LogSkeletalMesh: Section 2: 13074 vertices, 5 active bones
+[2020.10.01-01.19.08:261][522]LogSkeletalMesh: Section 3: 503 vertices, 3 active bones
+[2020.10.01-01.19.08:261][522]LogSkeletalMesh: Section 4: 1118 vertices, 2 active bones
+[2020.10.01-01.19.08:261][522]LogSkeletalMesh: Section 5: 62 vertices, 1 active bones
+[2020.10.01-01.19.08:292][522]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 103
+[2020.10.01-01.19.08:292][522]LogSkeletalMesh: Section 6: 77959 vertices, 1 active bones
+[2020.10.01-01.19.08:292][522]LogSkeletalMesh: Section 7: 1260 vertices, 1 active bones
+[2020.10.01-01.19.08:324][522]LogSkeletalMesh: Section 0: Material=0, 8 triangles
+[2020.10.01-01.19.08:324][522]LogSkeletalMesh: Section 1: Material=1, 29846 triangles
+[2020.10.01-01.19.08:324][522]LogSkeletalMesh: Section 2: Material=2, 13360 triangles
+[2020.10.01-01.19.08:324][522]LogSkeletalMesh: Section 3: Material=3, 369 triangles
+[2020.10.01-01.19.08:324][522]LogSkeletalMesh: Section 4: Material=4, 1920 triangles
+[2020.10.01-01.19.08:324][522]LogSkeletalMesh: Section 5: Material=5, 42 triangles
+[2020.10.01-01.19.08:324][522]LogSkeletalMesh: Section 6: Material=6, 125678 triangles
+[2020.10.01-01.19.08:324][522]LogSkeletalMesh: Section 7: Material=7, 1248 triangles
+[2020.10.01-01.19.09:116][522]LogSkeletalMesh: Built Skeletal Mesh [9.03s] /Game/Models/mutliuserRover39/TrappistRover_3_9.TrappistRover_3_9
+[2020.10.01-01.19.09:366][522]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-01.19.09:366][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-01.19.09:693][522]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.10.01-01.19.10:099][522]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 93
+[2020.10.01-01.19.10:783][540]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 83
+[2020.10.01-01.19.14:285][637]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 73
+[2020.10.01-01.19.14:549][649]LogSlate: Window 'Message Log' being destroyed
+[2020.10.01-01.19.14:565][649]LogSlate: Window 'Message Log' being destroyed
+[2020.10.01-01.19.14:852][663]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 63
+[2020.10.01-01.19.18:993][806]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 53
+[2020.10.01-01.19.21:130][909]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 43
+[2020.10.01-01.19.23:161][ 21]AssetReimport: New page: Outstanding source content changes 3:19:23 PM
+[2020.10.01-01.19.24:598][ 21]LogWindows: Failed to load 'libalias_api.dll' (GetLastError=126)
+[2020.10.01-01.19.24:598][ 21]LogWindows: File 'libalias_api.dll' does not exist
+[2020.10.01-01.19.24:747][ 21]LogEditorFactories: Performing atomic reimport of [D:/Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/TrappistRover_3_9.fbx]
+[2020.10.01-01.19.24:778][ 21]LogFbx: Loading FBX Scene from D:/Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/TrappistRover_3_9.fbx
+[2020.10.01-01.19.24:922][ 21]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.01-01.19.24:937][ 21]LogFbx: Triangulating skeletal mesh Plane.003
+[2020.10.01-01.19.24:937][ 21]LogFbx: Triangulating skeletal mesh Plane
+[2020.10.01-01.19.24:973][ 21]LogFbx: Triangulating skeletal mesh Body
+[2020.10.01-01.19.30:191][ 21]LogFbx: Triangulating skeletal mesh Plane.001
+[2020.10.01-01.19.30:191][ 21]LogFbx: Triangulating skeletal mesh Plane.002
+[2020.10.01-01.19.30:191][ 21]LogFbx: Triangulating skeletal mesh roverNeck
+[2020.10.01-01.19.30:192][ 21]LogFbx: Triangulating skeletal mesh roverHead
+[2020.10.01-01.19.30:194][ 21]LogFbx: Triangulating skeletal mesh roverLensA
+[2020.10.01-01.19.30:219][ 21]LogFbx: Triangulating skeletal mesh roverLensB
+[2020.10.01-01.19.30:240][ 21]LogFbx: Triangulating skeletal mesh Bogey_Mesh_L_Front
+[2020.10.01-01.19.30:293][ 21]LogFbx: Triangulating skeletal mesh wheel03
+[2020.10.01-01.19.30:354][ 21]LogFbx: Triangulating skeletal mesh Bogey_Mesh_L_Front.001
+[2020.10.01-01.19.30:406][ 21]LogFbx: Triangulating skeletal mesh wheel01
+[2020.10.01-01.19.30:467][ 21]LogFbx: Triangulating skeletal mesh Bogey_Mesh_R_Rear
+[2020.10.01-01.19.30:523][ 21]LogFbx: Triangulating skeletal mesh wheel04
+[2020.10.01-01.19.30:584][ 21]LogFbx: Triangulating skeletal mesh Bogey_Mesh_R_Front
+[2020.10.01-01.19.30:642][ 21]LogFbx: Triangulating skeletal mesh wheel02
+[2020.10.01-01.19.37:357][ 21]LogSkeletalMesh: Section 0: 16 vertices, 4 active bones
+[2020.10.01-01.19.37:361][ 21]LogSkeletalMesh: Section 1: 24143 vertices, 9 active bones
+[2020.10.01-01.19.37:363][ 21]LogSkeletalMesh: Section 2: 13074 vertices, 5 active bones
+[2020.10.01-01.19.37:363][ 21]LogSkeletalMesh: Section 3: 503 vertices, 3 active bones
+[2020.10.01-01.19.37:363][ 21]LogSkeletalMesh: Section 4: 1118 vertices, 2 active bones
+[2020.10.01-01.19.37:363][ 21]LogSkeletalMesh: Section 5: 62 vertices, 1 active bones
+[2020.10.01-01.19.37:382][ 21]LogSkeletalMesh: Section 6: 77959 vertices, 1 active bones
+[2020.10.01-01.19.37:382][ 21]LogSkeletalMesh: Section 7: 1260 vertices, 1 active bones
+[2020.10.01-01.19.37:404][ 21]LogSkeletalMesh: Section 0: Material=0, 8 triangles
+[2020.10.01-01.19.37:404][ 21]LogSkeletalMesh: Section 1: Material=1, 29846 triangles
+[2020.10.01-01.19.37:404][ 21]LogSkeletalMesh: Section 2: Material=2, 13360 triangles
+[2020.10.01-01.19.37:404][ 21]LogSkeletalMesh: Section 3: Material=3, 369 triangles
+[2020.10.01-01.19.37:404][ 21]LogSkeletalMesh: Section 4: Material=4, 1920 triangles
+[2020.10.01-01.19.37:404][ 21]LogSkeletalMesh: Section 5: Material=5, 42 triangles
+[2020.10.01-01.19.37:404][ 21]LogSkeletalMesh: Section 6: Material=6, 125678 triangles
+[2020.10.01-01.19.37:404][ 21]LogSkeletalMesh: Section 7: Material=7, 1248 triangles
+[2020.10.01-01.19.37:548][ 21]LogEditorFactories: -- imported successfully
+[2020.10.01-01.19.37:554][ 21]LogSkeletalMesh: Building Skeletal Mesh TrappistRover_3_9...
+[2020.10.01-01.19.42:823][ 21]LogSkeletalMesh: Section 0: 16 vertices, 4 active bones
+[2020.10.01-01.19.42:828][ 21]LogSkeletalMesh: Section 1: 24143 vertices, 9 active bones
+[2020.10.01-01.19.42:830][ 21]LogSkeletalMesh: Section 2: 13074 vertices, 5 active bones
+[2020.10.01-01.19.42:830][ 21]LogSkeletalMesh: Section 3: 503 vertices, 3 active bones
+[2020.10.01-01.19.42:830][ 21]LogSkeletalMesh: Section 4: 1118 vertices, 2 active bones
+[2020.10.01-01.19.42:830][ 21]LogSkeletalMesh: Section 5: 62 vertices, 1 active bones
+[2020.10.01-01.19.42:847][ 21]LogSkeletalMesh: Section 6: 77959 vertices, 1 active bones
+[2020.10.01-01.19.42:847][ 21]LogSkeletalMesh: Section 7: 1260 vertices, 1 active bones
+[2020.10.01-01.19.42:868][ 21]LogSkeletalMesh: Section 0: Material=0, 8 triangles
+[2020.10.01-01.19.42:868][ 21]LogSkeletalMesh: Section 1: Material=1, 29846 triangles
+[2020.10.01-01.19.42:868][ 21]LogSkeletalMesh: Section 2: Material=2, 13360 triangles
+[2020.10.01-01.19.42:868][ 21]LogSkeletalMesh: Section 3: Material=3, 369 triangles
+[2020.10.01-01.19.42:868][ 21]LogSkeletalMesh: Section 4: Material=4, 1920 triangles
+[2020.10.01-01.19.42:868][ 21]LogSkeletalMesh: Section 5: Material=5, 42 triangles
+[2020.10.01-01.19.42:868][ 21]LogSkeletalMesh: Section 6: Material=6, 125678 triangles
+[2020.10.01-01.19.42:868][ 21]LogSkeletalMesh: Section 7: Material=7, 1248 triangles
+[2020.10.01-01.19.43:334][ 21]LogSkeletalMesh: Built Skeletal Mesh [5.78s] /Game/Models/mutliuserRover39/TrappistRover_3_9.TrappistRover_3_9
+[2020.10.01-01.19.46:737][176]AssetReimport: Reimported asset TrappistRover_3_9 from D:/Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/TrappistRover_3_9.fbx.
+[2020.10.01-01.19.59:801][843]EditorErrors: New page: Socket Clicked
+[2020.10.01-01.20.00:783][900]LogEditorViewport: Clicking on Actor (LMB): RobotArmBP_C (RobotArmBP3)
+[2020.10.01-01.20.14:852][662]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (TrappistRover_3_9)
+[2020.10.01-01.20.28:896][492]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_IH_Floor)
+[2020.10.01-01.20.41:792][215]LogActorFactory: Actor Factory created Cube
+[2020.10.01-01.20.42:752][266]LogActorFactory: Actor Factory created Cube
+[2020.10.01-01.21.27:380][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2020.10.01-01.21.27:726][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RobotTableInfinite" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTableInfinite.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.01-01.21.27:747][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.10.01-01.21.28:400][858]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/RobotTableInfiniteAF525896434EEB450D32A8B9FA6A9C18.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTableInfinite.umap'
+[2020.10.01-01.21.28:450][858]LogFileHelpers: Saving map 'RobotTableInfinite' took 0.964
+[2020.10.01-01.21.28:463][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/mutliuserRover39/TrappistRover_3_9" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/TrappistRover_3_9.uasset" SILENT=true
+[2020.10.01-01.21.29:294][858]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/TrappistRover_3_9D529F1304ABE3091DA2933A4B6DD44BB.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/TrappistRover_3_9.uasset'
+[2020.10.01-01.21.29:307][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/mutliuserRover39/Plane" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/Plane.uasset" SILENT=true
+[2020.10.01-01.21.29:321][858]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/PlaneF8B04A42468C2BAD3EE2B5B2E1C4E5DB.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/Plane.uasset'
+[2020.10.01-01.21.29:334][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/mutliuserRover39/Wheels" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/Wheels.uasset" SILENT=true
+[2020.10.01-01.21.29:347][858]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/Wheels43B43A884EBE21D0B53B4A88EE7281E8.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/Wheels.uasset'
+[2020.10.01-01.21.29:361][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/mutliuserRover39/Suspension" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/Suspension.uasset" SILENT=true
+[2020.10.01-01.21.29:507][858]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/Suspension87D218634C8934530055658D474CD0B3.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/Suspension.uasset'
+[2020.10.01-01.21.29:524][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/mutliuserRover39/Mast_Cam_Body" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/Mast_Cam_Body.uasset" SILENT=true
+[2020.10.01-01.21.29:723][858]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/Mast_Cam_Body1894CF7F467668BABC2D919CF6BD2E2D.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/Mast_Cam_Body.uasset'
+[2020.10.01-01.21.29:738][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/mutliuserRover39/Body_Accents" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/Body_Accents.uasset" SILENT=true
+[2020.10.01-01.21.29:751][858]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/Body_Accents410016734DCC93C4EFE063A41FE60140.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/Body_Accents.uasset'
+[2020.10.01-01.21.29:765][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/mutliuserRover39/Torso" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/Torso.uasset" SILENT=true
+[2020.10.01-01.21.29:782][858]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/Torso1625A8B34D134D607C5538A9A0BD61E5.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/Torso.uasset'
+[2020.10.01-01.21.29:796][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/mutliuserRover39/Yellow" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/Yellow.uasset" SILENT=true
+[2020.10.01-01.21.29:809][858]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/Yellow35F52E584366AD3E8A3F57AA4CFB506C.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/Yellow.uasset'
+[2020.10.01-01.21.29:824][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/mutliuserRover39/Camera_Lens" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/Camera_Lens.uasset" SILENT=true
+[2020.10.01-01.21.29:839][858]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/Camera_LensFC1F7FF44675655C145014BB065598A5.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/Camera_Lens.uasset'
+[2020.10.01-01.21.29:851][858]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/TrappistRover_3_9_SkeletonAFB2D88842CEE91AB202BF8CBA96531A.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/TrappistRover_3_9_Skeleton.uasset'
+[2020.10.01-01.21.29:882][858]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/TrappistRover_3_9_PhysicsAsset38B68C81489FD1A6114CDD8F04172194.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/TrappistRover_3_9_PhysicsAsset.uasset'
+[2020.10.01-01.21.29:947][858]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.01-01.21.29:947][858]LogContentValidation: Display: Validating World /Game/Maps/RobotTableInfinite.RobotTableInfinite
+[2020.10.01-01.21.29:947][858]LogContentValidation: Display: Validating SkeletalMesh /Game/Models/mutliuserRover39/TrappistRover_3_9.TrappistRover_3_9
+[2020.10.01-01.21.29:947][858]LogContentValidation: Display: Validating Material /Game/Models/mutliuserRover39/Plane.Plane
+[2020.10.01-01.21.29:947][858]LogContentValidation: Display: Validating Material /Game/Models/mutliuserRover39/Wheels.Wheels
+[2020.10.01-01.21.29:947][858]LogContentValidation: Display: Validating Material /Game/Models/mutliuserRover39/Suspension.Suspension
+[2020.10.01-01.21.29:947][858]LogContentValidation: Display: Validating Material /Game/Models/mutliuserRover39/Mast_Cam_Body.Mast_Cam_Body
+[2020.10.01-01.21.29:947][858]LogContentValidation: Display: Validating Material /Game/Models/mutliuserRover39/Body_Accents.Body_Accents
+[2020.10.01-01.21.29:947][858]LogContentValidation: Display: Validating Material /Game/Models/mutliuserRover39/Torso.Torso
+[2020.10.01-01.21.29:947][858]LogContentValidation: Display: Validating Material /Game/Models/mutliuserRover39/Yellow.Yellow
+[2020.10.01-01.21.29:947][858]LogContentValidation: Display: Validating Material /Game/Models/mutliuserRover39/Camera_Lens.Camera_Lens
+[2020.10.01-01.21.29:947][858]LogContentValidation: Display: Validating Skeleton /Game/Models/mutliuserRover39/TrappistRover_3_9_Skeleton.TrappistRover_3_9_Skeleton
+[2020.10.01-01.21.29:947][858]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/mutliuserRover39/TrappistRover_3_9_PhysicsAsset.TrappistRover_3_9_PhysicsAsset
+[2020.10.01-01.22.00:773][920]LogRenderer: Reallocating scene render targets to support 1104x540 Format 10 NumSamples 1 (Frame:11997).
+[2020.10.01-01.22.00:848][921]LogRenderer: Reallocating scene render targets to support 1540x840 Format 10 NumSamples 1 (Frame:11999).
+[2020.10.01-01.23.52:482][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2020.10.01-01.23.52:517][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RobotTableInfinite" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTableInfinite.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.01-01.23.52:532][204]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2020.10.01-01.23.52:571][204]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/RobotTableInfiniteDFFA1190473BBE765291A09178284E55.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTableInfinite.umap'
+[2020.10.01-01.23.52:615][204]LogFileHelpers: Saving map 'RobotTableInfinite' took 0.099
+[2020.10.01-01.23.52:628][204]AssetCheck: New page: Asset Save: RobotTableInfinite
+[2020.10.01-01.23.52:629][204]LogContentValidation: Display: Validating World /Game/Maps/RobotTableInfinite.RobotTableInfinite
+[2020.10.01-01.24.51:557][666]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (TrappistRover_3_9)
+[2020.10.01-01.24.54:468][828]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2020.10.01-01.25.21:092][352]Cmd: TRANSACTION UNDO
+[2020.10.01-01.25.21:092][352]LogEditorTransaction: Undo Move Actors
+[2020.10.01-01.25.21:704][366]Cmd: TRANSACTION UNDO
+[2020.10.01-01.25.21:704][366]LogEditorTransaction: Undo Rotate Actors
+[2020.10.01-01.25.22:193][393]Cmd: TRANSACTION UNDO
+[2020.10.01-01.25.22:193][393]LogEditorTransaction: Undo Rotate Actors
+[2020.10.01-01.25.38:571][364]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_IH_Floor)
+[2020.10.01-01.25.44:751][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2020.10.01-01.25.44:789][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RobotTableInfinite" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTableInfinite.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.01-01.25.44:805][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.10.01-01.25.44:847][695]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/RobotTableInfinite61A66EEA4241A680CAA7F7AC62BC95B1.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTableInfinite.umap'
+[2020.10.01-01.25.44:897][695]LogFileHelpers: Saving map 'RobotTableInfinite' took 0.108
+[2020.10.01-01.25.44:909][695]AssetCheck: New page: Asset Save: RobotTableInfinite
+[2020.10.01-01.25.44:910][695]LogContentValidation: Display: Validating World /Game/Maps/RobotTableInfinite.RobotTableInfinite
+[2020.10.01-01.26.15:573][448]LogEditorViewport: Clicking Background
+[2020.10.01-01.26.16:693][513]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_IH_Floor)
+[2020.10.01-01.26.29:876][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2020.10.01-01.26.45:422][171]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_IH_Floor)
+[2020.10.01-01.26.54:279][686]LogEditorViewport: Clicking Background
+[2020.10.01-01.30.40:865][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2020.10.01-01.31.54:562][560]EditorErrors: New page: Actor attachment
+[2020.10.01-01.32.17:906][915]Cmd: TRANSACTION UNDO
+[2020.10.01-01.32.17:906][915]LogEditorTransaction: Undo Move Actors
+[2020.10.01-01.32.20:425][ 46]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (TrappistRover_3_9)
+[2020.10.01-01.32.21:899][128]EditorErrors: New page: Socket Clicked
+[2020.10.01-01.32.27:996][491]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_IH_Floor)
+[2020.10.01-01.32.33:402][795]LogEditorViewport: Clicking Background
+[2020.10.01-01.32.41:138][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (roverScienceCover)
+[2020.10.01-01.32.48:059][666]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_IH_Floor)
+[2020.10.01-01.32.49:227][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (roverScienceCover)
+[2020.10.01-01.32.56:469][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_IH_Floor)
+[2020.10.01-01.33.03:206][559]LogEditorViewport: Clicking Background
+[2020.10.01-01.35.45:034][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.10.01-01.35.45:148][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RobotTableInfinite" FILE="../../../../../Github/ReXRR/ReXRR/Saved/Autosaves/Game/Maps/RobotTableInfinite_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.10.01-01.35.45:187][928]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/RobotTableInfinite_Auto137CB170A4B11D1297141248ED1DCCBFE.tmp' to '../../../../../Github/ReXRR/ReXRR/Saved/Autosaves/Game/Maps/RobotTableInfinite_Auto1.umap'
+[2020.10.01-01.35.45:190][928]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/RobotTableInfinite' took 0.168
+[2020.10.01-01.35.45:190][928]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.168
+[2020.10.01-01.53.02:381][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.10.01-01.53.02:417][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RobotTableInfinite" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTableInfinite.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.01-01.53.02:430][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2020.10.01-01.53.02:470][198]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/RobotTableInfiniteED65C7044E26362E3AA60E91937889DD.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTableInfinite.umap'
+[2020.10.01-01.53.02:512][198]LogFileHelpers: Saving map 'RobotTableInfinite' took 0.095
+[2020.10.01-01.53.02:523][198]AssetCheck: New page: Asset Save: RobotTableInfinite
+[2020.10.01-01.53.02:523][198]LogContentValidation: Display: Validating World /Game/Maps/RobotTableInfinite.RobotTableInfinite
+[2020.10.01-01.53.04:578][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2020.10.01-01.53.04:806][307]LogSlate: Window 'ReXRR - Unreal Editor' being destroyed
+[2020.10.01-01.53.04:821][307]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.01-01.53.05:496][308]Cmd: QUIT_EDITOR
+[2020.10.01-01.53.05:496][308]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.10.01-01.53.05:593][308]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.10.01-01.53.06:142][308]LogExit: Preparing to exit.
+[2020.10.01-01.53.07:228][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.10.01-01.53.08:211][308]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-01.53.08:211][308]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-01.53.08:211][308]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-01.53.08:211][308]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-01.53.08:334][308]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.10.01-01.53.08:538][308]LogStylusInput: Shutting down StylusInput subsystem.
+[2020.10.01-01.53.08:565][308]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-01.53.08:565][308]LogExit: Editor shut down
+[2020.10.01-01.53.08:567][308]LogExit: Transaction tracking system shut down
+[2020.10.01-01.53.13:255][308]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001A35F51D980), frame # 45308
+[2020.10.01-01.53.13:255][308]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001A35F396AC0), frame # 45308
+[2020.10.01-01.53.13:296][308]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001A35F3EDC00), frame # 45308
+[2020.10.01-01.53.20:067][308]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001A318FAFE00), frame # 45308
+[2020.10.01-01.53.20:068][308]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001A300455440), frame # 45308
+[2020.10.01-01.53.20:399][308]LogExit: Object subsystem successfully closed.
+[2020.10.01-01.53.20:684][308]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.10.01-01.53.25:795][308]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (874)
+[2020.10.01-01.53.25:795][308]LogModuleManager: Shutting down and abandoning module SceneOutliner (872)
+[2020.10.01-01.53.25:795][308]LogModuleManager: Shutting down and abandoning module AddContentDialog (870)
+[2020.10.01-01.53.25:953][308]LogModuleManager: Shutting down and abandoning module WidgetCarousel (869)
+[2020.10.01-01.53.25:953][308]LogModuleManager: Shutting down and abandoning module EditorWidgets (866)
+[2020.10.01-01.53.25:953][308]LogModuleManager: Shutting down and abandoning module CollectionManager (864)
+[2020.10.01-01.53.25:994][308]LogModuleManager: Shutting down and abandoning module StatsViewer (862)
+[2020.10.01-01.53.26:050][308]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (860)
+[2020.10.01-01.53.26:051][308]LogModuleManager: Shutting down and abandoning module FoliageEdit (858)
+[2020.10.01-01.53.26:114][308]LogModuleManager: Shutting down and abandoning module LandscapeEditor (856)
+[2020.10.01-01.53.26:245][308]LogModuleManager: Shutting down and abandoning module MeshPaintMode (854)
+[2020.10.01-01.53.26:257][308]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (852)
+[2020.10.01-01.53.26:257][308]LogModuleManager: Shutting down and abandoning module ActorPickerMode (850)
+[2020.10.01-01.53.26:257][308]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (848)
+[2020.10.01-01.53.26:297][308]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (846)
+[2020.10.01-01.53.26:318][308]LogModuleManager: Shutting down and abandoning module AutomationWorker (844)
+[2020.10.01-01.53.26:381][308]LogModuleManager: Shutting down and abandoning module SunPosition (842)
+[2020.10.01-01.53.26:381][308]LogModuleManager: Shutting down and abandoning module SteamVREditor (840)
+[2020.10.01-01.53.26:381][308]LogModuleManager: Shutting down and abandoning module OculusMR (838)
+[2020.10.01-01.53.26:390][308]LogModuleManager: Shutting down and abandoning module HDRIBackdrop (836)
+[2020.10.01-01.53.26:390][308]LogModuleManager: Shutting down and abandoning module GooglePADEditor (834)
+[2020.10.01-01.53.26:390][308]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (832)
+[2020.10.01-01.53.26:390][308]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (830)
+[2020.10.01-01.53.26:413][308]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (828)
+[2020.10.01-01.53.26:428][308]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (826)
+[2020.10.01-01.53.26:563][308]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (824)
+[2020.10.01-01.53.26:601][308]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (822)
+[2020.10.01-01.53.26:601][308]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (820)
+[2020.10.01-01.53.26:601][308]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (818)
+[2020.10.01-01.53.26:601][308]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (816)
+[2020.10.01-01.53.26:601][308]LogModuleManager: Shutting down and abandoning module WebMMedia (814)
+[2020.10.01-01.53.26:634][308]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (812)
+[2020.10.01-01.53.26:666][308]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (810)
+[2020.10.01-01.53.26:760][308]LogModuleManager: Shutting down and abandoning module SequenceRecorder (809)
+[2020.10.01-01.53.26:807][308]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (806)
+[2020.10.01-01.53.26:807][308]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (804)
+[2020.10.01-01.53.26:807][308]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (802)
+[2020.10.01-01.53.26:807][308]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (800)
+[2020.10.01-01.53.26:807][308]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (798)
+[2020.10.01-01.53.26:807][308]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (796)
+[2020.10.01-01.53.26:807][308]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (794)
+[2020.10.01-01.53.26:807][308]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (792)
+[2020.10.01-01.53.26:807][308]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (790)
+[2020.10.01-01.53.26:807][308]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (788)
+[2020.10.01-01.53.26:807][308]LogModuleManager: Shutting down and abandoning module PlanarCut (786)
+[2020.10.01-01.53.26:868][308]LogModuleManager: Shutting down and abandoning module CharacterAI (784)
+[2020.10.01-01.53.26:868][308]LogModuleManager: Shutting down and abandoning module TextureAlignMode (782)
+[2020.10.01-01.53.26:868][308]LogModuleManager: Shutting down and abandoning module BspMode (780)
+[2020.10.01-01.53.26:891][308]LogModuleManager: Shutting down and abandoning module PlacementMode (779)
+[2020.10.01-01.53.26:892][308]LogModuleManager: Shutting down and abandoning module GeometryMode (776)
+[2020.10.01-01.53.26:892][308]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (774)
+[2020.10.01-01.53.26:970][308]LogModuleManager: Shutting down and abandoning module SmartSnapping (772)
+[2020.10.01-01.53.26:971][308]LogModuleManager: Shutting down and abandoning module SessionServices (770)
+[2020.10.01-01.53.26:971][308]LogModuleManager: Shutting down and abandoning module MeshPaint (768)
+[2020.10.01-01.53.27:220][308]LogModuleManager: Shutting down and abandoning module ViewportSnapping (766)
+[2020.10.01-01.53.27:220][308]LogModuleManager: Shutting down and abandoning module ViewportInteraction (764)
+[2020.10.01-01.53.27:220][308]LogModuleManager: Shutting down and abandoning module ClothPainter (762)
+[2020.10.01-01.53.27:388][308]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (761)
+[2020.10.01-01.53.27:581][308]LogModuleManager: Shutting down and abandoning module LogVisualizer (758)
+[2020.10.01-01.53.27:983][308]LogModuleManager: Shutting down and abandoning module IntroTutorials (756)
+[2020.10.01-01.53.27:996][308]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (755)
+[2020.10.01-01.53.28:220][308]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (752)
+[2020.10.01-01.53.28:221][308]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (750)
+[2020.10.01-01.53.28:326][308]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (748)
+[2020.10.01-01.53.28:326][308]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (747)
