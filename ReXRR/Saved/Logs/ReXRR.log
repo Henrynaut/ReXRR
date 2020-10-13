@@ -2417,3 +2417,387 @@ Continue: Skip saving this asset only.
 [2020.10.10-21.19.26:588][448]LogFileHelpers: Saving map 'PlantDepthOffset' took 0.148
 [2020.10.10-21.19.26:604][448]AssetCheck: New page: Asset Save: PlantDepthOffset
 [2020.10.10-21.19.26:604][448]LogContentValidation: Display: Validating World /Game/Maps/PlantDepthOffset.PlantDepthOffset
+[2020.10.10-21.21.37:101][665]BlueprintLog: New page: Compile PlantDepthOffset
+[2020.10.10-21.21.37:154][665]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.10.10-21.21.37:197][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/PlantDepthOffset" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/PlantDepthOffset.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.10-21.21.37:228][665]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2020.10.10-21.21.37:319][665]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/PlantDepthOffset28CF3FFC4C693D5136DA1EA66369D365.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/PlantDepthOffset.umap'
+[2020.10.10-21.21.37:362][665]LogFileHelpers: Saving map 'PlantDepthOffset' took 0.166
+[2020.10.10-21.21.37:379][665]AssetCheck: New page: Asset Save: PlantDepthOffset
+[2020.10.10-21.21.37:379][665]LogContentValidation: Display: Validating World /Game/Maps/PlantDepthOffset.PlantDepthOffset
+[2020.10.10-21.21.37:996][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/PlantDepthOffset" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/PlantDepthOffset.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.10-21.21.38:026][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2020.10.10-21.21.38:106][700]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/PlantDepthOffsetD8ED59684C19B8E9FD7EA19F16E73737.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/PlantDepthOffset.umap'
+[2020.10.10-21.21.38:153][700]LogFileHelpers: Saving map 'PlantDepthOffset' took 0.158
+[2020.10.10-21.21.38:170][700]AssetCheck: New page: Asset Save: PlantDepthOffset
+[2020.10.10-21.21.38:170][700]LogContentValidation: Display: Validating World /Game/Maps/PlantDepthOffset.PlantDepthOffset
+[2020.10.10-21.21.56:097][621]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.10-21.21.56:126][621]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.10-21.21.56:126][621]PIE: New page: PIE session: PlantDepthOffset (Oct 10, 2020, 11:21:56 AM)
+[2020.10.10-21.21.56:126][621]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PlantDepthOffset
+[2020.10.10-21.21.56:142][621]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015619s)
+[2020.10.10-21.21.56:171][621]LogAIModule: Creating AISystem for world PlantDepthOffset
+[2020.10.10-21.21.56:171][621]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027227E49600), frame # 273621
+[2020.10.10-21.21.56:171][621]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027247910680), frame # 273621
+[2020.10.10-21.21.56:171][621]LogPlayLevel: PIE: World Init took: (0.028407s)
+[2020.10.10-21.21.56:171][621]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlantDepthOffset.PlantDepthOffset to /Game/Maps/UEDPIE_0_PlantDepthOffset.PlantDepthOffset (0.044199s)
+[2020.10.10-21.21.56:199][621]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.10.10-21.21.56:201][621]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.10-21.21.56:201][621]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.10-21.21.56:201][621]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.10-21.21.56:201][621]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.10-21.21.56:201][621]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.10-21.21.56:201][621]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.10-21.21.56:201][621]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.10-21.21.56:201][621]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.10-21.21.56:202][621]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.10-21.21.56:202][621]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.10-21.21.56:244][621]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.10-21.21.56:244][621]LogAudioMixer: Display: 1: FrontRight
+[2020.10.10-21.21.56:244][621]LogAudioMixer: Display: 2: FrontCenter
+[2020.10.10-21.21.56:244][621]LogAudioMixer: Display: 3: LowFrequency
+[2020.10.10-21.21.56:244][621]LogAudioMixer: Display: 4: BackLeft
+[2020.10.10-21.21.56:244][621]LogAudioMixer: Display: 5: BackRight
+[2020.10.10-21.21.56:244][621]LogAudioMixer: Display: 6: SideLeft
+[2020.10.10-21.21.56:244][621]LogAudioMixer: Display: 7: SideRight
+[2020.10.10-21.21.57:888][621]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.10-21.21.57:889][621]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.10-21.21.57:889][621]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.10-21.21.57:889][621]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.10-21.21.57:889][621]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.10-21.21.57:916][621]LogInit: FAudioDevice initialized.
+[2020.10.10-21.21.57:926][621]LogLoad: Game class is 'BP_PhotoStageGameMode_C'
+[2020.10.10-21.21.57:934][621]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PlantDepthOffset.PlantDepthOffset up for play (max tick rate 60) at 2020.10.10-16.21.57
+[2020.10.10-21.21.57:934][621]LogWorld: Bringing up level for play took: 0.007225
+[2020.10.10-21.21.57:935][621]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.10.10-21.21.57:937][621]Cmd: r.ToneMapperFilm 1
+[2020.10.10-21.21.57:937][621]r.TonemapperFilm = "1"
+[2020.10.10-21.21.57:937][621]Cmd: r.AllowOcclusionQueries 0
+[2020.10.10-21.21.57:937][621]r.AllowOcclusionQueries = "0"
+[2020.10.10-21.21.57:937][621]Cmd: t.MaxFPS 60
+[2020.10.10-21.21.57:937][621]t.MaxFPS = "60"
+[2020.10.10-21.21.57:937][621]Cmd: SP.OutputDir C:/PanoramicCaptureFrames
+[2020.10.10-21.21.57:937][621]SP.OutputDir = "C:/PanoramicCaptureFrames"
+[2020.10.10-21.21.57:937][621]Cmd: SP.StepCaptureWidth 4096
+[2020.10.10-21.21.57:937][621]SP.StepCaptureWidth = "4096"
+[2020.10.10-21.21.57:938][621]Cmd: SP.CaptureSlicePixelWidth 2048
+[2020.10.10-21.21.57:938][621]SP.CaptureSlicePixelWidth = "2048"
+[2020.10.10-21.21.57:938][621]Cmd: SP.HorizontalAngularIncrement 2
+[2020.10.10-21.21.57:938][621]SP.HorizontalAngularIncrement = "2"
+[2020.10.10-21.21.57:938][621]Cmd: SP.VerticalAngularIncrement 15
+[2020.10.10-21.21.57:938][621]SP.VerticalAngularIncrement = "15"
+[2020.10.10-21.21.57:938][621]Cmd: SP.ConcurrentCaptures 8
+[2020.10.10-21.21.57:938][621]SP.ConcurrentCaptures = "8"
+[2020.10.10-21.21.57:938][621]Cmd: SP.CaptureHorizontalFOV 90
+[2020.10.10-21.21.57:938][621]SP.CaptureHorizontalFOV = "90"
+[2020.10.10-21.21.57:938][621]Cmd: SP.ShouldOverrideInitialYaw 1
+[2020.10.10-21.21.57:938][621]SP.ShouldOverrideInitialYaw = "true"
+[2020.10.10-21.21.57:938][621]Cmd: SP.ForcedInitialYaw 274.426
+[2020.10.10-21.21.57:938][621]SP.ForcedInitialYaw = "274.426"
+[2020.10.10-21.21.57:938][621]Cmd: SP.OutputFinalColor 0
+[2020.10.10-21.21.57:938][621]SP.OutputFinalColor = "false"
+[2020.10.10-21.21.57:938][621]Cmd: SP.OutputSceneDepth 1
+[2020.10.10-21.21.57:938][621]SP.OutputSceneDepth = "true"
+[2020.10.10-21.21.57:938][621]Cmd: SP.OutputWorldNormal 0
+[2020.10.10-21.21.57:938][621]SP.OutputWorldNormal = "false"
+[2020.10.10-21.21.57:938][621]Cmd: SP.OutputBaseColor 0
+[2020.10.10-21.21.57:939][621]SP.OutputBaseColor = "false"
+[2020.10.10-21.21.57:939][621]Cmd: SP.OutputAmbientOcclusion 0
+[2020.10.10-21.21.57:939][621]SP.OutputAmbientOcclusion = "false"
+[2020.10.10-21.21.57:939][621]Cmd: SP.OutputRoughness 0
+[2020.10.10-21.21.57:939][621]SP.OutputRoughness = "false"
+[2020.10.10-21.21.57:939][621]Cmd: SP.OutputMetalic 0
+[2020.10.10-21.21.57:939][621]SP.OutputMetalic = "false"
+[2020.10.10-21.21.57:939][621]Cmd: SP.OutputBitDepth 32
+[2020.10.10-21.21.57:939][621]SP.OutputBitDepth = "32"
+[2020.10.10-21.21.57:939][621]Cmd: SP.Monoscopic 1
+[2020.10.10-21.21.57:939][621]SP.Monoscopic = "true"
+[2020.10.10-21.21.57:939][621]Cmd: SP.PanoramicScreenshot
+[2020.10.10-21.21.57:941][621]LogStereoPanorama: Panoramic screenshot parameters
+[2020.10.10-21.21.57:941][621]LogStereoPanorama:  ... In Monoscopic mode
+[2020.10.10-21.21.57:941][621]LogStereoPanorama:  ... capture size: 2,048 x 2,048
+[2020.10.10-21.21.57:941][621]LogStereoPanorama:  ... spherical atlas size: 4,096 x 2,048
+[2020.10.10-21.21.57:941][621]LogStereoPanorama:  ... intermediate atlas size: 6,480 x 3,510
+[2020.10.10-21.21.57:941][621]LogStereoPanorama:  ... strip size: 36 x 270
+[2020.10.10-21.21.57:941][621]LogStereoPanorama:  ... horizontal steps: 180 at 2 degrees
+[2020.10.10-21.21.57:942][621]LogStereoPanorama:  ... vertical steps: 13 at 15 degrees
+[2020.10.10-21.21.58:003][621]Cmd: r.ToneMapperFilm 1
+[2020.10.10-21.21.58:003][621]r.TonemapperFilm = "1"
+[2020.10.10-21.21.58:003][621]Cmd: r.AllowOcclusionQueries 0
+[2020.10.10-21.21.58:003][621]r.AllowOcclusionQueries = "0"
+[2020.10.10-21.21.58:003][621]Cmd: t.MaxFPS 60
+[2020.10.10-21.21.58:003][621]t.MaxFPS = "60"
+[2020.10.10-21.21.58:003][621]Cmd: SP.OutputDir C:/PanoramicCaptureFrames
+[2020.10.10-21.21.58:003][621]SP.OutputDir = "C:/PanoramicCaptureFrames"
+[2020.10.10-21.21.58:003][621]Cmd: SP.StepCaptureWidth 4096
+[2020.10.10-21.21.58:003][621]SP.StepCaptureWidth = "4096"
+[2020.10.10-21.21.58:003][621]Cmd: SP.CaptureSlicePixelWidth 2048
+[2020.10.10-21.21.58:003][621]SP.CaptureSlicePixelWidth = "2048"
+[2020.10.10-21.21.58:003][621]Cmd: SP.HorizontalAngularIncrement 2
+[2020.10.10-21.21.58:003][621]SP.HorizontalAngularIncrement = "2"
+[2020.10.10-21.21.58:004][621]Cmd: SP.VerticalAngularIncrement 15
+[2020.10.10-21.21.58:004][621]SP.VerticalAngularIncrement = "15"
+[2020.10.10-21.21.58:004][621]Cmd: SP.ConcurrentCaptures 8
+[2020.10.10-21.21.58:004][621]SP.ConcurrentCaptures = "8"
+[2020.10.10-21.21.58:004][621]Cmd: SP.CaptureHorizontalFOV 90
+[2020.10.10-21.21.58:004][621]SP.CaptureHorizontalFOV = "90"
+[2020.10.10-21.21.58:004][621]Cmd: SP.ShouldOverrideInitialYaw 1
+[2020.10.10-21.21.58:004][621]SP.ShouldOverrideInitialYaw = "true"
+[2020.10.10-21.21.58:004][621]Cmd: SP.ForcedInitialYaw 274.426
+[2020.10.10-21.21.58:004][621]SP.ForcedInitialYaw = "274.426"
+[2020.10.10-21.21.58:004][621]Cmd: SP.OutputFinalColor 0
+[2020.10.10-21.21.58:004][621]SP.OutputFinalColor = "false"
+[2020.10.10-21.21.58:004][621]Cmd: SP.OutputSceneDepth 1
+[2020.10.10-21.21.58:004][621]SP.OutputSceneDepth = "true"
+[2020.10.10-21.21.58:004][621]Cmd: SP.OutputWorldNormal 0
+[2020.10.10-21.21.58:004][621]SP.OutputWorldNormal = "false"
+[2020.10.10-21.21.58:004][621]Cmd: SP.OutputBaseColor 0
+[2020.10.10-21.21.58:004][621]SP.OutputBaseColor = "false"
+[2020.10.10-21.21.58:004][621]Cmd: SP.OutputAmbientOcclusion 0
+[2020.10.10-21.21.58:004][621]SP.OutputAmbientOcclusion = "false"
+[2020.10.10-21.21.58:005][621]Cmd: SP.OutputRoughness 0
+[2020.10.10-21.21.58:005][621]SP.OutputRoughness = "false"
+[2020.10.10-21.21.58:005][621]Cmd: SP.OutputMetalic 0
+[2020.10.10-21.21.58:005][621]SP.OutputMetalic = "false"
+[2020.10.10-21.21.58:005][621]Cmd: SP.OutputBitDepth 32
+[2020.10.10-21.21.58:005][621]SP.OutputBitDepth = "32"
+[2020.10.10-21.21.58:005][621]Cmd: SP.Monoscopic 1
+[2020.10.10-21.21.58:005][621]SP.Monoscopic = "true"
+[2020.10.10-21.21.58:005][621]Cmd: SP.PanoramicScreenshot
+[2020.10.10-21.21.58:005][621]LogStereoPanorama: Error: Previous Job is not finished.
+[2020.10.10-21.21.58:250][621]PIE: Server logged in
+[2020.10.10-21.21.58:256][621]PIE: Play in editor total start time 2.137 seconds.
+[2020.10.10-21.21.58:380][623]LogStereoPanorama: Processing pass: SceneDepth
+[2020.10.10-21.22.03:675][684]LogSlate: Window 'Message Log' being destroyed
+[2020.10.10-21.22.03:732][684]LogSlate: Window 'Message Log' being destroyed
+[2020.10.10-21.22.36:004][ 67]Cmd: LevelEditor.ToggleImmersive
+[2020.10.10-21.22.40:714][109]Set new viewmode: Wireframe
+[2020.10.10-21.22.41:218][113]Set new viewmode: Unlit
+[2020.10.10-21.22.48:887][189]Cmd: LevelEditor.ToggleImmersive
+[2020.10.10-21.23.11:920][211]LogStereoPanorama: Writing file: C:/PanoramicCaptureFrames/2020.10.10-16.21.57/SceneDepth/Frame_00000_SceneDepth.exr
+[2020.10.10-21.23.13:359][211]LogStereoPanorama: Done!
+[2020.10.10-21.23.13:369][211]LogStereoPanorama: Duration: 75.427 seconds for frame 0
+[2020.10.10-21.23.13:370][211]LogStereoPanorama: Duration: 1.257 minutes for frame range [0,0] 
+[2020.10.10-21.23.13:432][212]Set new viewmode: Unlit
+[2020.10.10-21.23.13:433][212]Set new viewmode: Wireframe
+[2020.10.10-21.23.13:466][213]Set new viewmode: Lit_DetailLighting
+[2020.10.10-21.23.13:467][213]Set new viewmode: Lit
+[2020.10.10-21.23.13:630][215]Cmd: LevelEditor.ToggleImmersive
+[2020.10.10-21.27.13:896][ 43]Cmd: LevelEditor.ToggleImmersive
+[2020.10.10-21.27.20:013][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.10-21.27.20:014][336]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_PlantDepthOffset
+[2020.10.10-21.27.20:014][336]LogWorld: UWorld::CleanupWorld for PlantDepthOffset, bSessionEnded=true, bCleanupResources=true
+[2020.10.10-21.27.20:018][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.10-21.27.20:037][336]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.10-21.27.20:041][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.10-21.27.20:064][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.10-21.27.20:097][336]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027247910680), frame # 285336
+[2020.10.10-21.27.20:097][336]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027227E49600), frame # 285336
+[2020.10.10-21.27.20:099][336]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.10.10-21.27.20:131][337]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.10.10-21.34.30:228][ 62]Cmd: SELECT NONE
+[2020.10.10-21.37.02:416][ 85]LogActorFactory: Actor Factory created Cube
+[2020.10.10-21.37.03:367][ 88]LogActorFactory: Actor Factory created Cube
+[2020.10.10-21.37.32:575][736]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2020.10.10-21.37.47:600][637]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.10.10-21.38.09:805][923]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.10.10-21.38.09:808][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/PlantDepthOffset" FILE="../../../../../Github/ReXRR/ReXRR/Saved/Autosaves/Game/Maps/PlantDepthOffset_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.10.10-21.38.09:880][923]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/PlantDepthOffset_Auto41971C24949E57703412E7B9EE4FC6E54.tmp' to '../../../../../Github/ReXRR/ReXRR/Saved/Autosaves/Game/Maps/PlantDepthOffset_Auto4.umap'
+[2020.10.10-21.38.09:882][923]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/PlantDepthOffset' took 0.107
+[2020.10.10-21.38.09:882][923]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.107
+[2020.10.10-21.38.14:656][198]Cmd: DELETE
+[2020.10.10-21.38.14:656][198]Cmd: ACTOR DELETE
+[2020.10.10-21.38.14:659][198]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.10-21.38.14:659][198]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.10-21.38.14:684][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2020.10.10-21.38.14:685][198]LogEditorActor: Deleted 2 Actors (0.029 secs)
+[2020.10.10-21.48.10:106][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.10.10-21.48.10:109][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/PlantDepthOffset" FILE="../../../../../Github/ReXRR/ReXRR/Saved/Autosaves/Game/Maps/PlantDepthOffset_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.10.10-21.48.10:184][571]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/PlantDepthOffset_Auto551315B144231FE99E1FAEDA5CB916CE8.tmp' to '../../../../../Github/ReXRR/ReXRR/Saved/Autosaves/Game/Maps/PlantDepthOffset_Auto5.umap'
+[2020.10.10-21.48.10:186][571]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/PlantDepthOffset' took 0.107
+[2020.10.10-21.48.10:186][571]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.107
+[2020.10.10-21.51.32:084][228]LogEditorViewport: Clicking on Actor (LMB): BP_Capture_C (BP_Capture)
+[2020.10.10-21.51.32:206][230]LogEditorViewport: Clicking on Actor (LMB): BP_Capture_C (BP_Capture)
+[2020.10.10-21.51.33:319][289]LogEditorViewport: Clicking on Actor (LMB): BP_Capture_C (BP_Capture2)
+[2020.10.10-21.51.33:386][289]LogEditorViewport: Clicking on Actor (LMB): BP_Capture_C (BP_Capture2)
+[2020.10.10-21.51.53:737][447]Cmd: TRANSACTION UNDO
+[2020.10.10-21.51.53:737][447]LogEditorTransaction: Undo Move Actors
+[2020.10.10-21.51.57:536][652]Cmd: TRANSACTION UNDO
+[2020.10.10-21.51.57:536][652]LogEditorTransaction: Undo Move Actors
+[2020.10.10-21.52.00:896][828]Cmd: TRANSACTION UNDO
+[2020.10.10-21.52.00:896][828]LogEditorTransaction: Undo Move Actors
+[2020.10.10-21.55.56:484][ 34]LogEditorViewport: Clicking on Actor (LMB): PlantBP_C (PlantBP)
+[2020.10.10-21.56.13:154][644]LogActorFactory: Actor Factory created Cube
+[2020.10.10-21.56.14:219][682]LogActorFactory: Actor Factory created Cube
+[2020.10.10-21.56.59:793][883]Cmd: DELETE
+[2020.10.10-21.56.59:793][883]Cmd: ACTOR DELETE
+[2020.10.10-21.56.59:796][883]LogEditorActor: Deleted Actor: BP_Capture_C
+[2020.10.10-21.56.59:826][883]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.10.10-21.56.59:831][883]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2020.10.10-21.57.08:611][351]LogActorFactory: Actor Factory created Cube
+[2020.10.10-21.57.09:270][386]LogActorFactory: Actor Factory created Cube
+[2020.10.10-21.57.25:340][205]LogEditorViewport: Clicking on Actor (LMB): PlantBP_C (PlantBP)
+[2020.10.10-21.57.28:083][301]LogEditorViewport: Clicking on Actor (LMB): BP_Capture_C (BP_Capture)
+[2020.10.10-21.57.37:029][762]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pano1)
+[2020.10.10-21.58.10:436][309]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.10.10-21.58.10:439][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/PlantDepthOffset" FILE="../../../../../Github/ReXRR/ReXRR/Saved/Autosaves/Game/Maps/PlantDepthOffset_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.10.10-21.58.10:859][309]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/PlantDepthOffset_Auto66CEB8D1747239A3AAE618888CF0A1E9C.tmp' to '../../../../../Github/ReXRR/ReXRR/Saved/Autosaves/Game/Maps/PlantDepthOffset_Auto6.umap'
+[2020.10.10-21.58.10:862][309]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/PlantDepthOffset' took 0.450
+[2020.10.10-21.58.10:862][309]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.450
+[2020.10.10-21.58.53:805][659]BlueprintLog: New page: Compile PlantDepthOffset
+[2020.10.10-21.58.53:951][659]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.10.10-21.58.54:004][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/PlantDepthOffset" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/PlantDepthOffset.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.10-21.58.54:032][659]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.10.10-21.58.54:107][659]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/PlantDepthOffsetE0FF35C14042780DC780ECB88E100B44.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/PlantDepthOffset.umap'
+[2020.10.10-21.58.54:153][659]LogFileHelpers: Saving map 'PlantDepthOffset' took 0.150
+[2020.10.10-21.58.54:173][659]AssetCheck: New page: Asset Save: PlantDepthOffset
+[2020.10.10-21.58.54:173][659]LogContentValidation: Display: Validating World /Game/Maps/PlantDepthOffset.PlantDepthOffset
+[2020.10.10-21.58.55:517][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/PlantDepthOffset" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/PlantDepthOffset.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.10-21.58.55:546][737]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2020.10.10-21.58.55:617][737]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/PlantDepthOffset56CDDC224E21E6B8CECFCB916DBF2C6A.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/PlantDepthOffset.umap'
+[2020.10.10-21.58.55:662][737]LogFileHelpers: Saving map 'PlantDepthOffset' took 0.146
+[2020.10.10-21.58.55:681][737]AssetCheck: New page: Asset Save: PlantDepthOffset
+[2020.10.10-21.58.55:682][737]LogContentValidation: Display: Validating World /Game/Maps/PlantDepthOffset.PlantDepthOffset
+[2020.10.10-21.59.08:177][369]Cmd: DELETE
+[2020.10.10-21.59.08:177][369]Cmd: ACTOR DELETE
+[2020.10.10-21.59.11:940][369]LogSlate: Window 'Message' being destroyed
+[2020.10.10-21.59.11:949][369]Message dialog closed, result: Yes, title: Message, text: Actor BP_Capture is referenced by the level blueprint.
+Do you really want to delete it? This will break references.
+
+Reference List:
+
+BP_Capture
+[2020.10.10-21.59.11:949][369]LogEditorActor: Deleted Actor: BP_Capture_C
+[2020.10.10-21.59.11:976][369]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2020.10.10-21.59.11:978][369]LogEditorActor: Deleted 1 Actors (0.128 secs)
+[2020.10.10-21.59.17:202][640]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2020.10.10-21.59.17:247][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/PlantDepthOffset" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/PlantDepthOffset.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.10-21.59.17:273][640]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.10.10-21.59.17:361][640]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/PlantDepthOffset5DB84D9D44D8A26B7E6B40A89BC9C66D.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/PlantDepthOffset.umap'
+[2020.10.10-21.59.17:412][640]LogFileHelpers: Saving map 'PlantDepthOffset' took 0.165
+[2020.10.10-21.59.17:432][640]AssetCheck: New page: Asset Save: PlantDepthOffset
+[2020.10.10-21.59.17:432][640]LogContentValidation: Display: Validating World /Game/Maps/PlantDepthOffset.PlantDepthOffset
+[2020.10.10-21.59.35:931][345]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.10-21.59.35:958][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.10-21.59.35:958][345]PIE: New page: PIE session: PlantDepthOffset (Oct 10, 2020, 11:59:35 AM)
+[2020.10.10-21.59.35:958][345]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PlantDepthOffset
+[2020.10.10-21.59.35:972][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014094s)
+[2020.10.10-21.59.35:973][345]LogAIModule: Creating AISystem for world PlantDepthOffset
+[2020.10.10-21.59.35:974][345]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027227C31A00), frame # 369345
+[2020.10.10-21.59.35:974][345]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000271F4891300), frame # 369345
+[2020.10.10-21.59.35:974][345]LogPlayLevel: PIE: World Init took: (0.002313s)
+[2020.10.10-21.59.35:974][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlantDepthOffset.PlantDepthOffset to /Game/Maps/UEDPIE_0_PlantDepthOffset.PlantDepthOffset (0.016672s)
+[2020.10.10-21.59.35:999][345]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2020.10.10-21.59.36:001][345]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.10-21.59.36:001][345]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.10-21.59.36:001][345]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.10-21.59.36:001][345]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.10-21.59.36:001][345]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.10-21.59.36:001][345]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.10-21.59.36:001][345]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.10-21.59.36:001][345]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.10-21.59.36:002][345]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.10-21.59.36:002][345]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.10-21.59.36:046][345]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.10-21.59.36:046][345]LogAudioMixer: Display: 1: FrontRight
+[2020.10.10-21.59.36:046][345]LogAudioMixer: Display: 2: FrontCenter
+[2020.10.10-21.59.36:046][345]LogAudioMixer: Display: 3: LowFrequency
+[2020.10.10-21.59.36:046][345]LogAudioMixer: Display: 4: BackLeft
+[2020.10.10-21.59.36:046][345]LogAudioMixer: Display: 5: BackRight
+[2020.10.10-21.59.36:046][345]LogAudioMixer: Display: 6: SideLeft
+[2020.10.10-21.59.36:046][345]LogAudioMixer: Display: 7: SideRight
+[2020.10.10-21.59.37:674][345]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.10-21.59.37:675][345]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.10-21.59.37:675][345]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.10-21.59.37:675][345]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.10-21.59.37:677][345]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.10-21.59.37:704][345]LogInit: FAudioDevice initialized.
+[2020.10.10-21.59.37:732][345]LogLoad: Game class is 'BP_PhotoStageGameMode_C'
+[2020.10.10-21.59.37:742][345]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PlantDepthOffset.PlantDepthOffset up for play (max tick rate 60) at 2020.10.10-16.59.37
+[2020.10.10-21.59.37:742][345]LogWorld: Bringing up level for play took: 0.009010
+[2020.10.10-21.59.37:743][345]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.10.10-21.59.37:749][345]PIE: Server logged in
+[2020.10.10-21.59.37:750][345]PIE: Play in editor total start time 1.797 seconds.
+[2020.10.10-21.59.58:823][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.10-21.59.58:823][872]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_PlantDepthOffset
+[2020.10.10-21.59.58:824][872]LogWorld: UWorld::CleanupWorld for PlantDepthOffset, bSessionEnded=true, bCleanupResources=true
+[2020.10.10-21.59.58:825][872]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.10-21.59.58:881][872]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.10-21.59.58:886][872]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.10-21.59.58:947][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.10-21.59.58:973][872]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000271F4891300), frame # 369872
+[2020.10.10-21.59.58:973][872]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027227C31A00), frame # 369872
+[2020.10.10-21.59.58:975][872]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.10.10-21.59.59:012][873]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.10.10-22.04.21:929][325]LogTemp: Resetting audio stream to device id 
+[2020.10.10-22.04.22:574][325]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.10-22.04.22:574][325]LogAudioMixer: Display: 1: FrontRight
+[2020.10.10-22.04.22:575][325]LogAudioMixer: Display: 2: FrontCenter
+[2020.10.10-22.04.22:575][325]LogAudioMixer: Display: 3: LowFrequency
+[2020.10.10-22.04.22:575][325]LogAudioMixer: Display: 4: BackLeft
+[2020.10.10-22.04.22:575][325]LogAudioMixer: Display: 5: BackRight
+[2020.10.10-22.04.22:575][325]LogAudioMixer: Display: 6: SideLeft
+[2020.10.10-22.04.22:575][325]LogAudioMixer: Display: 7: SideRight
+[2020.10.10-22.04.24:910][326]LogTemp: Resetting audio stream to device id 
+[2020.10.10-22.04.25:005][326]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.10-22.04.25:005][326]LogAudioMixer: Display: 1: FrontRight
+[2020.10.10-22.04.25:005][326]LogAudioMixer: Display: 2: FrontCenter
+[2020.10.10-22.04.25:005][326]LogAudioMixer: Display: 3: LowFrequency
+[2020.10.10-22.04.25:005][326]LogAudioMixer: Display: 4: BackLeft
+[2020.10.10-22.04.25:005][326]LogAudioMixer: Display: 5: BackRight
+[2020.10.10-22.04.25:005][326]LogAudioMixer: Display: 6: SideLeft
+[2020.10.10-22.04.25:005][326]LogAudioMixer: Display: 7: SideRight
+[2020.10.10-22.04.26:794][327]LogTemp: Resetting audio stream to device id 
+[2020.10.10-22.04.26:862][327]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.10-22.04.26:862][327]LogAudioMixer: Display: 1: FrontRight
+[2020.10.10-22.04.26:862][327]LogAudioMixer: Display: 2: FrontCenter
+[2020.10.10-22.04.26:862][327]LogAudioMixer: Display: 3: LowFrequency
+[2020.10.10-22.04.26:862][327]LogAudioMixer: Display: 4: BackLeft
+[2020.10.10-22.04.26:862][327]LogAudioMixer: Display: 5: BackRight
+[2020.10.10-22.04.26:862][327]LogAudioMixer: Display: 6: SideLeft
+[2020.10.10-22.04.26:862][327]LogAudioMixer: Display: 7: SideRight
+[2020.10.10-22.04.28:651][328]LogTemp: Resetting audio stream to device id 
+[2020.10.10-22.04.28:717][328]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.10-22.04.28:717][328]LogAudioMixer: Display: 1: FrontRight
+[2020.10.10-22.04.28:717][328]LogAudioMixer: Display: 2: FrontCenter
+[2020.10.10-22.04.28:717][328]LogAudioMixer: Display: 3: LowFrequency
+[2020.10.10-22.04.28:717][328]LogAudioMixer: Display: 4: BackLeft
+[2020.10.10-22.04.28:717][328]LogAudioMixer: Display: 5: BackRight
+[2020.10.10-22.04.28:717][328]LogAudioMixer: Display: 6: SideLeft
+[2020.10.10-22.04.28:717][328]LogAudioMixer: Display: 7: SideRight
+[2020.10.10-22.04.30:490][329]LogTemp: Resetting audio stream to device id 
+[2020.10.10-22.04.30:559][329]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.10-22.04.30:559][329]LogAudioMixer: Display: 1: FrontRight
+[2020.10.10-22.04.30:559][329]LogAudioMixer: Display: 2: FrontCenter
+[2020.10.10-22.04.30:559][329]LogAudioMixer: Display: 3: LowFrequency
+[2020.10.10-22.04.30:559][329]LogAudioMixer: Display: 4: BackLeft
+[2020.10.10-22.04.30:559][329]LogAudioMixer: Display: 5: BackRight
+[2020.10.10-22.04.30:559][329]LogAudioMixer: Display: 6: SideLeft
+[2020.10.10-22.04.30:559][329]LogAudioMixer: Display: 7: SideRight
+[2020.10.10-22.04.32:321][330]LogTemp: Resetting audio stream to device id 
+[2020.10.10-22.04.32:396][330]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.10-22.04.32:396][330]LogAudioMixer: Display: 1: FrontRight
+[2020.10.10-22.04.32:396][330]LogAudioMixer: Display: 2: FrontCenter
+[2020.10.10-22.04.32:396][330]LogAudioMixer: Display: 3: LowFrequency
+[2020.10.10-22.04.32:396][330]LogAudioMixer: Display: 4: BackLeft
+[2020.10.10-22.04.32:396][330]LogAudioMixer: Display: 5: BackRight
+[2020.10.10-22.04.32:396][330]LogAudioMixer: Display: 6: SideLeft
+[2020.10.10-22.04.32:396][330]LogAudioMixer: Display: 7: SideRight
+[2020.10.10-22.04.34:149][331]LogTemp: Resetting audio stream to device id 
+[2020.10.10-22.04.34:219][331]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.10-22.04.34:219][331]LogAudioMixer: Display: 1: FrontRight
+[2020.10.10-22.04.34:219][331]LogAudioMixer: Display: 2: FrontCenter
+[2020.10.10-22.04.34:219][331]LogAudioMixer: Display: 3: LowFrequency
+[2020.10.10-22.04.34:219][331]LogAudioMixer: Display: 4: BackLeft
+[2020.10.10-22.04.34:219][331]LogAudioMixer: Display: 5: BackRight
+[2020.10.10-22.04.34:219][331]LogAudioMixer: Display: 6: SideLeft
+[2020.10.10-22.04.34:219][331]LogAudioMixer: Display: 7: SideRight
+[2020.10.10-22.04.35:990][332]LogTemp: Resetting audio stream to device id 
+[2020.10.10-22.04.36:058][332]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.10-22.04.36:058][332]LogAudioMixer: Display: 1: FrontRight
+[2020.10.10-22.04.36:058][332]LogAudioMixer: Display: 2: FrontCenter
+[2020.10.10-22.04.36:058][332]LogAudioMixer: Display: 3: LowFrequency
+[2020.10.10-22.04.36:058][332]LogAudioMixer: Display: 4: BackLeft
+[2020.10.10-22.04.36:058][332]LogAudioMixer: Display: 5: BackRight
+[2020.10.10-22.04.36:058][332]LogAudioMixer: Display: 6: SideLeft
+[2020.10.10-22.04.36:058][332]LogAudioMixer: Display: 7: SideRight
