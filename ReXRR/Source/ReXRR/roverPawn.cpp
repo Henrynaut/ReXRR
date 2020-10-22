@@ -50,7 +50,7 @@ AroverPawn::AroverPawn()
     Vehicle4W->TransmissionSetup.GearAutoBoxLatency = 1.0f;
 
     //Create a spring arm component for our chase camera
-    SpringArm = CreateDefaultSubObject<UCameraComponent>(TEXT("SpringArm"));
+    SpringArm = CreateDefaultSubobject<UCameraComponent>(TEXT("SpringArm"));
     SpringArm->SetupAttachment(RootComponent);
     SpringArm->TargetArmLength = 250.0f;
     SpringArm->bUsePawnControlRotation=true;
