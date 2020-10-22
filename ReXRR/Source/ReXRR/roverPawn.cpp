@@ -5,7 +5,8 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Components/InputComponent.h"
-#include "WheeledVehicleMovementComponenet4W.h"
+#include "WheeledVehicleMovementComponent4W.h"
+#include "UObject/UObjectGlobals.h"
 
 //Define steering and input constant names
 static const FName NAME_SteerInput("Steer");
@@ -49,7 +50,7 @@ AroverPawn::AroverPawn()
     Vehicle4W->TransmissionSetup.GearAutoBoxLatency = 1.0f;
 
     //Create a spring arm component for our chase camera
-    SpringArm = CreateDefaultSubObject<UCameraComponenet>(TEXT("SpringArm"));
+    SpringArm = CreateDefaultSubObject<UCameraComponent>(TEXT("SpringArm"));
     SpringArm->SetupAttachment(RootComponent);
     SpringArm->TargetArmLength = 250.0f;
     SpringArm->bUsePawnControlRotation=true;
@@ -74,8 +75,50 @@ void AroverPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 
     PlayerInputComponent->BindAxis(NAME_ThrottleInput, this, &AroverPawn::ApplyThrottle);
     PlayerInputComponent->BindAxis(NAME_SteerInput, this, &AroverPawn::ApplySteering);
-    PlayerInputComponent->BindAxis("LookUp", this, &AroverPawn:::LookUp);
-    PlayerInputComponent->BindAxis("Turn", this, &AroverPawn:::Turn);
+    PlayerInputComponent->BindAxis("LookUp", this, &AroverPawn::LookUp);
+    PlayerInputComponent->BindAxis("Turn", this, &AroverPawn::Turn);
 
-    void.
+    PlayerInputComponent->BindAction("Handbrake", IE_Pressed, this, &AroverPawn::OnHandbrakePressed);
+    PlayerInputComponent->BindAction("Handbrake", IE_Released, this, &AroverPawn::OnHandbrakeReleased);
 }
+
+void AroverPawn::ApplyThrottle(float Val)
+{
+    GetVehicleMovementComponent()->SetThrottleInput(Val);
+}
+void AroverPawn::ApplySteering(float Val)
+{
+    GetVehicleMovementComponent()->SetSteeringInput(Val);
+}
+
+void AroverPawn::LookUp(float Val)
+{
+    if (Val != 0.f)
+    {
+        AddControllerPitchInput(Val);
+    }
+}
+
+void AroverPawn::Turn(float Val)
+{
+    if (Val != 0.f)
+    {
+        AddControllerYawInput(Val);
+    }
+}
+
+void AroverPawn::OnHandbrakePressed()
+{
+    GetVehicleMovementComponent()->SetHandbrakeInput(true);
+}
+
+void AroverPawn::OnHandbrakeReleased()
+{
+    GetVehicleMovementComponent()->SetHandbrakeInput(false);
+}
+
+void AroverPawn::UpdateInAirControl(float DeltaTime)
+{
+
+}
+
