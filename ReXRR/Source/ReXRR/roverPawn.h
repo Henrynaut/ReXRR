@@ -37,13 +37,13 @@ public:
 	//Update in air and upsidedown physics
 	void UpdateInAirControl(float DeltaTime);
 
-protected:
+// protected:
 
-	//Spring arm that will offset the camera
-	UPROPERTY(Category = Camera, EditDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
-		class USpringArmComponent* SpringArm;
+	// //Spring arm that will offset the camera
+	// UPROPERTY(Category = Camera, EditDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+	// 	class USpringArmComponent* SpringArm;
 
-	//Camera Componenet that will be our viewpoint
-	UPROPERTY(Category = Camera, EditDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
-		class UCameraComponent* Camera;
+	// //Camera Componenet that will be our viewpoint
+	// UPROPERTY(Category = Camera, EditDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+	// 	class UCameraComponent* Camera;
 };
