@@ -2279,3 +2279,440 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.23-01.37.21:258][604]AssetCheck: New page: Asset Save: multiple assets
 [2020.10.23-01.37.21:258][604]LogContentValidation: Display: Validating World /Game/Maps/RobotTableInfinite.RobotTableInfinite
 [2020.10.23-01.37.21:258][604]LogContentValidation: Display: Validating StaticMesh /Game/Models/mutliuserRover39/sandstonerockformarch.sandstonerockformarch
+[2020.10.23-01.37.40:490][756]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.23-01.37.40:521][756]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.23-01.37.40:521][756]PIE: New page: PIE session: RobotTableInfinite (Oct 22, 2020, 3:37:40 PM)
+[2020.10.23-01.37.40:521][756]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RobotTableInfinite
+[2020.10.23-01.37.41:596][756]LogPlayLevel: PIE: StaticDuplicateObject took: (1.074976s)
+[2020.10.23-01.37.41:597][756]LogAIModule: Creating AISystem for world RobotTableInfinite
+[2020.10.23-01.37.41:597][756]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024368969A00), frame # 104756
+[2020.10.23-01.37.41:597][756]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024355426980), frame # 104756
+[2020.10.23-01.37.41:597][756]LogPlayLevel: PIE: World Init took: (0.001089s)
+[2020.10.23-01.37.41:597][756]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RobotTableInfinite.RobotTableInfinite to /Game/Maps/UEDPIE_0_RobotTableInfinite.RobotTableInfinite (1.076273s)
+[2020.10.23-01.37.41:633][756]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2020.10.23-01.37.41:635][756]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.23-01.37.41:635][756]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.23-01.37.41:635][756]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.23-01.37.41:635][756]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.23-01.37.41:636][756]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.23-01.37.41:636][756]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.23-01.37.41:636][756]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.23-01.37.41:636][756]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.23-01.37.42:755][756]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.23-01.37.42:755][756]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.23-01.37.42:794][756]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.23-01.37.42:794][756]LogAudioMixer: Display: 1: FrontRight
+[2020.10.23-01.37.42:794][756]LogAudioMixer: Display: 2: FrontCenter
+[2020.10.23-01.37.42:795][756]LogAudioMixer: Display: 3: LowFrequency
+[2020.10.23-01.37.42:795][756]LogAudioMixer: Display: 4: BackLeft
+[2020.10.23-01.37.42:795][756]LogAudioMixer: Display: 5: BackRight
+[2020.10.23-01.37.42:795][756]LogAudioMixer: Display: 6: SideLeft
+[2020.10.23-01.37.42:795][756]LogAudioMixer: Display: 7: SideRight
+[2020.10.23-01.37.42:922][756]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.23-01.37.42:923][756]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.23-01.37.42:923][756]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.23-01.37.42:923][756]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.23-01.37.42:923][756]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.23-01.37.42:945][756]LogInit: FAudioDevice initialized.
+[2020.10.23-01.37.42:958][756]LogLoad: Game class is 'BP_PhotoStageGameMode_C'
+[2020.10.23-01.37.42:962][756]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RobotTableInfinite.RobotTableInfinite up for play (max tick rate 60) at 2020.10.22-20.37.42
+[2020.10.23-01.37.42:962][756]LogWorld: Bringing up level for play took: 0.002767
+[2020.10.23-01.37.42:962][756]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2020.10.23-01.37.42:965][756]PIE: Server logged in
+[2020.10.23-01.37.42:966][756]PIE: Play in editor total start time 2.45 seconds.
+[2020.10.23-01.37.50:316][ 68]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.23-01.37.50:316][ 68]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RobotTableInfinite
+[2020.10.23-01.37.50:316][ 68]LogWorld: UWorld::CleanupWorld for RobotTableInfinite, bSessionEnded=true, bCleanupResources=true
+[2020.10.23-01.37.50:316][ 68]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.23-01.37.50:354][ 68]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.23-01.37.50:359][ 68]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.23-01.37.50:394][ 68]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.23-01.37.50:433][ 68]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024355426980), frame # 105068
+[2020.10.23-01.37.50:451][ 68]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024368969A00), frame # 105068
+[2020.10.23-01.37.50:456][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2020.10.23-01.37.50:669][ 69]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.10.23-01.37.53:554][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sandstonerockformarch)
+[2020.10.23-01.38.13:700][  3]LogActorFactory: Actor Factory created Sphere
+[2020.10.23-01.38.14:498][ 19]LogActorFactory: Actor Factory created Sphere
+[2020.10.23-01.38.16:386][ 88]LogActorFactory: Actor Factory created Sphere
+[2020.10.23-01.38.16:935][100]LogActorFactory: Actor Factory created Sphere
+[2020.10.23-01.38.18:820][174]LogActorFactory: Actor Factory created Cube
+[2020.10.23-01.38.19:441][185]LogActorFactory: Actor Factory created Cube
+[2020.10.23-01.38.26:677][472]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2020.10.23-01.38.29:842][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2020.10.23-01.38.38:154][886]LogActorFactory: Actor Factory created Cone
+[2020.10.23-01.38.38:891][902]LogActorFactory: Actor Factory created Cone
+[2020.10.23-01.38.47:590][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_IH_Floor)
+[2020.10.23-01.38.48:925][301]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.23-01.38.48:954][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.23-01.38.48:954][301]PIE: New page: PIE session: RobotTableInfinite (Oct 22, 2020, 3:38:48 PM)
+[2020.10.23-01.38.48:954][301]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RobotTableInfinite
+[2020.10.23-01.38.48:961][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006605s)
+[2020.10.23-01.38.48:962][301]LogAIModule: Creating AISystem for world RobotTableInfinite
+[2020.10.23-01.38.48:962][301]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024338851400), frame # 107301
+[2020.10.23-01.38.48:962][301]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000243415F5D00), frame # 107301
+[2020.10.23-01.38.48:962][301]LogPlayLevel: PIE: World Init took: (0.001121s)
+[2020.10.23-01.38.48:962][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RobotTableInfinite.RobotTableInfinite to /Game/Maps/UEDPIE_0_RobotTableInfinite.RobotTableInfinite (0.007883s)
+[2020.10.23-01.38.48:998][301]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2020.10.23-01.38.49:002][301]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.23-01.38.49:002][301]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.23-01.38.49:002][301]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.23-01.38.49:002][301]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.23-01.38.49:002][301]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.23-01.38.49:002][301]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.23-01.38.49:002][301]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.23-01.38.49:002][301]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.23-01.38.49:003][301]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.23-01.38.49:003][301]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.23-01.38.49:044][301]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.23-01.38.49:044][301]LogAudioMixer: Display: 1: FrontRight
+[2020.10.23-01.38.49:044][301]LogAudioMixer: Display: 2: FrontCenter
+[2020.10.23-01.38.49:044][301]LogAudioMixer: Display: 3: LowFrequency
+[2020.10.23-01.38.49:044][301]LogAudioMixer: Display: 4: BackLeft
+[2020.10.23-01.38.49:044][301]LogAudioMixer: Display: 5: BackRight
+[2020.10.23-01.38.49:044][301]LogAudioMixer: Display: 6: SideLeft
+[2020.10.23-01.38.49:044][301]LogAudioMixer: Display: 7: SideRight
+[2020.10.23-01.38.49:187][301]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.23-01.38.49:188][301]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.23-01.38.49:188][301]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.23-01.38.49:188][301]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.23-01.38.49:188][301]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.23-01.38.49:215][301]LogInit: FAudioDevice initialized.
+[2020.10.23-01.38.49:224][301]LogLoad: Game class is 'BP_PhotoStageGameMode_C'
+[2020.10.23-01.38.49:228][301]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RobotTableInfinite.RobotTableInfinite up for play (max tick rate 60) at 2020.10.22-20.38.49
+[2020.10.23-01.38.49:229][301]LogWorld: Bringing up level for play took: 0.003080
+[2020.10.23-01.38.49:229][301]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.10.23-01.38.49:232][301]PIE: Server logged in
+[2020.10.23-01.38.49:233][301]PIE: Play in editor total start time 0.285 seconds.
+[2020.10.23-01.39.07:193][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.23-01.39.07:193][ 76]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RobotTableInfinite
+[2020.10.23-01.39.07:193][ 76]LogWorld: UWorld::CleanupWorld for RobotTableInfinite, bSessionEnded=true, bCleanupResources=true
+[2020.10.23-01.39.07:194][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.23-01.39.07:226][ 76]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.23-01.39.07:232][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.23-01.39.07:311][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.23-01.39.07:312][ 76]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000243415F5D00), frame # 108076
+[2020.10.23-01.39.07:312][ 76]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024338851400), frame # 108076
+[2020.10.23-01.39.07:316][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2020.10.23-01.39.07:521][ 77]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.10.23-01.39.17:632][450]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cone)
+[2020.10.23-01.39.47:384][483]LogMaterial: Display: Missing cached shader map for material Blue, compiling. 
+[2020.10.23-01.39.47:491][484]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 39
+[2020.10.23-01.39.47:491][484]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 29
+[2020.10.23-01.39.47:491][484]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.10.23-01.39.47:491][484]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.10.23-01.39.50:590][564]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Models/mutliuserRover39/Blue.Blue
+[2020.10.23-01.39.50:648][564]LogMaterial: Display: Missing cached shader map for material Blue, compiling. 
+[2020.10.23-01.39.51:100][564]LogMaterial: Display: Missing cached shader map for material Blue, compiling. 
+[2020.10.23-01.39.51:132][564]LogMaterial: Display: Missing cached shader map for material Blue, compiling. 
+[2020.10.23-01.39.51:171][564]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.10.23-01.39.54:000][637]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 31
+[2020.10.23-01.39.54:513][654]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 30
+[2020.10.23-01.39.55:050][664]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 29
+[2020.10.23-01.39.55:050][664]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 28
+[2020.10.23-01.39.55:113][664]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 27
+[2020.10.23-01.39.55:291][666]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 26
+[2020.10.23-01.39.55:394][668]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 25
+[2020.10.23-01.39.55:833][682]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 24
+[2020.10.23-01.39.55:995][687]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 23
+[2020.10.23-01.39.56:079][690]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 22
+[2020.10.23-01.39.56:358][700]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
+[2020.10.23-01.39.56:529][706]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 20
+[2020.10.23-01.39.56:674][711]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.10.23-01.39.57:081][725]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 18
+[2020.10.23-01.39.57:112][726]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 17
+[2020.10.23-01.39.57:191][729]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 16
+[2020.10.23-01.39.57:578][743]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.10.23-01.39.57:690][747]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2020.10.23-01.39.57:712][747]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.10.23-01.39.57:724][747]LogMaterial: Display: Missing cached shader map for material Blue, compiling. 
+[2020.10.23-01.39.58:047][756]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 31
+[2020.10.23-01.39.58:144][759]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 30
+[2020.10.23-01.39.58:296][764]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 29
+[2020.10.23-01.39.58:616][774]LogMaterial: Display: Missing cached shader map for material Blue, compiling. 
+[2020.10.23-01.39.58:661][774]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.10.23-01.39.58:683][774]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.10.23-01.39.58:690][774]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 27
+[2020.10.23-01.39.58:695][774]LogMaterial: Display: Missing cached shader map for material Blue, compiling. 
+[2020.10.23-01.39.58:731][774]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.10.23-01.39.58:744][774]LogMaterial: Display: Missing cached shader map for material Blue, compiling. 
+[2020.10.23-01.39.58:779][774]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.10.23-01.39.58:791][774]LogMaterial: Display: Missing cached shader map for material Blue, compiling. 
+[2020.10.23-01.39.58:820][774]LogSlate: Window 'Color Picker' being destroyed
+[2020.10.23-01.39.58:897][775]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 31
+[2020.10.23-01.39.59:136][781]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 30
+[2020.10.23-01.39.59:327][787]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 29
+[2020.10.23-01.39.59:859][804]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 28
+[2020.10.23-01.40.00:127][810]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 27
+[2020.10.23-01.40.00:589][822]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 26
+[2020.10.23-01.40.00:770][828]LogMaterialEditor: Saving and Compiling material Blue
+[2020.10.23-01.40.03:501][828]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 25
+[2020.10.23-01.40.03:501][828]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 24
+[2020.10.23-01.40.03:501][828]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 23
+[2020.10.23-01.40.03:501][828]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 22
+[2020.10.23-01.40.03:501][828]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
+[2020.10.23-01.40.03:501][828]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 20
+[2020.10.23-01.40.03:501][828]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.10.23-01.40.03:501][828]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 18
+[2020.10.23-01.40.03:501][828]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 17
+[2020.10.23-01.40.03:501][828]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 16
+[2020.10.23-01.40.03:501][828]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+[2020.10.23-01.40.03:501][828]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2020.10.23-01.40.03:501][828]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2020.10.23-01.40.03:501][828]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.10.23-01.40.03:502][828]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 11
+[2020.10.23-01.40.03:502][828]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.10.23-01.40.03:523][828]LogMaterial: Display: Missing cached shader map for material Blue, compiling. 
+[2020.10.23-01.40.03:689][828]LogMaterial: Display: Missing cached shader map for material Blue, compiling. 
+[2020.10.23-01.40.03:745][828]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 27
+[2020.10.23-01.40.03:878][828]LogUObjectHash: Compacting FUObjectHashTables data took   6.07ms
+[2020.10.23-01.40.03:918][828]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 65
+[2020.10.23-01.40.03:918][828]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.10.23-01.40.04:499][828]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 64
+[2020.10.23-01.40.04:499][828]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 65
+[2020.10.23-01.40.04:499][828]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 64
+[2020.10.23-01.40.05:057][828]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 63
+[2020.10.23-01.40.05:057][828]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 62
+[2020.10.23-01.40.05:057][828]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 61
+[2020.10.23-01.40.05:057][828]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 60
+[2020.10.23-01.40.05:613][828]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 59
+[2020.10.23-01.40.05:613][828]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 58
+[2020.10.23-01.40.05:613][828]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 57
+[2020.10.23-01.40.05:613][828]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 56
+[2020.10.23-01.40.06:172][828]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 55
+[2020.10.23-01.40.06:172][828]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 54
+[2020.10.23-01.40.06:172][828]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 53
+[2020.10.23-01.40.06:728][828]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 52
+[2020.10.23-01.40.06:728][828]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 51
+[2020.10.23-01.40.06:728][828]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 50
+[2020.10.23-01.40.06:728][828]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 49
+[2020.10.23-01.40.06:728][828]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 48
+[2020.10.23-01.40.07:287][828]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 47
+[2020.10.23-01.40.07:287][828]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 46
+[2020.10.23-01.40.07:841][828]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 45
+[2020.10.23-01.40.07:841][828]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 44
+[2020.10.23-01.40.07:841][828]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 43
+[2020.10.23-01.40.07:841][828]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 42
+[2020.10.23-01.40.08:399][828]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 41
+[2020.10.23-01.40.08:399][828]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 40
+[2020.10.23-01.40.08:399][828]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 39
+[2020.10.23-01.40.08:399][828]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 29
+[2020.10.23-01.40.08:399][828]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 21
+[2020.10.23-01.40.08:593][828]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+[2020.10.23-01.40.08:604][828]TextureStreamingBuild: Display: Compiling optional shaders took 4.722 seconds.
+[2020.10.23-01.40.08:676][828]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2020.10.23-01.40.11:004][828]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.10.23-01.40.11:564][828]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2020.10.23-01.40.12:123][828]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2020.10.23-01.40.12:683][828]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.10.23-01.40.13:204][828]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.10.23-01.40.13:204][828]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.10.23-01.40.13:242][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/mutliuserRover39/Blue" FILE="../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/Blue.uasset" SILENT=true
+[2020.10.23-01.40.13:260][828]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/Blue5EF5E80E464B8BCD0CC78FA1FFE40F5D.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Models/mutliuserRover39/Blue.uasset'
+[2020.10.23-01.40.13:317][828]AssetCheck: New page: Asset Save: Blue
+[2020.10.23-01.40.13:317][828]LogContentValidation: Display: Validating Material /Game/Models/mutliuserRover39/Blue.Blue
+[2020.10.23-01.40.13:333][828]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.10.23-01.40.13:333][828]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.10.23-01.40.13:333][828]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.10.23-01.40.13:333][828]MaterialEditorStats: Base pass vertex shader: 86 instructions
+[2020.10.23-01.40.13:333][828]MaterialEditorStats: Texture samplers: 3/16
+[2020.10.23-01.40.19:154][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2020.10.23-01.40.19:197][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RobotTableInfinite" FILE="../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTableInfinite.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.23-01.40.19:242][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.10.23-01.40.19:297][ 59]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/RobotTableInfinite4020DD414E700F116A83A7B5B6A998CF.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/Maps/RobotTableInfinite.umap'
+[2020.10.23-01.40.19:339][ 59]LogFileHelpers: Saving map 'RobotTableInfinite' took 0.143
+[2020.10.23-01.40.19:365][ 59]AssetCheck: New page: Asset Save: RobotTableInfinite
+[2020.10.23-01.40.19:365][ 59]LogContentValidation: Display: Validating World /Game/Maps/RobotTableInfinite.RobotTableInfinite
+[2020.10.23-01.40.25:502][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_IH_Floor)
+[2020.10.23-01.40.26:720][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2020.10.23-01.40.33:185][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2020.10.23-01.40.39:492][954]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_IH_Floor)
+[2020.10.23-01.40.45:923][242]LogEditorViewport: Clicking on Actor (LMB): BP_Rover_C (BP_Rover)
+[2020.10.23-01.40.55:914][643]BlueprintLog: New page: Compile BP_Rover
+[2020.10.23-01.40.56:004][643]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2020.10.23-01.40.56:074][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/Rover/BP_Rover" FILE="../../../../../Github/ReXRR/ReXRR/Content/BPs/Rover/BP_Rover.uasset" SILENT=true
+[2020.10.23-01.40.56:106][643]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/BP_RoverF4ABB6EE4E4757B352F0169EA4E69EA4.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/BPs/Rover/BP_Rover.uasset'
+[2020.10.23-01.40.56:137][643]AssetCheck: New page: Asset Save: BP_Rover
+[2020.10.23-01.40.56:137][643]LogContentValidation: Display: Validating Blueprint /Game/BPs/Rover/BP_Rover.BP_Rover
+[2020.10.23-01.40.56:776][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/Rover/BP_Rover" FILE="../../../../../Github/ReXRR/ReXRR/Content/BPs/Rover/BP_Rover.uasset" SILENT=true
+[2020.10.23-01.40.56:798][662]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/BP_Rover775E78C149B285E3274A59893AAADD0F.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/BPs/Rover/BP_Rover.uasset'
+[2020.10.23-01.40.56:830][662]AssetCheck: New page: Asset Save: BP_Rover
+[2020.10.23-01.40.56:830][662]LogContentValidation: Display: Validating Blueprint /Game/BPs/Rover/BP_Rover.BP_Rover
+[2020.10.23-01.40.58:337][725]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.23-01.40.58:369][725]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.23-01.40.58:369][725]PIE: New page: PIE session: RobotTableInfinite (Oct 22, 2020, 3:40:58 PM)
+[2020.10.23-01.40.58:370][725]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RobotTableInfinite
+[2020.10.23-01.40.58:377][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007011s)
+[2020.10.23-01.40.58:378][725]LogAIModule: Creating AISystem for world RobotTableInfinite
+[2020.10.23-01.40.58:378][725]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002430610A000), frame # 111725
+[2020.10.23-01.40.58:378][725]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024345B83240), frame # 111725
+[2020.10.23-01.40.58:378][725]LogPlayLevel: PIE: World Init took: (0.001128s)
+[2020.10.23-01.40.58:378][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RobotTableInfinite.RobotTableInfinite to /Game/Maps/UEDPIE_0_RobotTableInfinite.RobotTableInfinite (0.008290s)
+[2020.10.23-01.40.58:417][725]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2020.10.23-01.40.58:419][725]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.23-01.40.58:419][725]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.23-01.40.58:419][725]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.23-01.40.58:419][725]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.23-01.40.58:419][725]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.23-01.40.58:419][725]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.23-01.40.58:419][725]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.23-01.40.58:420][725]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.23-01.40.58:420][725]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.23-01.40.58:420][725]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.23-01.40.58:461][725]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.23-01.40.58:461][725]LogAudioMixer: Display: 1: FrontRight
+[2020.10.23-01.40.58:461][725]LogAudioMixer: Display: 2: FrontCenter
+[2020.10.23-01.40.58:461][725]LogAudioMixer: Display: 3: LowFrequency
+[2020.10.23-01.40.58:461][725]LogAudioMixer: Display: 4: BackLeft
+[2020.10.23-01.40.58:461][725]LogAudioMixer: Display: 5: BackRight
+[2020.10.23-01.40.58:461][725]LogAudioMixer: Display: 6: SideLeft
+[2020.10.23-01.40.58:461][725]LogAudioMixer: Display: 7: SideRight
+[2020.10.23-01.40.58:748][725]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.23-01.40.58:748][725]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.23-01.40.58:748][725]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.23-01.40.58:748][725]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.23-01.40.58:749][725]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.23-01.40.58:771][725]LogInit: FAudioDevice initialized.
+[2020.10.23-01.40.58:784][725]LogLoad: Game class is 'BP_PhotoStageGameMode_C'
+[2020.10.23-01.40.58:788][725]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RobotTableInfinite.RobotTableInfinite up for play (max tick rate 60) at 2020.10.22-20.40.58
+[2020.10.23-01.40.58:788][725]LogWorld: Bringing up level for play took: 0.002485
+[2020.10.23-01.40.58:788][725]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2020.10.23-01.40.58:791][725]PIE: Server logged in
+[2020.10.23-01.40.58:792][725]PIE: Play in editor total start time 0.428 seconds.
+[2020.10.23-01.41.03:003][927]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.23-01.41.03:003][927]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RobotTableInfinite
+[2020.10.23-01.41.03:004][927]LogWorld: UWorld::CleanupWorld for RobotTableInfinite, bSessionEnded=true, bCleanupResources=true
+[2020.10.23-01.41.03:004][927]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.23-01.41.03:036][927]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.23-01.41.03:041][927]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.23-01.41.03:115][927]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.23-01.41.03:116][927]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024345B83240), frame # 111927
+[2020.10.23-01.41.03:116][927]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002430610A000), frame # 111927
+[2020.10.23-01.41.03:119][927]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2020.10.23-01.41.03:226][928]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2020.10.23-01.41.17:504][640]BlueprintLog: New page: Compile BP_Rover
+[2020.10.23-01.41.17:572][640]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2020.10.23-01.41.17:650][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/Rover/BP_Rover" FILE="../../../../../Github/ReXRR/ReXRR/Content/BPs/Rover/BP_Rover.uasset" SILENT=true
+[2020.10.23-01.41.17:675][640]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/BP_Rover504E1B7744169A62ECD136A197EBB576.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/BPs/Rover/BP_Rover.uasset'
+[2020.10.23-01.41.17:698][640]AssetCheck: New page: Asset Save: BP_Rover
+[2020.10.23-01.41.17:698][640]LogContentValidation: Display: Validating Blueprint /Game/BPs/Rover/BP_Rover.BP_Rover
+[2020.10.23-01.41.18:058][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/Rover/BP_Rover" FILE="../../../../../Github/ReXRR/ReXRR/Content/BPs/Rover/BP_Rover.uasset" SILENT=true
+[2020.10.23-01.41.18:078][654]LogSavePackage: Moving '../../../../../Github/ReXRR/ReXRR/Saved/BP_Rover2215941E49ACAFDBE77DCA981A062D02.tmp' to '../../../../../Github/ReXRR/ReXRR/Content/BPs/Rover/BP_Rover.uasset'
+[2020.10.23-01.41.18:113][654]AssetCheck: New page: Asset Save: BP_Rover
+[2020.10.23-01.41.18:113][654]LogContentValidation: Display: Validating Blueprint /Game/BPs/Rover/BP_Rover.BP_Rover
+[2020.10.23-01.41.22:529][816]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{675c8b0e-2adb-4b68-aacc-272e623a052b}.
+[2020.10.23-01.41.23:833][816]LogTemp: Resetting audio stream to device id 
+[2020.10.23-01.41.23:929][816]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.23-01.41.23:929][816]LogAudioMixer: Display: 1: FrontRight
+[2020.10.23-01.41.23:929][816]LogAudioMixer: Display: 2: FrontCenter
+[2020.10.23-01.41.23:929][816]LogAudioMixer: Display: 3: LowFrequency
+[2020.10.23-01.41.23:929][816]LogAudioMixer: Display: 4: BackLeft
+[2020.10.23-01.41.23:929][816]LogAudioMixer: Display: 5: BackRight
+[2020.10.23-01.41.23:929][816]LogAudioMixer: Display: 6: SideLeft
+[2020.10.23-01.41.23:929][816]LogAudioMixer: Display: 7: SideRight
+[2020.10.23-01.41.36:110][200]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.10.23-01.41.36:110][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.23-01.41.37:006][243]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.10.23-01.41.37:006][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.23-01.41.37:831][280]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.10.23-01.41.37:831][280]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.23-01.41.38:805][307]LogSlate: Window 'BP_Rover' being destroyed
+[2020.10.23-01.41.38:865][307]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.10.23-01.41.38:865][307]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.10.23-01.41.38:865][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.23-01.41.40:163][373]LogSlate: Window 'Message Log' being destroyed
+[2020.10.23-01.41.40:184][373]LogSlate: Window 'Message Log' being destroyed
+[2020.10.23-01.41.43:665][556]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.23-01.41.43:689][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.23-01.41.43:690][556]PIE: New page: PIE session: RobotTableInfinite (Oct 22, 2020, 3:41:43 PM)
+[2020.10.23-01.41.43:690][556]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RobotTableInfinite
+[2020.10.23-01.41.43:697][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007144s)
+[2020.10.23-01.41.43:835][556]LogAIModule: Creating AISystem for world RobotTableInfinite
+[2020.10.23-01.41.43:835][556]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002433E42E600), frame # 113556
+[2020.10.23-01.41.43:835][556]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000242DF7E8540), frame # 113556
+[2020.10.23-01.41.43:835][556]LogPlayLevel: PIE: World Init took: (0.137662s)
+[2020.10.23-01.41.43:835][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RobotTableInfinite.RobotTableInfinite to /Game/Maps/UEDPIE_0_RobotTableInfinite.RobotTableInfinite (0.144935s)
+[2020.10.23-01.41.43:976][556]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2020.10.23-01.41.43:984][556]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.23-01.41.43:984][556]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.23-01.41.43:984][556]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.23-01.41.43:984][556]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.23-01.41.43:984][556]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.23-01.41.43:984][556]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.23-01.41.43:984][556]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.23-01.41.43:984][556]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.23-01.41.43:985][556]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.23-01.41.43:985][556]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.23-01.41.44:415][556]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.23-01.41.44:415][556]LogAudioMixer: Display: 1: FrontRight
+[2020.10.23-01.41.44:415][556]LogAudioMixer: Display: 2: FrontCenter
+[2020.10.23-01.41.44:415][556]LogAudioMixer: Display: 3: LowFrequency
+[2020.10.23-01.41.44:415][556]LogAudioMixer: Display: 4: BackLeft
+[2020.10.23-01.41.44:415][556]LogAudioMixer: Display: 5: BackRight
+[2020.10.23-01.41.44:415][556]LogAudioMixer: Display: 6: SideLeft
+[2020.10.23-01.41.44:415][556]LogAudioMixer: Display: 7: SideRight
+[2020.10.23-01.41.45:111][556]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.23-01.41.45:112][556]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.23-01.41.45:112][556]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.23-01.41.45:112][556]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.23-01.41.45:112][556]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.23-01.41.45:114][556]LogInit: FAudioDevice initialized.
+[2020.10.23-01.41.45:158][556]LogLoad: Game class is 'BP_PhotoStageGameMode_C'
+[2020.10.23-01.41.45:161][556]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RobotTableInfinite.RobotTableInfinite up for play (max tick rate 60) at 2020.10.22-20.41.45
+[2020.10.23-01.41.45:161][556]LogWorld: Bringing up level for play took: 0.002557
+[2020.10.23-01.41.45:161][556]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2020.10.23-01.41.45:165][556]PIE: Server logged in
+[2020.10.23-01.41.45:166][556]PIE: Play in editor total start time 1.481 seconds.
+[2020.10.23-01.42.07:872][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.23-01.42.07:872][900]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RobotTableInfinite
+[2020.10.23-01.42.07:873][900]LogWorld: UWorld::CleanupWorld for RobotTableInfinite, bSessionEnded=true, bCleanupResources=true
+[2020.10.23-01.42.07:873][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.23-01.42.07:884][900]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.23-01.42.07:888][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.23-01.42.07:914][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.23-01.42.07:974][900]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000242DF7E8540), frame # 114900
+[2020.10.23-01.42.07:974][900]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002433E42E600), frame # 114900
+[2020.10.23-01.42.08:018][900]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2020.10.23-01.42.08:066][901]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2020.10.23-01.42.42:333][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_IH_Floor)
+[2020.10.23-01.42.43:159][376]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.23-01.42.43:185][376]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.23-01.42.43:185][376]PIE: New page: PIE session: RobotTableInfinite (Oct 22, 2020, 3:42:43 PM)
+[2020.10.23-01.42.43:185][376]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RobotTableInfinite
+[2020.10.23-01.42.43:194][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008892s)
+[2020.10.23-01.42.43:195][376]LogAIModule: Creating AISystem for world RobotTableInfinite
+[2020.10.23-01.42.43:195][376]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000242B068F400), frame # 115376
+[2020.10.23-01.42.43:195][376]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000243167FF880), frame # 115376
+[2020.10.23-01.42.43:195][376]LogPlayLevel: PIE: World Init took: (0.001109s)
+[2020.10.23-01.42.43:195][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RobotTableInfinite.RobotTableInfinite to /Game/Maps/UEDPIE_0_RobotTableInfinite.RobotTableInfinite (0.010116s)
+[2020.10.23-01.42.43:217][376]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2020.10.23-01.42.43:219][376]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.23-01.42.43:219][376]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.23-01.42.43:219][376]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.23-01.42.43:219][376]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.23-01.42.43:219][376]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.23-01.42.43:219][376]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.23-01.42.43:219][376]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.23-01.42.43:219][376]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.23-01.42.43:220][376]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.23-01.42.43:220][376]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.23-01.42.43:264][376]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.23-01.42.43:264][376]LogAudioMixer: Display: 1: FrontRight
+[2020.10.23-01.42.43:264][376]LogAudioMixer: Display: 2: FrontCenter
+[2020.10.23-01.42.43:264][376]LogAudioMixer: Display: 3: LowFrequency
+[2020.10.23-01.42.43:264][376]LogAudioMixer: Display: 4: BackLeft
+[2020.10.23-01.42.43:264][376]LogAudioMixer: Display: 5: BackRight
+[2020.10.23-01.42.43:264][376]LogAudioMixer: Display: 6: SideLeft
+[2020.10.23-01.42.43:264][376]LogAudioMixer: Display: 7: SideRight
+[2020.10.23-01.42.43:410][376]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.10.23-01.42.43:410][376]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.23-01.42.43:410][376]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.23-01.42.43:410][376]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.23-01.42.43:411][376]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.23-01.42.43:435][376]LogInit: FAudioDevice initialized.
+[2020.10.23-01.42.43:470][376]LogLoad: Game class is 'BP_PhotoStageGameMode_C'
+[2020.10.23-01.42.43:475][376]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RobotTableInfinite.RobotTableInfinite up for play (max tick rate 60) at 2020.10.22-20.42.43
+[2020.10.23-01.42.43:475][376]LogWorld: Bringing up level for play took: 0.004188
+[2020.10.23-01.42.43:475][376]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2020.10.23-01.42.43:478][376]PIE: Server logged in
+[2020.10.23-01.42.43:480][376]PIE: Play in editor total start time 0.295 seconds.
