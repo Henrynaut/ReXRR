@@ -41016,3 +41016,70 @@ Script call stack:
 [2020.11.10-22.30.54:454][456]LogFileHelpers: Saving map 'RobotTableInfinite' took 0.116
 [2020.11.10-22.30.54:467][456]AssetCheck: New page: Asset Save: RobotTableInfinite
 [2020.11.10-22.30.54:468][456]LogContentValidation: Display: Validating World /Game/Maps/RobotTableInfinite.RobotTableInfinite
+[2020.11.10-22.35.34:568][503]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{44070538-99d8-4a78-b2c7-ea572487752f}.
+[2020.11.10-22.35.34:568][503]LogTemp: Resetting audio stream to device id 
+[2020.11.10-22.35.34:592][503]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.10-22.35.34:593][503]LogAudioMixer: Display: 1: FrontRight
+[2020.11.10-22.35.54:700][528]LogTemp: Resetting audio stream to device id 
+[2020.11.10-22.35.54:745][528]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.10-22.35.54:745][528]LogAudioMixer: Display: 1: FrontRight
+[2020.11.10-22.35.55:323][530]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{2bed2499-d217-426d-9bee-8e0b2f275e56}.
+[2020.11.10-22.35.55:323][530]LogTemp: Resetting audio stream to device id 
+[2020.11.10-22.35.57:351][530]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.10-22.35.57:351][530]LogAudioMixer: Display: 1: FrontRight
+[2020.11.10-22.35.57:402][531]LogTemp: Resetting audio stream to device id 
+[2020.11.10-22.35.57:424][531]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.10-22.35.57:424][531]LogAudioMixer: Display: 1: FrontRight
+[2020.11.10-22.36.12:134][575]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{44070538-99d8-4a78-b2c7-ea572487752f}.
+[2020.11.10-22.36.12:135][575]LogTemp: Resetting audio stream to device id 
+[2020.11.10-22.36.12:161][575]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.10-22.36.12:162][575]LogAudioMixer: Display: 1: FrontRight
+[2020.11.11-01.14.48:197][589]LogTemp: Resetting audio stream to device id 
+[2020.11.11-01.14.48:639][589]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.11-01.14.48:639][589]LogAudioMixer: Display: 1: FrontRight
+[2020.11.11-01.14.49:054][591]LogHttp: Warning: 000001DD21AB2400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4C05D78F-4BA0-1E01-30BA-ED88C5FA9A40%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=7a277722423a7f70bf3927a48a4532af%7C00706414ad6a4e09a872727dd0d13419%7C726ef9e0-ef3d-40c3-8ac2-988dc9b709c7&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.11.11-01.14.49:056][591]LogHttp: Warning: 000001DD21AB2400: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.11.11-01.14.49:056][591]LogHttp: Warning: 000001DD21AB2400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dc73507f70 [can pipeline])
+[2020.11.11-01.14.49:056][591]LogHttp: Warning: 000001DD21AB2400: libcurl info message cache 1 (Re-using existing connection! (#9) with host datarouter.ol.epicgames.com)
+[2020.11.11-01.14.49:056][591]LogHttp: Warning: 000001DD21AB2400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.205.228.11) port 443 (#9))
+[2020.11.11-01.14.49:056][591]LogHttp: Warning: 000001DD21AB2400: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.11.11-01.14.49:056][591]LogHttp: Warning: 000001DD21AB2400: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.11.11-01.14.49:056][591]LogHttp: Warning: 000001DD21AB2400: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.11.11-01.14.49:056][591]LogHttp: Warning: 000001DD21AB2400: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.11.11-01.14.49:056][591]LogHttp: Warning: 000001DD21AB2400: libcurl info message cache 7 (Closing connection 9)
+[2020.11.11-01.14.49:159][592]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4C05D78F-4BA0-1E01-30BA-ED88C5FA9A40%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=7a277722423a7f70bf3927a48a4532af%7C00706414ad6a4e09a872727dd0d13419%7C726ef9e0-ef3d-40c3-8ac2-988dc9b709c7&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.11.11-01.14.50:205][594]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{2bed2499-d217-426d-9bee-8e0b2f275e56}.
+[2020.11.11-01.14.50:205][594]LogTemp: Resetting audio stream to device id 
+[2020.11.11-01.14.50:657][594]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.11-01.14.50:657][594]LogAudioMixer: Display: 1: FrontRight
+[2020.11.11-01.32.49:888][823]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{3c16d9ec-d916-4663-942f-65dffe16ebe7}.
+[2020.11.11-01.32.49:888][823]LogTemp: Resetting audio stream to device id 
+[2020.11.11-01.32.50:794][823]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.11-01.32.50:794][823]LogAudioMixer: Display: 1: FrontRight
+[2020.11.11-01.32.50:857][824]LogTemp: Resetting audio stream to device id 
+[2020.11.11-01.32.50:885][824]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.11-01.32.50:885][824]LogAudioMixer: Display: 1: FrontRight
+[2020.11.11-01.34.34:030][132]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{2bed2499-d217-426d-9bee-8e0b2f275e56}.
+[2020.11.11-01.34.34:030][132]LogTemp: Resetting audio stream to device id 
+[2020.11.11-01.34.34:173][132]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.11-01.34.34:173][132]LogAudioMixer: Display: 1: FrontRight
+[2020.11.11-01.34.38:736][146]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{3c16d9ec-d916-4663-942f-65dffe16ebe7}.
+[2020.11.11-01.34.38:737][146]LogTemp: Resetting audio stream to device id 
+[2020.11.11-01.34.39:066][146]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.11-01.34.39:066][146]LogAudioMixer: Display: 1: FrontRight
+[2020.11.11-01.34.51:286][183]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{2bed2499-d217-426d-9bee-8e0b2f275e56}.
+[2020.11.11-01.34.51:286][183]LogTemp: Resetting audio stream to device id 
+[2020.11.11-01.34.51:350][183]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.11-01.34.51:350][183]LogAudioMixer: Display: 1: FrontRight
+[2020.11.11-01.35.28:156][293]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{3c16d9ec-d916-4663-942f-65dffe16ebe7}.
+[2020.11.11-01.35.28:156][293]LogTemp: Resetting audio stream to device id 
+[2020.11.11-01.35.28:260][293]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.11-01.35.28:260][293]LogAudioMixer: Display: 1: FrontRight
+[2020.11.11-01.37.36:780][676]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{2bed2499-d217-426d-9bee-8e0b2f275e56}.
+[2020.11.11-01.37.36:780][676]LogTemp: Resetting audio stream to device id 
+[2020.11.11-01.37.36:819][676]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.11-01.37.36:819][676]LogAudioMixer: Display: 1: FrontRight
+[2020.11.11-01.38.59:684][924]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{3c16d9ec-d916-4663-942f-65dffe16ebe7}.
+[2020.11.11-01.38.59:685][924]LogTemp: Resetting audio stream to device id 
+[2020.11.11-01.39.00:219][924]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.11-01.39.00:219][924]LogAudioMixer: Display: 1: FrontRight
